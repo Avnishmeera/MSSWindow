@@ -67,7 +67,7 @@ namespace MSSwindow
             be.Followupremarks = txtnextfollowupremarks.Text;
             EnquiryClass cms = new EnquiryClass();
             cms.InsertUpdateEnquiry(be);
-            int i=0;
+            int i=1;
             if (i > 0)
             {
                 MessageBox.Show(this, "Enquiry Saved Successfully.", "Enquiry Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
