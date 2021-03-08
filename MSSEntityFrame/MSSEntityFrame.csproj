@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B175C330-67B9-4579-92A4-149C194CAB6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSSEntityFrame</RootNamespace>
+    <AssemblyName>MSSEntityFrame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AMCDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AMCEntry.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AMCItemEntry.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmcSchedule.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindBranchMaster1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindBranchMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindBrandMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindCategoryMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bindcomplaintstatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLCategoryMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLCustomerMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLProductMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLSupplierMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLTaxesMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDDLUnitMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDebitor_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindDropDownBrandName_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindProductMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindRefCustomerMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindSupplierMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindTaxesMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindTaxInvoice_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BindUnitMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrandMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Offers.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Pics.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Portfolio.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Product.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_ProductOrder.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_ProductRecive.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_ProductRecivedetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="business_ServiceCost.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="business_ServiceHierarchy.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Services.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Target.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_Target_Assign.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_users.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Business_users_login.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClientLogin.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintAttachment.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintLogType.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintResolutionStatus.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintStatus.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerComplaint.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMapping.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerType.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DailyPurchaseReport_Item_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DailyPurchaseReport_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DailySalesReport_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindBrandsDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindCategoryDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindProductDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindProductsDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindSuppliersDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBindUnitDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deliverymode.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dob_date.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dob_month.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dob_year.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DriverRoute.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAttandance.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Attendance.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Salary.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EndUser.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EnquiryDetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseType.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fabkut_cms.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fabkut_Offers_terms_conditions.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fabkut_Static_cms.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facility.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenderMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Accept_Offer_From_Fabkut_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_BusinessGrid_Own_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Fabkut_Edited_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Fabkut_Nested_Offer_NewGrid_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Fabkut_Nested_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Fabkut_Nested_Selected_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Fabkut_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Offer_Launched_By_Fabkut_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Own_Accept_Offer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Product_Detail_Order_Wise_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Product_Vendor_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Seat_Wise_Customer_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Seat_Wise_Customer_Services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Itemmaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ItemServiceCharge.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Inward.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Type.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerTransaction.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MaritalStatus.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="marketing_salon.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MemberRegistraction.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSModal.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSModal.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSModal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSModal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSModal.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="OfferInvitation.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferTermsMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferType.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineEndUser.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderFeedback.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentMode.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentStatus.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_emp_next_slot_status_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_emp_slot_status1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_emp_slot_status_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_Get_slot_for_display_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_Get_slot_roster_id_booking_Start_Time_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_Get_slot_roster_id_OFF_booking_29_Sheet_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_Get_slot_roster_id_OFF_booking_Start_Time_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prc_Get_slot_Start_Time_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductExpStatus.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMasterReport_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proofdetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchaseheader.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseItemDetail.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseItemTaxDetail.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseSrNoDetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rating.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rec_Payment.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reviewlikes.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="reviewPics.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Review_reply.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesHeader.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItemDetail.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItemTaxDetail.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalonLogin.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Salon_Emp_Salary.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="salon_Offers.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Salon_Type.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCategoryDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCategoryMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSupplierDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="slot1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slot_Creation.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slot_creation_roster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="slot_for_display_dropdown_time_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slot_master.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slot_master_temp.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="slot_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMSNotification.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMSNotification1.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_BindItemMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_BusinessEndUser_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_CustomerProfile_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_FabkutStaticContent_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_GenerateBarCode_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetAccountDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_getallcomplaintResolutionStatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_getallcomplaintStatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GETAllComplaint_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetAllEmp_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GETAllEnquiry_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetAllMessageList1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetAllMessageList_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GetAllService_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetAMCSchedule_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetCustomerComplaintHistory_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GETCustomerEnquiryDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GETDailyEnquiry_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetEmployeeComplaintSummary_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetExpiredWaranty_Repo_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetExpiredWaranty_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetItemStock_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetLoginDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetPendingAMCReport_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetPendingAMC_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetPendingServices_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GetPending_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_GetPending_test_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_getprice_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_GetPurchaseDetail1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_GetPurchaseDetail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_GetSalesDetail1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_GetSalesDetail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetServicePerformance_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetShopEmail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_getShopRegistration_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetSMSSchedule_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetSumCharge_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetUnpaidList_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_GetUploadFile_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_LedgerBalance_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_LedgerDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spo_LogType_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_PaymentStatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_ProductDetail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_PurchaseInvoice_POS_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_SearchCustomer_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_SearchVendor_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_ServiceCosting_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_ServiceHierarchy_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_TaxInvoice_POS_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_TaxInvoice_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_TrackComplaint_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spo_UpdatePassword_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_VendorContractDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SPO_VendorDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindChargeDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindGender_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindItemMaster_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindItemServiceCharge_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindMaritalStatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindMemberDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindProofDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindStoreRegistraction1_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_BindStoreRegistraction_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_BindTextBoxValues_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_booking_services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_EmployeeLogin_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetCustomerMapping_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_Login_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_Select_Enduser_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ShowMemberDetails_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserLogin_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="State.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StoreRegistration.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="store_dataentry_salon_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_actionplan_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_admin_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Allocated_Salon_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Business_Emp_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_business_enquiry_question_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Business_Enquiry_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_business_facility_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Business_pic_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_business_portfolio_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_Business_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Business_services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Business_Target_Assign_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_business_target_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_Business_User_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_business_workplace_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_city_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_facility_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_followup_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_Item_Inward_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_item_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_item_type_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_location_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_login_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_Questionbank_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stor_State_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_SubServices_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_tariff_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_usertype_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stor_user_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sub_services.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tariff.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaxesMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaxInvoice.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="temptable2.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Temp_ProductOrderdetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Temp_ProductRecivedetails.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Track_InsertCoordinate.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Track_UserMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnitMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccessRight.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_Type.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppFetchAssigendUser_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppFetchChairStatus_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppFetchChair_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppFetchCity_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppFetchLocationCityWise_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppForgotPassword_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspAppSalonLogin_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspFetchAddress_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_AssignCustomer_Get_Slot_time_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Booked_Services_Total_Rate_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Booking_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Booking_Id_for_Chair_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Busniess_Wise_Employee_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Client_Login_Contact_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Client_Login_Email_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Customer_For_Dynamic_Chair_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_DashBoard_Expense_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Dashboard_Get_booked_Customer_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_DashBoard_Get_Services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Employee_Advance_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Employee_Wise_Amount_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Fill_Grid_Business_Id_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_Card_Amount_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_Cash_Amount_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_EndUser_By_Mobile_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_Enuser_Detail_Grid_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_Enuser_Detail_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_Free_Seat_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Get_selected_Services_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Inventory_List_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Order_List_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Product_List_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Salon_Login_contact_no_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Salon_Login_Email_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Search_EndUser_By_Mobile_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Search_EndUser_By_Name_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Select_Busniess_Seat_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Select_Enduser_After_Insert_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Select_Enduser_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_select_Grid_Data_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_Vendor_List_Result.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VendorContract.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Work_Roaster.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zone.cs">
+      <DependentUpon>MSModal.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="MSModal.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MSModal.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="MSModal.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MSModal.edmx</DependentUpon>
+      <LastGenOutput>MSModal.Context.cs</LastGenOutput>
+    </None>
+    <None Include="MSModal.edmx.diagram">
+      <DependentUpon>MSModal.edmx</DependentUpon>
+    </None>
+    <None Include="MSModal.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MSModal.edmx</DependentUpon>
+      <LastGenOutput>MSModal.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

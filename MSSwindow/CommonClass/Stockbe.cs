@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MSSwindow.CommonClass
+{
+    class Stockbe
+    {
+
+        public string TransferRefNo { get; set; }
+        public int Locationid { get; set; }
+        public int Shopid { get; set; }
+        public int fromlocation { get; set; }
+        public int tolocation { get; set; }
+        public int Unit { get; set; }
+        public int Productid { get; set; }
+        public int Price { get; set; }
+        public int Qty { get; set; }
+        public DateTime Tranferdate { get; set; }
+
+    }
+}

@@ -1,0 +1,179 @@
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+G:\Windows Projects\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+F:\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+H:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+H:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+H:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+H:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+H:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+H:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+H:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\Latest 221220\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\Latest 221220\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\Latest 221220\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\Latest 221220\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb

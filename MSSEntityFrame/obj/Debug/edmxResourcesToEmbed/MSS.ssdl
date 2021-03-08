@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MSSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'ShurtiPoint1.dbo.admin_login' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="admin_login">
+          <Property Name="user_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="password" Type="nvarchar" MaxLength="100" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'ShurtiPoint1.dbo.Admin_User' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Admin_User">
+          <Property Name="user_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="passwords" Type="nvarchar" MaxLength="100" />
+        </EntityType>-->
+  <EntityType Name="BranchMaster">
+    <Key>
+      <PropertyRef Name="Branchid" />
+    </Key>
+    <Property Name="Branchid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Branchname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="State" Type="nvarchar" MaxLength="100" />
+    <Property Name="Country" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pincode" Type="varchar" MaxLength="10" />
+    <Property Name="Emailid" Type="nvarchar" MaxLength="100" />
+    <Property Name="Contact" Type="varchar" MaxLength="100" />
+    <Property Name="AlternateContact" Type="varchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BrandMaster">
+    <Key>
+      <PropertyRef Name="Brandid" />
+    </Key>
+    <Property Name="Brandid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryBrandID" Type="int" />
+    <Property Name="Brandname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CategoryMaster">
+    <Key>
+      <PropertyRef Name="Categoryid" />
+    </Key>
+    <Property Name="Categoryid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Categoryname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CustomerMaster">
+    <Key>
+      <PropertyRef Name="Customerid" />
+    </Key>
+    <Property Name="Customerid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Customername" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="States" Type="nvarchar" MaxLength="100" />
+    <Property Name="Country" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pincode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Emailid" Type="nvarchar" MaxLength="100" />
+    <Property Name="Contact" Type="varchar" MaxLength="15" />
+    <Property Name="AltContact" Type="varchar" MaxLength="15" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="Descriptions" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeesMaster">
+    <Key>
+      <PropertyRef Name="Employeeid" />
+    </Key>
+    <Property Name="Employeeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Employeename" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="States" Type="nvarchar" MaxLength="100" />
+    <Property Name="Country" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pincode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Emailid" Type="nvarchar" MaxLength="100" />
+    <Property Name="Contact" Type="varchar" MaxLength="15" />
+    <Property Name="AltContact" Type="varchar" MaxLength="15" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="Descriptions" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductsMaster">
+    <Key>
+      <PropertyRef Name="Productid" />
+    </Key>
+    <Property Name="Productid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryProductId" Type="int" />
+    <Property Name="BrandProductId" Type="int" />
+    <Property Name="Productname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Unit" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchaseDetails">
+    <Key>
+      <PropertyRef Name="Purchaseid" />
+    </Key>
+    <Property Name="Purchaseid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PurchaseOrderNo" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ChalanNo" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Purchasedate" Type="datetime" Nullable="false" />
+    <Property Name="Suppliername" Type="int" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SupplierMaster">
+    <Key>
+      <PropertyRef Name="Supplierid" />
+    </Key>
+    <Property Name="Supplierid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Suppliername" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="States" Type="nvarchar" MaxLength="100" />
+    <Property Name="Country" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pincode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Emailid" Type="nvarchar" MaxLength="100" />
+    <Property Name="Contact" Type="varchar" MaxLength="15" />
+    <Property Name="AltContact" Type="varchar" MaxLength="15" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="Descriptions" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaxesMaster">
+    <Key>
+      <PropertyRef Name="Taxid" />
+    </Key>
+    <Property Name="Taxid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Taxname" Type="nvarchar" MaxLength="100" />
+    <Property Name="Rate" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UnitMaster">
+    <Key>
+      <PropertyRef Name="Unitid" />
+    </Key>
+    <Property Name="Unitid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Unitname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Createdate" Type="datetime" Nullable="false" />
+    <Property Name="Createby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Updatedate" Type="datetime" Nullable="false" />
+    <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__BrandMast__Categ__5535A963">
+    <End Role="CategoryMaster" Type="Self.CategoryMaster" Multiplicity="0..1" />
+    <End Role="BrandMaster" Type="Self.BrandMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryMaster">
+        <PropertyRef Name="Categoryid" />
+      </Principal>
+      <Dependent Role="BrandMaster">
+        <PropertyRef Name="CategoryBrandID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BrandMast__Categ__5629CD9C">
+    <End Role="CategoryMaster" Type="Self.CategoryMaster" Multiplicity="0..1" />
+    <End Role="BrandMaster" Type="Self.BrandMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryMaster">
+        <PropertyRef Name="Categoryid" />
+      </Principal>
+      <Dependent Role="BrandMaster">
+        <PropertyRef Name="CategoryBrandID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProductsM__Brand__06CD04F7">
+    <End Role="BrandMaster" Type="Self.BrandMaster" Multiplicity="0..1" />
+    <End Role="ProductsMaster" Type="Self.ProductsMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrandMaster">
+        <PropertyRef Name="Brandid" />
+      </Principal>
+      <Dependent Role="ProductsMaster">
+        <PropertyRef Name="BrandProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProductsM__Categ__05D8E0BE">
+    <End Role="CategoryMaster" Type="Self.CategoryMaster" Multiplicity="0..1" />
+    <End Role="ProductsMaster" Type="Self.ProductsMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryMaster">
+        <PropertyRef Name="Categoryid" />
+      </Principal>
+      <Dependent Role="ProductsMaster">
+        <PropertyRef Name="CategoryProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProductsMa__Unit__07C12930">
+    <End Role="UnitMaster" Type="Self.UnitMaster" Multiplicity="0..1" />
+    <End Role="ProductsMaster" Type="Self.ProductsMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UnitMaster">
+        <PropertyRef Name="Unitid" />
+      </Principal>
+      <Dependent Role="ProductsMaster">
+        <PropertyRef Name="Unit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PurchaseD__Suppl__6EF57B66">
+    <End Role="SupplierMaster" Type="Self.SupplierMaster" Multiplicity="0..1" />
+    <End Role="PurchaseDetails" Type="Self.PurchaseDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SupplierMaster">
+        <PropertyRef Name="Supplierid" />
+      </Principal>
+      <Dependent Role="PurchaseDetails">
+        <PropertyRef Name="Suppliername" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="BindBranchMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindBrandMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindCategoryMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindCustomerMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindDDLCategoryMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindDDLProductMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindDDLSupplierMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindDDLTaxesMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindDropDownBrandName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Categoryid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BindItemDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindProductMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindReceiveChalanItemDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindSupplierMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BindTaxesMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="DeleteBindBrandsDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Action" Type="nvarchar" Mode="In" />
+    <Parameter Name="BrandId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteBindCategoryDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Action" Type="nvarchar" Mode="In" />
+    <Parameter Name="CategoryId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteBindCustomersDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Action" Type="nvarchar" Mode="In" />
+    <Parameter Name="CustomerId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteBindProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Action" Type="nvarchar" Mode="In" />
+    <Parameter Name="ProductId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteBindSuppliersDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Action" Type="nvarchar" Mode="In" />
+    <Parameter Name="SupplierId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SearchCategoryMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Categoryname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SearchSupplierDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SearchBy" Type="varchar" Mode="In" />
+    <Parameter Name="SearchVal" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateBranch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Branchid" Type="int" Mode="In" />
+    <Parameter Name="Branchname" Type="nvarchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="City" Type="nvarchar" Mode="In" />
+    <Parameter Name="State" Type="nvarchar" Mode="In" />
+    <Parameter Name="Country" Type="nvarchar" Mode="In" />
+    <Parameter Name="Pincode" Type="varchar" Mode="In" />
+    <Parameter Name="Emailid" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="varchar" Mode="In" />
+    <Parameter Name="AlternateContact" Type="varchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateBrands" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Brandid" Type="int" Mode="In" />
+    <Parameter Name="CategoryBrandID" Type="int" Mode="In" />
+    <Parameter Name="Brandname" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateCategory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Categoryid" Type="int" Mode="In" />
+    <Parameter Name="Categoryname" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateCustomers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Customerid" Type="int" Mode="In" />
+    <Parameter Name="Customername" Type="nvarchar" Mode="In" />
+    <Parameter Name="City" Type="nvarchar" Mode="In" />
+    <Parameter Name="States" Type="nvarchar" Mode="In" />
+    <Parameter Name="Country" Type="nvarchar" Mode="In" />
+    <Parameter Name="Pincode" Type="nvarchar" Mode="In" />
+    <Parameter Name="Emailid" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="varchar" Mode="In" />
+    <Parameter Name="AltContact" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="Descriptions" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Employeeid" Type="int" Mode="In" />
+    <Parameter Name="Employeename" Type="nvarchar" Mode="In" />
+    <Parameter Name="City" Type="nvarchar" Mode="In" />
+    <Parameter Name="States" Type="nvarchar" Mode="In" />
+    <Parameter Name="Country" Type="nvarchar" Mode="In" />
+    <Parameter Name="Pincode" Type="nvarchar" Mode="In" />
+    <Parameter Name="Emailid" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="varchar" Mode="In" />
+    <Parameter Name="AltContact" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="Descriptions" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Productid" Type="int" Mode="In" />
+    <Parameter Name="CategoryProductId" Type="int" Mode="In" />
+    <Parameter Name="BrandProductId" Type="int" Mode="In" />
+    <Parameter Name="Productname" Type="nvarchar" Mode="In" />
+    <Parameter Name="Unit" Type="int" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateSuppliers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Supplierid" Type="int" Mode="In" />
+    <Parameter Name="Suppliername" Type="nvarchar" Mode="In" />
+    <Parameter Name="City" Type="nvarchar" Mode="In" />
+    <Parameter Name="States" Type="nvarchar" Mode="In" />
+    <Parameter Name="Country" Type="nvarchar" Mode="In" />
+    <Parameter Name="Pincode" Type="nvarchar" Mode="In" />
+    <Parameter Name="Emailid" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="varchar" Mode="In" />
+    <Parameter Name="AltContact" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="Descriptions" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateTaxesMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Taxid" Type="int" Mode="In" />
+    <Parameter Name="Taxname" Type="nvarchar" Mode="In" />
+    <Parameter Name="Rate" Type="numeric" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_Login" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="MSSModelStoreContainer">
+    <EntitySet Name="BranchMaster" EntityType="Self.BranchMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BrandMaster" EntityType="Self.BrandMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoryMaster" EntityType="Self.CategoryMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerMaster" EntityType="Self.CustomerMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeesMaster" EntityType="Self.EmployeesMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductsMaster" EntityType="Self.ProductsMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PurchaseDetails" EntityType="Self.PurchaseDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SupplierMaster" EntityType="Self.SupplierMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaxesMaster" EntityType="Self.TaxesMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UnitMaster" EntityType="Self.UnitMaster" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BrandMast__Categ__5535A963" Association="Self.FK__BrandMast__Categ__5535A963">
+      <End Role="CategoryMaster" EntitySet="CategoryMaster" />
+      <End Role="BrandMaster" EntitySet="BrandMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BrandMast__Categ__5629CD9C" Association="Self.FK__BrandMast__Categ__5629CD9C">
+      <End Role="CategoryMaster" EntitySet="CategoryMaster" />
+      <End Role="BrandMaster" EntitySet="BrandMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProductsM__Brand__06CD04F7" Association="Self.FK__ProductsM__Brand__06CD04F7">
+      <End Role="BrandMaster" EntitySet="BrandMaster" />
+      <End Role="ProductsMaster" EntitySet="ProductsMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProductsM__Categ__05D8E0BE" Association="Self.FK__ProductsM__Categ__05D8E0BE">
+      <End Role="CategoryMaster" EntitySet="CategoryMaster" />
+      <End Role="ProductsMaster" EntitySet="ProductsMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProductsMa__Unit__07C12930" Association="Self.FK__ProductsMa__Unit__07C12930">
+      <End Role="UnitMaster" EntitySet="UnitMaster" />
+      <End Role="ProductsMaster" EntitySet="ProductsMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PurchaseD__Suppl__6EF57B66" Association="Self.FK__PurchaseD__Suppl__6EF57B66">
+      <End Role="SupplierMaster" EntitySet="SupplierMaster" />
+      <End Role="PurchaseDetails" EntitySet="PurchaseDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

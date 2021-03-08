@@ -1,0 +1,1881 @@
+E:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+E:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+E:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BranchDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.EmployeeDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LoginForm.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseDetails.resources
+E:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SaleDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+G:\Windows Projects\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.QuickSale.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.QuickSale.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+G:\05_04_2018\27_07_2018\26102017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\Avnish Personal\MEERA Infotech\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+F:\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+F:\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\MEERA Infotech\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+F:\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+D:\Test\test f\Latest MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+E:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+C:\Users\AZ\Desktop\MSS\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\New folder\Avnish Personal\25062019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_10302019\MSS_21102018\03082017\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+D:\New folder\Avnish Personal\Morgan_12222019\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+H:\02062020\MSS_12222019\12222019\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+H:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+H:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+H:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+H:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+H:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+H:\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+H:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+H:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+H:\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+H:\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+H:\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+H:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+H:\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+H:\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+F:\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAddStock.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmconvertemi.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmstockdetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmunpaidservice.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+F:\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+F:\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+F:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+F:\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+F:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+F:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+F:\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+F:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+F:\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmUnpaidSalesdetails.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmzone.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmMessageconfiguration.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+F:\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Searchcustomerreport.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FeedBack.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.NotifyCustomer.resources
+F:\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerFeedback.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerFeedback.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FeedBack.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAddStock.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmconvertemi.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmMessageconfiguration.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmstockdetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmUnpaidSalesdetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmunpaidservice.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmzone.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.NotifyCustomer.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Searchcustomerreport.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.manifest
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.application
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe.manifest
+D:\Avnish Personal\WindowApps\MSSWindows_191220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.application
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerFeedback.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FeedBack.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAddStock.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmconvertemi.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmMessageconfiguration.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmstockdetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmUnpaidSalesdetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmunpaidservice.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmzone.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.NotifyCustomer.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Searchcustomerreport.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe.manifest
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.application
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.manifest
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.application
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+F:\Latest 221220\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+F:\Latest 221220\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.manifest
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSwindow.application
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerFeedback.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FeedBack.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAddStock.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmconvertemi.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmMessageconfiguration.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmstockdetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmUnpaidSalesdetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmunpaidservice.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmzone.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.NotifyCustomer.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Searchcustomerreport.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\RdlCompile.cache
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\RdlCompile.compiled
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe.manifest
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.application
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivedEmiPayment.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.Customerrpt.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.StorestockDetails.resources
+F:\latest 030120\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.IssueMatrialtoemp.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Storelocation.resources
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+F:\latest 030120\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmrentedproducts.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.baml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\FeedbackSetting.g.cs
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow_Content.g.cs
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow_MarkupCompile.cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.g.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.AmcScheduleFrm.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.BrandDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CategoryDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ComplaintForm.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerFeedback.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.CustomerSMS.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Dashboard.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FeedBack.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ForgotPassword.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAccessRight.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmAddStock.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmconvertemi.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmCustomerSummary.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmMessageconfiguration.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailPurchaseDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmrentedproducts.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmstockdetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FrmTax.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmUnpaidSalesdetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmunpaidservice.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.frmzone.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.FutureSMSHistory.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ImageUpload.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.IssueMatrialtoemp.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemMaster.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ItemServicesCharge.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.LedgerForm.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Loginform.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MainForm.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.MannualSMS.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.NotifyCustomer.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ProductDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Properties.Resources.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.PurchaseSerielNumber.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReasonCodeMaster.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivedEmiPayment.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceivePayment.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ReceiveServiceItem.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Registraction.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RentDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AddViewCustomerAMC.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.AMCPendingReport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CpmpleteAMCReason.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerComplaintHistory.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerEnquiryDetail.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerMessageReport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.Customerrpt.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeledgerReport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.CustomerUnpaidReport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.EmployeeServiceRecord.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Followupform.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmCustomerAMC.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmInvoiceSearch.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmPurchaseInvoice.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmRepoExpWaranty.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmSearchComplaint.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmReport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.FrmTaxInvoice.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueAMC.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueFollowUP.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayDueServices.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Report.TodayExpWar.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ResetPassword.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.RetailSaleDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ScheduleSMS.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SearchCustomer.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Searchcustomerreport.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.ShopDetail.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSScheduling.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.Storelocation.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.StorestockDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SupplierDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.TaxDetails.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.UnitMaster.resources
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.csproj.GenerateResource.Cache
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.config
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe.manifest
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSwindow.application
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSwindow.exe
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSwindow.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Shared.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\FlashControlV71.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\ShockwaveFlashObjects.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\stdole.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe.manifest
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.application
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.exe
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSwindow\obj\Debug\MSSwindow.SMSQue.resources

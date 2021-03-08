@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MSSModelStoreContainer" CdmEntityContainer="MSEntities">
+    <EntitySetMapping Name="BranchMaster">
+      <EntityTypeMapping TypeName="MSSModel.BranchMaster">
+        <MappingFragment StoreEntitySet="BranchMaster">
+          <ScalarProperty Name="Branchid" ColumnName="Branchid" />
+          <ScalarProperty Name="Branchname" ColumnName="Branchname" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AlternateContact" ColumnName="AlternateContact" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BrandMaster">
+      <EntityTypeMapping TypeName="MSSModel.BrandMaster">
+        <MappingFragment StoreEntitySet="BrandMaster">
+          <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+          <ScalarProperty Name="CategoryBrandID" ColumnName="CategoryBrandID" />
+          <ScalarProperty Name="Brandname" ColumnName="Brandname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoryMaster">
+      <EntityTypeMapping TypeName="MSSModel.CategoryMaster">
+        <MappingFragment StoreEntitySet="CategoryMaster">
+          <ScalarProperty Name="Categoryid" ColumnName="Categoryid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerMaster">
+      <EntityTypeMapping TypeName="MSSModel.CustomerMaster">
+        <MappingFragment StoreEntitySet="CustomerMaster">
+          <ScalarProperty Name="Customerid" ColumnName="Customerid" />
+          <ScalarProperty Name="Customername" ColumnName="Customername" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeesMaster">
+      <EntityTypeMapping TypeName="MSSModel.EmployeesMaster">
+        <MappingFragment StoreEntitySet="EmployeesMaster">
+          <ScalarProperty Name="Employeeid" ColumnName="Employeeid" />
+          <ScalarProperty Name="Employeename" ColumnName="Employeename" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsMaster">
+      <EntityTypeMapping TypeName="MSSModel.ProductsMaster">
+        <MappingFragment StoreEntitySet="ProductsMaster">
+          <ScalarProperty Name="Productid" ColumnName="Productid" />
+          <ScalarProperty Name="CategoryProductId" ColumnName="CategoryProductId" />
+          <ScalarProperty Name="BrandProductId" ColumnName="BrandProductId" />
+          <ScalarProperty Name="Productname" ColumnName="Productname" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseDetails">
+      <EntityTypeMapping TypeName="MSSModel.PurchaseDetails">
+        <MappingFragment StoreEntitySet="PurchaseDetails">
+          <ScalarProperty Name="Purchaseid" ColumnName="Purchaseid" />
+          <ScalarProperty Name="PurchaseOrderNo" ColumnName="PurchaseOrderNo" />
+          <ScalarProperty Name="ChalanNo" ColumnName="ChalanNo" />
+          <ScalarProperty Name="Purchasedate" ColumnName="Purchasedate" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SupplierMaster">
+      <EntityTypeMapping TypeName="MSSModel.SupplierMaster">
+        <MappingFragment StoreEntitySet="SupplierMaster">
+          <ScalarProperty Name="Supplierid" ColumnName="Supplierid" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaxesMaster">
+      <EntityTypeMapping TypeName="MSSModel.TaxesMaster">
+        <MappingFragment StoreEntitySet="TaxesMaster">
+          <ScalarProperty Name="Taxid" ColumnName="Taxid" />
+          <ScalarProperty Name="Taxname" ColumnName="Taxname" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitMaster">
+      <EntityTypeMapping TypeName="MSSModel.UnitMaster">
+        <MappingFragment StoreEntitySet="UnitMaster">
+          <ScalarProperty Name="Unitid" ColumnName="Unitid" />
+          <ScalarProperty Name="Unitname" ColumnName="Unitname" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BindBranchMaster" FunctionName="MSSModel.Store.BindBranchMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindBranchMaster_Result">
+          <ScalarProperty Name="Branchid" ColumnName="Branchid" />
+          <ScalarProperty Name="Branchname" ColumnName="Branchname" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AlternateContact" ColumnName="AlternateContact" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindBrandMaster" FunctionName="MSSModel.Store.BindBrandMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindBrandMaster_Result">
+          <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+          <ScalarProperty Name="Brandname" ColumnName="Brandname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindCategoryMaster" FunctionName="MSSModel.Store.BindCategoryMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindCategoryMaster_Result">
+          <ScalarProperty Name="Categoryid" ColumnName="Categoryid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindCustomerMaster" FunctionName="MSSModel.Store.BindCustomerMaster" />
+    <FunctionImportMapping FunctionImportName="BindDDLCategoryMaster" FunctionName="MSSModel.Store.BindDDLCategoryMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindDDLCategoryMaster_Result">
+          <ScalarProperty Name="Categoryid" ColumnName="Categoryid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindDDLProductMaster" FunctionName="MSSModel.Store.BindDDLProductMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindDDLProductMaster_Result">
+          <ScalarProperty Name="Productid" ColumnName="Productid" />
+          <ScalarProperty Name="Productname" ColumnName="Productname" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindDDLSupplierMaster" FunctionName="MSSModel.Store.BindDDLSupplierMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindDDLSupplierMaster_Result">
+          <ScalarProperty Name="Supplierid" ColumnName="Supplierid" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindDDLTaxesMaster" FunctionName="MSSModel.Store.BindDDLTaxesMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindDDLTaxesMaster_Result">
+          <ScalarProperty Name="Taxid" ColumnName="Taxid" />
+          <ScalarProperty Name="Taxname" ColumnName="Taxname" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindDropDownBrandName" FunctionName="MSSModel.Store.BindDropDownBrandName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindDropDownBrandName_Result">
+          <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+          <ScalarProperty Name="Brandname" ColumnName="Brandname" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindItemDetails" FunctionName="MSSModel.Store.BindItemDetails" />
+    <FunctionImportMapping FunctionImportName="BindProductMaster" FunctionName="MSSModel.Store.BindProductMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindProductMaster_Result">
+          <ScalarProperty Name="Productid" ColumnName="Productid" />
+          <ScalarProperty Name="CategoryPName" ColumnName="CategoryPName" />
+          <ScalarProperty Name="BrandPName" ColumnName="BrandPName" />
+          <ScalarProperty Name="Productname" ColumnName="Productname" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindReceiveChalanItemDetails" FunctionName="MSSModel.Store.BindReceiveChalanItemDetails" />
+    <FunctionImportMapping FunctionImportName="BindSupplierMaster" FunctionName="MSSModel.Store.BindSupplierMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindSupplierMaster_Result">
+          <ScalarProperty Name="Supplierid" ColumnName="Supplierid" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BindTaxesMaster" FunctionName="MSSModel.Store.BindTaxesMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.BindTaxesMaster_Result">
+          <ScalarProperty Name="Taxid" ColumnName="Taxid" />
+          <ScalarProperty Name="Taxname" ColumnName="Taxname" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteBindBrandsDetails" FunctionName="MSSModel.Store.DeleteBindBrandsDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.DeleteBindBrandsDetails_Result">
+          <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+          <ScalarProperty Name="CategoryBrandID" ColumnName="CategoryBrandID" />
+          <ScalarProperty Name="Brandname" ColumnName="Brandname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteBindCategoryDetails" FunctionName="MSSModel.Store.DeleteBindCategoryDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.DeleteBindCategoryDetails_Result">
+          <ScalarProperty Name="Categoryid" ColumnName="Categoryid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteBindCustomersDetails" FunctionName="MSSModel.Store.DeleteBindCustomersDetails" />
+    <FunctionImportMapping FunctionImportName="DeleteBindProductDetails" FunctionName="MSSModel.Store.DeleteBindProductDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.DeleteBindProductDetails_Result">
+          <ScalarProperty Name="Productid" ColumnName="Productid" />
+          <ScalarProperty Name="CategoryProductId" ColumnName="CategoryProductId" />
+          <ScalarProperty Name="BrandProductId" ColumnName="BrandProductId" />
+          <ScalarProperty Name="Productname" ColumnName="Productname" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteBindSuppliersDetails" FunctionName="MSSModel.Store.DeleteBindSuppliersDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.DeleteBindSuppliersDetails_Result">
+          <ScalarProperty Name="Supplierid" ColumnName="Supplierid" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SearchCategoryMaster" FunctionName="MSSModel.Store.SearchCategoryMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.SearchCategoryMaster_Result">
+          <ScalarProperty Name="Categoryid" ColumnName="Categoryid" />
+          <ScalarProperty Name="Categoryname" ColumnName="Categoryname" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SearchSupplierDetails" FunctionName="MSSModel.Store.SearchSupplierDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.SearchSupplierDetails_Result">
+          <ScalarProperty Name="Supplierid" ColumnName="Supplierid" />
+          <ScalarProperty Name="Suppliername" ColumnName="Suppliername" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="States" ColumnName="States" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="AltContact" ColumnName="AltContact" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="Updateby" ColumnName="Updateby" />
+          <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateBranch" FunctionName="MSSModel.Store.sp_InsertUpdateBranch" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateBrands" FunctionName="MSSModel.Store.sp_InsertUpdateBrands" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateCategory" FunctionName="MSSModel.Store.sp_InsertUpdateCategory" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateCustomers" FunctionName="MSSModel.Store.sp_InsertUpdateCustomers" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateEmployees" FunctionName="MSSModel.Store.sp_InsertUpdateEmployees" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateProducts" FunctionName="MSSModel.Store.sp_InsertUpdateProducts" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateSuppliers" FunctionName="MSSModel.Store.sp_InsertUpdateSuppliers" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateTaxesMaster" FunctionName="MSSModel.Store.sp_InsertUpdateTaxesMaster" />
+    <FunctionImportMapping FunctionImportName="sp_Login" FunctionName="MSSModel.Store.sp_Login">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSSModel.sp_Login_Result">
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

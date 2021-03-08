@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f932d690971427eb7d68e8e98f2b684" Name="Diagram1" ZoomLevel="77" ShowGrid="true">
+        <EntityTypeShape EntityType="MSModel.SalesItemDetail" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MSModel.AmcSchedule" Width="1.5" PointX="2.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MSModel.CategoryMaster" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="MSModel.StoreRegistration" Width="1.5" PointX="5.75" PointY="17.5" />
+        <EntityTypeShape EntityType="MSModel.EmployeesMaster" Width="1.5" PointX="15.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.PaymentMode" Width="1.5" PointX="7.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.UnitMaster" Width="1.5" PointX="3" PointY="8.5" />
+        <EntityTypeShape EntityType="MSModel.LedgerTransaction" Width="1.5" PointX="2.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MSModel.SalesHeader" Width="1.5" PointX="17.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.SupplierMaster" Width="1.5" PointX="17.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MSModel.BrandMaster" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="MSModel.CustomerMaster" Width="1.5" PointX="5.75" PointY="8.25" />
+        <EntityTypeShape EntityType="MSModel.ProductsMaster" Width="1.5" PointX="5.25" PointY="1.125" />
+        <EntityTypeShape EntityType="MSModel.TaxesMaster" Width="1.5" PointX="14.75" PointY="17.75" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__0B129727" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__0C06BB60" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__3B60C8C7" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__3C54ED00" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__438BFA74" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__44801EAD" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__457442E6" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__4668671F" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__5614BF03" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__5708E33C" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__7C055DC1" />
+        <AssociationConnector Association="MSModel.FK__BrandMast__Categ__7CF981FA" />
+        <AssociationConnector Association="MSModel.FK__ProductsM__Brand__06CD04F7" />
+        <AssociationConnector Association="MSModel.FK__ProductsM__Categ__05D8E0BE" />
+        <AssociationConnector Association="MSModel.FK__ProductsMa__Unit__07C12930" />
+        <EntityTypeShape EntityType="MSModel.SalesItemTaxDetail" Width="1.5" PointX="19.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.purchaseheader" Width="1.5" PointX="10.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.PurchaseItemDetail" Width="2.5" PointX="7.5" PointY="1.25" />
+        <AssociationConnector Association="MSModel.FK__PurchaseI__Produ__190BB0C3" />
+        <EntityTypeShape EntityType="MSModel.PurchaseItemTaxDetail" Width="1.5" PointX="19.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MSModel.CustomerMapping" Width="1.5" PointX="8" PointY="14.75" />
+        <EntityTypeShape EntityType="MSModel.Itemmaster" Width="1.5" PointX="19.75" PointY="15.75" />
+        <EntityTypeShape EntityType="MSModel.ItemServiceCharge" Width="1.5" PointX="19.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.PurchaseSrNoDetails" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.Admin" Width="1.5" PointX="10.75" PointY="2.5" />
+        <EntityTypeShape EntityType="MSModel.Business_Pics" Width="1.5" PointX="20.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MSModel.Business_Portfolio" Width="1.5" PointX="16.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MSModel.Business_Product" Width="1.5" PointX="10.75" PointY="8" />
+        <EntityTypeShape EntityType="MSModel.Business_ProductOrder" Width="1.5" PointX="0.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MSModel.Business_ProductRecive" Width="1.5" PointX="2.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MSModel.Business_Services" Width="1.5" PointX="18" PointY="1" />
+        <EntityTypeShape EntityType="MSModel.Business_Target" Width="1.5" PointX="21.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.Business_Target_Assign" Width="1.5" PointX="13" PointY="1.125" />
+        <EntityTypeShape EntityType="MSModel.Business_users" Width="1.5" PointX="12.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MSModel.ClientLogin" Width="1.5" PointX="21.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MSModel.Country" Width="1.5" PointX="21.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MSModel.Customer" Width="1.5" PointX="21.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MSModel.Emp_Attendance" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.Emp_Salary" Width="1.5" PointX="23.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MSModel.EndUser" Width="1.5" PointX="12.75" PointY="13.125" />
+        <EntityTypeShape EntityType="MSModel.Enquiry" Width="1.5" PointX="23.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MSModel.ExpenseType" Width="1.5" PointX="23.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MSModel.fabkut_cms" Width="1.5" PointX="23.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MSModel.fabkut_Offers_terms_conditions" Width="1.5" PointX="18" PointY="5" />
+        <EntityTypeShape EntityType="MSModel.fabkut_Static_cms" Width="1.5" PointX="14.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MSModel.Facility" Width="1.5" PointX="16.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MSModel.GenderMaster" Width="1.5" PointX="23.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MSModel.Invoice" Width="1.5" PointX="18.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MSModel.Item" Width="1.5" PointX="23.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MSModel.Item_Inward" Width="1.5" PointX="23.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MSModel.Item_Type" Width="1.5" PointX="24.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.MaritalStatus" Width="1.5" PointX="2.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MSModel.marketing_salon" Width="1.5" PointX="25.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MSModel.MemberRegistraction" Width="1.5" PointX="8" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.OfferTermsMaster" Width="1.5" PointX="15.75" PointY="4.875" />
+        <EntityTypeShape EntityType="MSModel.OfferType" Width="1.5" PointX="7.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MSModel.OnlineEndUser" Width="1.5" PointX="25.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MSModel.Proofdetails" Width="1.5" PointX="9.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MSModel.Salon_Emp_Salary" Width="1.5" PointX="11.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MSModel.salon_Offers" Width="1.5" PointX="25.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MSModel.Salon_Type" Width="1.5" PointX="25.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.SalonLogin" Width="1.5" PointX="20.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MSModel.Service" Width="1.5" PointX="25.75" PointY="22.75" />
+        <EntityTypeShape EntityType="MSModel.Slot_Creation" Width="1.5" PointX="25.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MSModel.Slot_creation_roster" Width="1.5" PointX="26.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.Slot_master" Width="1.5" PointX="16.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MSModel.Slot_master_temp" Width="1.5" PointX="0.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.State" Width="1.5" PointX="2.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.sub_services" Width="1.5" PointX="15.75" PointY="1.125" />
+        <EntityTypeShape EntityType="MSModel.Tariff" Width="1.5" PointX="13" PointY="4" />
+        <EntityTypeShape EntityType="MSModel.TaxInvoice" Width="1.5" PointX="27.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MSModel.User_Type" Width="1.5" PointX="4.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.UserMaster" Width="1.5" PointX="8" PointY="10.625" />
+        <EntityTypeShape EntityType="MSModel.Users" Width="1.5" PointX="27.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MSModel.Work_Roaster" Width="1.5" PointX="13.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.ComplaintLogType" Width="1.5" PointX="27.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MSModel.ComplaintResolutionStatus" Width="1.5" PointX="27.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.ComplaintStatus" Width="1.5" PointX="27.75" PointY="22.75" />
+        <EntityTypeShape EntityType="MSModel.CustomerComplaint" Width="1.5" PointX="22.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.EnquiryDetails" Width="1.5" PointX="27.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MSModel.PaymentStatus" Width="1.5" PointX="28.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.SMSNotification" Width="1.5" PointX="6.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MSModel.Business_ProductRecivedetails" Width="1.5" PointX="8.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MSModel.business_ServiceCost" Width="1.5" PointX="24.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MSModel.business_ServiceHierarchy" Width="1.5" PointX="29.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MSModel.Business_users_login" Width="1.5" PointX="29.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.ComplaintAttachment" Width="1.5" PointX="29.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MSModel.dob_date" Width="1.5" PointX="29.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MSModel.dob_month" Width="1.5" PointX="15.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MSModel.dob_year" Width="1.5" PointX="29.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MSModel.OfferInvitation" Width="1.5" PointX="17.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MSModel.OrderFeedback" Width="1.5" PointX="29.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MSModel.Rating" Width="1.5" PointX="19.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MSModel.Review_reply" Width="1.5" PointX="15" PointY="14.875" />
+        <EntityTypeShape EntityType="MSModel.Reviewlikes" Width="1.5" PointX="29.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MSModel.reviewPics" Width="1.5" PointX="29.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MSModel.SMSNotification1" Width="1.5" PointX="29.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MSModel.Temp_ProductOrderdetails" Width="1.5" PointX="0.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MSModel.Temp_ProductRecivedetails" Width="1.5" PointX="2.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MSModel.temptable2" Width="1.5" PointX="30.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.VendorContract" Width="1.5" PointX="13" PointY="8.875" />
+        <AssociationConnector Association="MSModel.FK__CustomerM__Custo__284DF453" />
+        <AssociationConnector Association="MSModel.FK_Business_Target_Assign_Admin" />
+        <AssociationConnector Association="MSModel.FK_Tariff_Admin" />
+        <AssociationConnector Association="MSModel.FK_VendorContract_product" />
+        <AssociationConnector Association="MSModel.FK_Business_Services_sub_services" />
+        <AssociationConnector Association="MSModel.FK__UserMaste__Custo__76B698BF" />
+        <AssociationConnector Association="MSModel.FK_Review_reply_EndUser" />
+        <AssociationConnector Association="MSModel.FK_fabkut_Offers_terms_conditions_fabkut_Offers" />
+        <AssociationConnector Association="MSModel.FK__MemberReg__Shopi__52793849" />
+        <AssociationConnector Association="MSModel.FK__UserMaste__Shopi__77AABCF8" />
+        <EntityTypeShape EntityType="MSModel.Rec_Payment" Width="1.5" PointX="10.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MSModel.AMCEntry" Width="1.5" PointX="31.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MSModel.AMCItemEntry" Width="1.5" PointX="31.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MSModel.CustomerType" Width="1.5" PointX="31.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MSModel.EmployeeAttandance" Width="1.5" PointX="12.75" PointY="31.75" />
+        <EntityTypeShape EntityType="MSModel.Business_Offers" Width="1.5" PointX="31.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MSModel.deliverymode" Width="1.5" PointX="31.75" PointY="18.75" />
+        <EntityTypeShape EntityType="MSModel.DriverRoute" Width="1.5" PointX="31.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MSModel.ModuleMaster" Width="1.5" PointX="31.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MSModel.ProductExpStatus" Width="1.5" PointX="26.75" PointY="31.75" />
+        <EntityTypeShape EntityType="MSModel.Track_InsertCoordinate" Width="1.5" PointX="31.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MSModel.Track_UserMaster" Width="1.5" PointX="31.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MSModel.Zone" Width="1.5" PointX="32.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MSModel.UserAccessRight" Width="1.5" PointX="4.75" PointY="32.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
