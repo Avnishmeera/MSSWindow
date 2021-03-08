@@ -14,6 +14,7 @@ namespace MSSwindow
     public partial class AmcScheduleFrm : Form
     {
         Sales sl = new Sales();
+
         DataTable DtAmc = new DataTable();
         public AmcScheduleFrm(DateTime StartDate, DateTime EndDate, int duration, DataTable DTAMC)
         {
