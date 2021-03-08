@@ -142,6 +142,28 @@ namespace MSSwindow
 
             return ds;
         }
+        //Vikash Tiwari using method are complaint form BindMemberDetailsComplaint//
+
+        public DataSet BindMemberDetailsComplaint(int Shopid, string Membername, int? MemberID = null)
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_BindMemberDetails_Complaint");
+            cmd.Parameters.AddWithValue("@Shopid", Shopid);
+            cmd.Parameters.AddWithValue("@MemberName", Membername);
+            cmd.Parameters.AddWithValue("@MemberID", MemberID);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return ds;
+        }
 
         public DataSet BindAdminMemberDetails(int Shopid, string Membername, int? MemberID = null)
         {

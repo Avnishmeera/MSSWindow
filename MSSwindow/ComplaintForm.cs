@@ -167,12 +167,12 @@ namespace MSSwindow
             dtemp.Columns.Add("memid", typeof(System.Int32));
             dtemp.Columns.Add("FullName", typeof(System.String));
             dtemp.Rows.Add(0, "Select");
+           // DataTable dt = rc.BindMemberDetailsComplaint(UniqueShopID, string.Empty).Tables[0];
             DataTable dt = rc.BindMemberDetails(UniqueShopID, string.Empty).Tables[0];
             foreach (DataRow item in dt.Rows)
             {
                 dtemp.Rows.Add(item["memid"], item["FullName"]);
             }
-
             CmbEmp.DataSource = dtemp;
             CmbEmp.DisplayMember = "FullName";
             CmbEmp.ValueMember = "memid";

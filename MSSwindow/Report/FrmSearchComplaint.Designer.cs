@@ -129,15 +129,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(561, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 19);
+            this.label4.Size = new System.Drawing.Size(85, 19);
             this.label4.TabIndex = 51;
             this.label4.Text = "Employee";
             this.label4.Visible = false;
             // 
             // checkedEmp
             // 
+            this.checkedEmp.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedEmp.FormattingEnabled = true;
             this.checkedEmp.Location = new System.Drawing.Point(565, 68);
             this.checkedEmp.Name = "checkedEmp";
@@ -150,32 +152,36 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(366, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 19);
+            this.label2.Size = new System.Drawing.Size(142, 19);
             this.label2.TabIndex = 49;
             this.label2.Text = "Complaint Status";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(870, 46);
+            this.label3.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(769, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 19);
+            this.label3.Size = new System.Drawing.Size(133, 19);
             this.label3.TabIndex = 48;
             this.label3.Text = "Total Complaint";
             // 
             // lbltotalcmp
             // 
             this.lbltotalcmp.AutoSize = true;
-            this.lbltotalcmp.Location = new System.Drawing.Point(927, 87);
+            this.lbltotalcmp.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalcmp.Location = new System.Drawing.Point(920, 14);
             this.lbltotalcmp.Name = "lbltotalcmp";
-            this.lbltotalcmp.Size = new System.Drawing.Size(19, 19);
+            this.lbltotalcmp.Size = new System.Drawing.Size(18, 19);
             this.lbltotalcmp.TabIndex = 47;
             this.lbltotalcmp.Text = "0";
             // 
             // checkedstatus
             // 
+            this.checkedstatus.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedstatus.FormattingEnabled = true;
             this.checkedstatus.Location = new System.Drawing.Point(370, 68);
             this.checkedstatus.Name = "checkedstatus";
@@ -185,6 +191,7 @@
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(194, 9);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(179, 29);
@@ -195,6 +202,7 @@
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(379, 9);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(179, 29);
@@ -206,16 +214,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(20, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 16);
+            this.label1.Size = new System.Drawing.Size(310, 19);
             this.label1.TabIndex = 43;
             this.label1.Text = "Date Format Should be \'YYYY-MM-DD\'";
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(565, 9);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 29);
@@ -227,6 +236,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(9, 9);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 29);
@@ -237,6 +247,7 @@
             // 
             // TxtSearch
             // 
+            this.TxtSearch.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSearch.Location = new System.Drawing.Point(12, 68);
             this.TxtSearch.Multiline = true;
             this.TxtSearch.Name = "TxtSearch";
@@ -247,9 +258,10 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(8, 46);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(152, 19);
+            this.label12.Size = new System.Drawing.Size(147, 19);
             this.label12.TabIndex = 40;
             this.label12.Text = "Search Complaint";
             // 

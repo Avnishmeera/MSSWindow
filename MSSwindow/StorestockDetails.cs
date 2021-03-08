@@ -115,6 +115,7 @@ namespace MSSwindow
            {              
                Stockbe be = new Stockbe();
                be.Shopid = UniqueShopID;
+              
                Stock UC = new Stock();
                DataTable dt = new DataTable();
                dt = UC.BindFromLocation(be).Tables[0];
@@ -440,7 +441,14 @@ namespace MSSwindow
                    be.Price = Convert.ToInt32(item.Cells[2].Value);
                    be.Qty = Convert.ToInt32(item.Cells[4].Value); 
                    Stock pd = new Stock();
-                   pd.InsertUpdateStocks(be);
+                  int i=  pd.InsertUpdateStocks(be);
+                  if (i>0)
+                  {
+                      MessageBox.Show(this, "Item Transfer Successfully.", "Store Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                     
+                  }
+
+                  
                } 
            }
        }

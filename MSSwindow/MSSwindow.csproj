@@ -217,6 +217,12 @@
     <Compile Include="Dashboard.designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Enquirydetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enquirydetails.Designer.cs">
+      <DependentUpon>Enquirydetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="FeedBack.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -434,7 +440,7 @@
     <Compile Include="RentDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RentDetails.Designer.cs">
+    <Compile Include="RentDetails.designer.cs">
       <DependentUpon>RentDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Report\AddViewCustomerAMC.cs">
@@ -846,6 +852,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquirydetails.resx">
+      <DependentUpon>Enquirydetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FeedBack.resx">
       <DependentUpon>FeedBack.cs</DependentUpon>

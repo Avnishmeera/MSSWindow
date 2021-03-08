@@ -57,8 +57,8 @@ namespace MSSwindow.Report
             checkedstatus.SetItemChecked(0, true);
             checkedstatus.SetItemChecked(3, true);
             ShowItemBasedOnStatus();
+           
             BindEmployee();
-
         }
 
 
@@ -418,16 +418,40 @@ namespace MSSwindow.Report
         {
             TxtSearch.Text = string.Empty;
             List<int> LstStatus = new List<int>();
+
+            if (checkedstatus.SelectedValue.ToString() != "System.Data.DataRowView")
+            {
+                foreach (object itemChecked in checkedstatus.CheckedItems)
+                {
+                    DataRowView castedItem = itemChecked as DataRowView;
+                    int comapnyName = Convert.ToInt32(castedItem["StatusID"].ToString());
+                    LstStatus.Add(comapnyName);
+                }
+
+                string StatusIds = String.Join(",", LstStatus);
+
+                if (TxtSearch.Text != string.Empty)
+                    bindComplaintGrid(TxtSearch.Text, StatusIds);
+                else
+                    bindComplaintGrid(string.Empty, StatusIds);
+            }
+
+
+           
+        }
+
+
+        private void ShowItemBasedOnEmployee()
+        {
+            TxtSearch.Text = string.Empty;
+            List<int> LstStatus = new List<int>();
             foreach (object itemChecked in checkedstatus.CheckedItems)
             {
                 DataRowView castedItem = itemChecked as DataRowView;
                 int comapnyName = Convert.ToInt32(castedItem["StatusID"].ToString());
                 LstStatus.Add(comapnyName);
-
             }
-
             string StatusIds = String.Join(",", LstStatus);
-
             if (TxtSearch.Text != string.Empty)
                 bindComplaintGrid(TxtSearch.Text, StatusIds);
             else

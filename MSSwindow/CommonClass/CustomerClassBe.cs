@@ -42,7 +42,7 @@ namespace MSSwindow.CommonClass
         public bool SameAsBilling { get; set; }
         public int ZoneID { get; set; }
         public string GSTIN { get; set; }
-        public DateTime? ScheduleDate { get; set; }
+        public DateTime ScheduleDate { get; set; }
 
     }
     public class EMI
@@ -143,7 +143,7 @@ namespace MSSwindow.CommonClass
 
         public Boolean isactive { get; set; }
 
-        public int Price { get; set; }
+        public decimal Price { get; set; }
 
         public int Qty { get; set; }
 

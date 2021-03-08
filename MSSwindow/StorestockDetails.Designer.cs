@@ -79,8 +79,8 @@
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.974854F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.974854F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.35625F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.69405F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.63844F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.68192F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(921, 476);
             this.tableLayoutPanel1.TabIndex = 0;
@@ -191,7 +191,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 89);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(915, 105);
+            this.panel3.Size = new System.Drawing.Size(915, 141);
             this.panel3.TabIndex = 2;
             // 
             // cmbto
@@ -209,7 +209,7 @@
             this.LstProduct.FormattingEnabled = true;
             this.LstProduct.Location = new System.Drawing.Point(431, 37);
             this.LstProduct.Name = "LstProduct";
-            this.LstProduct.Size = new System.Drawing.Size(344, 69);
+            this.LstProduct.Size = new System.Drawing.Size(475, 95);
             this.LstProduct.TabIndex = 12;
             this.LstProduct.Visible = false;
             this.LstProduct.Click += new System.EventHandler(this.LstProduct_Click);
@@ -229,7 +229,7 @@
             this.txtproduct.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtproduct.Location = new System.Drawing.Point(431, 14);
             this.txtproduct.Name = "txtproduct";
-            this.txtproduct.Size = new System.Drawing.Size(344, 23);
+            this.txtproduct.Size = new System.Drawing.Size(475, 23);
             this.txtproduct.TabIndex = 8;
             this.txtproduct.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -256,10 +256,10 @@
             this.RemainingQty,
             this.Unitid});
             this.datagridStockdetails.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datagridStockdetails.Location = new System.Drawing.Point(3, 200);
+            this.datagridStockdetails.Location = new System.Drawing.Point(3, 236);
             this.datagridStockdetails.Name = "datagridStockdetails";
             this.datagridStockdetails.RowHeadersVisible = false;
-            this.datagridStockdetails.Size = new System.Drawing.Size(915, 234);
+            this.datagridStockdetails.Size = new System.Drawing.Size(915, 198);
             this.datagridStockdetails.TabIndex = 3;
             this.datagridStockdetails.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.datagridStockdetails_CellBeginEdit);
             this.datagridStockdetails.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridStockdetails_CellEndEdit);

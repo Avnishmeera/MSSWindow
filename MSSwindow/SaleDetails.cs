@@ -42,7 +42,7 @@ namespace MSSwindow
             CustomerClass CSL = new CustomerClass();
             dsCustDetail = CSL.SearchCustomers(UniqueShopID, TxtEmp.Text);
             ProductClass prod = new ProductClass();
-            dsProduct = prod.BindProducts(UniqueShopID);
+            dsProduct = prod.BindProductOnSale(UniqueShopID);
 
         }
 
@@ -100,8 +100,8 @@ namespace MSSwindow
 
         private void AddAMCSchedule()
         {
-            dtAMCSchedule.Columns.Add("AMCID", typeof(System.Int32));
-            dtAMCSchedule.Columns.Add("ScheduleDate", typeof(System.DateTime));
+            dtAMCSchedule.Columns.Add("RN", typeof(System.Int32));
+            dtAMCSchedule.Columns.Add("AMCDate", typeof(System.DateTime));
             dtAMCSchedule.Columns.Add("Status", typeof(System.Boolean));
             dtAMCSchedule.Columns.Add("IgnoreStatus", typeof(System.Boolean));
             dtAMCSchedule.Columns.Add("Remark", typeof(System.String));
@@ -178,8 +178,8 @@ namespace MSSwindow
             BrandWiseProduct(UniqueShopID);
             //TxtBookNO.Focus();
             TxtBookNO.Focus();
-            btnAddAmcSchedule.Visible = false;
-            BtnAddExtra.Visible = false;
+            btnAddAmcSchedule.Visible = true;
+            BtnAddExtra.Visible = true;
             BindDelMode();
             BindPaymentStatus();
             if (IsEditMode)
@@ -626,10 +626,10 @@ namespace MSSwindow
                 txtQty.Focus();
                 return;
             }
-            //if (ProductBasePrice == 0)
+            //if (Convert.ToInt32(txtQty.Text) > Convert.ToInt32(TxtAvailQty.Text))
             //{
-            //    MessageBox.Show(this, "Please enter Price", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
-            //    txtPrice.Focus();
+            //    MessageBox.Show(this, "Sale quantity can not exceed available quantity.", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+            //    txtQty.Focus();
             //    return;
             //}
             if (CheckExistingProduct(ProductID) && IsEdit == false)
@@ -646,8 +646,8 @@ namespace MSSwindow
             }
             else
             {
-                btnAddAmcSchedule.Visible = false;
-                BtnAddExtra.Visible = false;
+                btnAddAmcSchedule.Visible = true;
+                BtnAddExtra.Visible = true;
                 label6.Text = "Model No.";
             }
 
@@ -762,8 +762,8 @@ namespace MSSwindow
             }
             else
             {
-                btnAddAmcSchedule.Visible = false;
-                BtnAddExtra.Visible = false;
+                btnAddAmcSchedule.Visible = true;
+                BtnAddExtra.Visible = true;
                 label6.Text = "Model No.";
             }
 
@@ -1341,24 +1341,10 @@ namespace MSSwindow
                                       Status = Convert.ToBoolean(a["Status"].ToString()),
                                       IgnoreStatus = Convert.ToBoolean(a["IgnoreStatus"].ToString()),
                                       Remark = a["Remark"].ToString()
-
                                   }).ToList();
-
-
-                    }
-                    else
-                    {
-                        AMCSch = (from a in dtAMCSchedule.AsEnumerable()
-                                  select new ScheduleBE
-                                  {
-                                      AMCID = Convert.ToInt32(a["AMCID"].ToString()),
-                                      AMCDate = Convert.ToDateTime(a["ScheduleDate"].ToString()),
-                                      Status = Convert.ToBoolean(a["Status"].ToString()),
-                                      IgnoreStatus = Convert.ToBoolean(a["IgnoreStatus"].ToString()),
-                                      Remark = a["Remark"].ToString()
-
-                                  }).ToList();
-                    }
+                   }
+                    
+                   
                     Sales PUR = new Sales();
                     int phid = 0;
                     int GenID = 0;
@@ -1538,8 +1524,8 @@ namespace MSSwindow
                     }
                     else
                     {
-                        btnAddAmcSchedule.Visible = false;
-                        BtnAddExtra.Visible = false;
+                        btnAddAmcSchedule.Visible = true;
+                        BtnAddExtra.Visible = true;
                         label6.Text = "Model No.";
                     }
 
@@ -1600,8 +1586,8 @@ namespace MSSwindow
                     }
                     else
                     {
-                        btnAddAmcSchedule.Visible = false;
-                        BtnAddExtra.Visible = false;
+                        btnAddAmcSchedule.Visible = true;
+                        BtnAddExtra.Visible = true;
                         //label6.Text = "Model No.";
                     }
 
@@ -1652,8 +1638,8 @@ namespace MSSwindow
                     }
                     else
                     {
-                        btnAddAmcSchedule.Visible = false;
-                        BtnAddExtra.Visible = false;
+                        btnAddAmcSchedule.Visible = true;
+                        BtnAddExtra.Visible = true;
                         label6.Text = "Model No.";
                     }
 
@@ -1771,7 +1757,7 @@ namespace MSSwindow
             Purchase p = new Purchase();
             int i = Convert.ToInt32(cmbProductname.SelectedIndex);
             int unitid = 0;
-            int price = 0;
+            double price = 0;
             double CGST = 0.00;
             double SGST = 0.00;
             double IGST = 0.00;
@@ -1968,17 +1954,21 @@ namespace MSSwindow
 
         private void btnAddAmcSchedule_Click(object sender, EventArgs e)
         {
+            
             if (IsEditMode == true)
             {
-                AmcScheduleFrm amc = new AmcScheduleFrm(txtPurdate.Value, dtUPAMCSchedule, dtAMCSchedule);
+                DateTime saledate = txtPurdate.Value;
+                DateTime SaleExpDate = saledate.AddYears((int)NMWarDuration.Value);
+                int duration = 2;
+                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate,duration, dtUPAMCSchedule,this);
                 amc.ShowDialog();
             }
             else
             {
                 DateTime saledate = txtPurdate.Value;
-                DateTime SaleExpDate = saledate.AddMonths(12);
+                DateTime SaleExpDate = saledate.AddYears((int)NMWarDuration.Value);
                 int duration = 2;
-                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule);
+                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule,this);
                 amc.ShowDialog();
             }
         }
@@ -1987,8 +1977,6 @@ namespace MSSwindow
         {
             dtUPAMCSchedule = null;
             dtUPAMCSchedule = dtnewamc;
-            //dtAMCSchedule = dtUPAMCSchedule;
-            //dtAMCSchedule.AcceptChanges();
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -2430,6 +2418,8 @@ namespace MSSwindow
                 MessageBox.Show(this, "Record Deleted Successfully.", "Sales Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        
 
         private void btnConvertEmi_Click(object sender, EventArgs e)
         {           

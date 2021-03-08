@@ -491,7 +491,6 @@ namespace MSSwindow
             dataGridViewCustomer.DataSource = DTCUST;
             lblCountCust.Text = dataGridViewCustomer.Rows.Count.ToString();
             lblSearchRecords.Text = "0";
-
         }
 
         public decimal ProductQuantity

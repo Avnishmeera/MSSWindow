@@ -997,7 +997,7 @@
             this.btnAddAmcSchedule.Text = "Add/View Amc Schedule";
             this.btnAddAmcSchedule.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAddAmcSchedule.UseVisualStyleBackColor = false;
-            this.btnAddAmcSchedule.Click += new System.EventHandler(this.btnAddAmcSchedule_Click);
+            
             // 
             // label6
             // 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MSSwindow.CommonClass;
+using System.Diagnostics;
 
 
 namespace MSSwindow
@@ -21,7 +22,10 @@ namespace MSSwindow
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
+           Application.Exit();
+           // Process[] p = Process.GetProcessesByName("MSSwindow");
+           // p[0].Kill();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -143,6 +147,11 @@ namespace MSSwindow
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -101,12 +101,12 @@ namespace MSSwindow.CommonClass
             //{
             //    db.SalesItemTaxDetail.Remove(p);
             //}
-            //var itemAMC = db.AmcSchedule.Where(x => x.SalesheaderID == phid);
-            //foreach (var p in itemAMC)
-            //{
-            //    db.AmcSchedule.Remove(p);
-            //}
-
+            var itemAMC = db.AmcSchedule.Where(x => x.SalesheaderID == phid);
+            foreach (var p in itemAMC)
+            {
+                db.AmcSchedule.Remove(p);
+            }
+            db.SaveChanges();
             //--------------Update Header Table--------------//
             var Sheader = db.SalesHeader.Where(x => x.SAID == phid);
             foreach (var SH in Sheader)
@@ -123,6 +123,8 @@ namespace MSSwindow.CommonClass
                 SH.IFSCCode = Phead.IfscCode;
                 SH.vehicleno = Phead.Vechicleno;
                 SH.ShopID = Phead.Shopid;
+                SH.IsDelivered = Phead.IsDelivered;
+                SH.ExpDelDate = Phead.ExpDelDate.Value.Month == 1 ? null : Phead.ExpDelDate;
                 SH.Is_War_Dur = Phead.IsWaranty;
                 SH.War_Dur = Phead.WarDuration;
                 SH.War_ExpDate = Phead.ExpDate;
@@ -184,7 +186,6 @@ namespace MSSwindow.CommonClass
             {
                 db.AmcSchedule.Add(new AmcSchedule
                 {
-
                     SalesheaderID = Sheader.FirstOrDefault().SAID,
                     Startdate = Convert.ToDateTime(PBE.AMCDate),
                     Entdate = Convert.ToDateTime(PBE.AMCDate),
@@ -316,7 +317,45 @@ namespace MSSwindow.CommonClass
             }
            
            db.SaveChanges();
+           MoveItemFromMainStoretoCustomer(lstp);
         }
+
+
+        private void MoveItemFromMainStoretoCustomer(List<PurchaseBe> pur)
+        {
+            foreach (PurchaseBe item in pur)
+            {
+                MoveItemFromMainStockToCustomer(item.Productid, item.price, item.UnitID, item.Shopid, Helper.ShopUserID, item.qty);
+            }
+
+        }
+
+
+        public DataSet MoveItemFromMainStockToCustomer(int ProductID, decimal ProductPrice, int ProductUnit, int ShopID, string UserID, int ProductQty)
+        {
+            DatabaseConnection dbconn = new DatabaseConnection();
+            SqlCommand cmd;
+            cmd = dbconn.ConnectionWithCommand("Spo_MoveItemFromMainStockToCustomer");
+            cmd.Parameters.AddWithValue("@ProductPrice", ProductPrice);
+            cmd.Parameters.AddWithValue("@ProductID", ProductID);
+            cmd.Parameters.AddWithValue("@ProductQty", ProductQty);
+            cmd.Parameters.AddWithValue("@ProductUnit", ProductUnit);
+            cmd.Parameters.AddWithValue("@ShopID", ShopID);
+            cmd.Parameters.AddWithValue("@UserID", UserID);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return ds;
+        }
+
+
 
         public string GetSupplierAddress(int id, out string GSTIN)
         {

@@ -103,6 +103,23 @@ namespace MSSwindow
         }
 
 
+        public DataTable BindSource()
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_BindSources");           
+            DataTable dt = new DataTable();
+            dt = dbconn.ExecuteDataSet(cmd);
+            return dt;
+        }
+
+        public DataTable BindTypes()
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_BindTypes");
+            DataTable dt = new DataTable();
+            dt = dbconn.ExecuteDataSet(cmd);
+            return dt;
+        }
+
+
         
         public DataTable BindCustomerDetails(int shopid,int ? catid)
         {

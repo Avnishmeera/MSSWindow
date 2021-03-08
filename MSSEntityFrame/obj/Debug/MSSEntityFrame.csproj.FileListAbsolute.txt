@@ -137,6 +137,16 @@ H:\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
 H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
 H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 H:\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
 F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
 F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
 F:\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
@@ -166,14 +176,22 @@ F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
 F:\latest 030120\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
 F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
-F:\latest 030120\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
-D:\Avnish Personal\WindowApps\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\Proven Ro-06-02-2021\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.dll
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb

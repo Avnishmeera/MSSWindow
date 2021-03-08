@@ -32,10 +32,83 @@ namespace MSSwindow.CommonClass
             return ds;
         }
 
-        public DataSet BindFromLocation(Stockbe be)
+        public void InsertUpdateStockLocation(int shopid ,int locationid,string locationname, int type, string Initial,int status)
+        {
+
+            cmd = dbconn.ConnectionWithCommand("sp_insertupdateStockLocationMaster");
+            cmd.Parameters.AddWithValue("@shopid", shopid);
+            cmd.Parameters.AddWithValue("@Locationid", locationid);
+            cmd.Parameters.AddWithValue("@Locationname", locationname);
+            cmd.Parameters.AddWithValue("@type", type);
+            cmd.Parameters.AddWithValue("@Initial", Initial);
+            cmd.Parameters.AddWithValue("@Status", status);
+            int Results = dbconn.Executenonquery(cmd);
+            if (Results == 1)
+            {
+
+            }
+
+        }
+
+
+
+        public DataSet BindTypes()
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_bindlocationtype");       
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
+
+        public DataSet BindLocation(int shopid)
         {
             cmd = dbconn.ConnectionWithCommand("sp_getLocationMaster");
+            cmd.Parameters.AddWithValue("@Shopid", shopid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
+        public DataSet BindFromLocation(Stockbe be)
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_getLocationMaster");           
             cmd.Parameters.AddWithValue("@Shopid",be.Shopid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
+
+
+        public DataSet BindGridLocation(int shopid)
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_BindLocationDetails");
+            cmd.Parameters.AddWithValue("@Shopid", shopid);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
             try
@@ -116,7 +189,7 @@ namespace MSSwindow.CommonClass
 
 
 
-        public void InsertUpdateStocks(Stockbe be)
+        public int InsertUpdateStocks(Stockbe be)
         {
             cmd = dbconn.ConnectionWithCommand("sp_StoreStockDetails");       
             cmd.Parameters.AddWithValue("@TransferRefNo", be.TransferRefNo);
@@ -127,7 +200,8 @@ namespace MSSwindow.CommonClass
             cmd.Parameters.AddWithValue("@Qty", be.Qty);
             cmd.Parameters.AddWithValue("@Unit", be.Unit);
             cmd.Parameters.AddWithValue("@Tranferdate", be.Tranferdate);
-            int Results = dbconn.Executenonquery(cmd);           
+            int Results = dbconn.Executenonquery(cmd);
+            return Results;
         }
 
     }

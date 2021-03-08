@@ -63,6 +63,7 @@ namespace MSSwindow
         {
             string str = string.Empty;
             CustomerClass cls = new CustomerClass();
+           // str = cls.GetItemChargeValue(itmid).Tables[0].Rows[0]["Charge"].ToString();
             str = cls.GetItemChargeValue(itmid).Tables[0].Rows[0]["Charge"].ToString();
             return str;
 

@@ -14,25 +14,30 @@ namespace MSSwindow
     public partial class AmcScheduleFrm : Form
     {
         Sales sl = new Sales();
-
+        RetailSaleDetails sl1 = null;
         DataTable DtAmc = new DataTable();
-        public AmcScheduleFrm(DateTime StartDate, DateTime EndDate, int duration, DataTable DTAMC)
+        public AmcScheduleFrm(DateTime StartDate, DateTime EndDate, int duration, DataTable DTAMC, RetailSaleDetails sld)
         {
             InitializeComponent();
             NMDuration.Value = 2;
             dtfrm.Value = StartDate;
             DtTo.Value = EndDate;
             DtAmc = DTAMC;
-            
+            sl1 = sld;
+            ShowAMCDetail(DTAMC, DTAMC);
+
+
 
         }
-        public AmcScheduleFrm(DateTime StartDate,DataTable DTAMC,DataTable DtSchedule)
+        public AmcScheduleFrm(DateTime StartDate, DataTable DTAMC, DataTable DtSchedule, RetailSaleDetails sld)
         {
             InitializeComponent();
             NMDuration.Value = 2;
             dtfrm.Value = StartDate;
             DtTo.Value = StartDate.AddMonths(12);
+            sl1 = sld;
             ShowAMCDetail(DTAMC, DtSchedule);
+
 
         }
 
@@ -70,26 +75,24 @@ namespace MSSwindow
                     DTAMC.Rows.Add(item["RN"].ToString(), Convert.ToDateTime(item["AMCDate"]), CurrentStatus, IgnoreStatus, item["Remark"].ToString());
                 }
                 DtAmc = DTAMC;
+                sl1.SetNewSchedule(DtAmc);
 
             }
         }
-        private void ShowAMCDetail(DataTable DTAMC,DataTable DTSchedule)
+        private void ShowAMCDetail(DataTable DTAMC, DataTable DTSchedule)
         {
-
-            dataGridView1.DataSource = DTAMC;
-            DTSchedule.Rows.Clear();
-            foreach (DataRow item in DTAMC.Rows)
+            if (DTSchedule.Rows.Count > 0)
             {
-                bool CurrentStatus = item["Status"].ToString() == "Pending" ? true : false;
-                bool IgnoreStatus = item["IgnoreStatus"].ToString() == "No" ? false : true;
-                DTSchedule.Rows.Add(item["RN"].ToString(), Convert.ToDateTime(item["AMCDate"]), CurrentStatus, IgnoreStatus, item["Remark"].ToString());
+                dataGridView1.DataSource = DTSchedule;
+                DTAMC = DTSchedule;
             }
-            NMDuration.Value = 2;
-            DtAmc = DTSchedule;
+            else
+                DTSchedule.Rows.Clear();
+           
         }
         private void NMDuration_ValueChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void NMDuration_Leave(object sender, EventArgs e)

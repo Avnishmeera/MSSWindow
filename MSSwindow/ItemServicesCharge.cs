@@ -19,6 +19,7 @@ namespace MSSwindow
         DataTable dtchargedetail = new DataTable();
         int uniqueShopid = 0;
         int SelectedCharge = 0;
+        int empid = 0;
         public ItemServicesCharge(int Compid, string ComplainID, ComplaintForm frm,int Shopid)
         {
             InitializeComponent();
@@ -31,22 +32,33 @@ namespace MSSwindow
         }
 
 
+        
+
         private void BindItemMasterDetails()
         {
             CustomerClass cls = new CustomerClass();
             DataTable dt = new DataTable();
-            ddlItemName.DataSource = cls.GetAllItemMaster(uniqueShopid).Tables[0];
+            ddlItemName.DataSource = cls.GetAllItemMaster(uniqueShopid,CompID).Tables[0];
             ddlItemName.DisplayMember = "itemname";
             ddlItemName.ValueMember = "itemid";
             ddlItemName.SelectedIndex = -1;
-            dtchargedetail = cls.GetAllItemMaster(uniqueShopid).Tables[0];
+            dtchargedetail = cls.GetAllItemMaster(uniqueShopid,CompID).Tables[0];
         }
+
+        public decimal ITEMCHARGE;
 
         private string GetServiceCharge(int itmid)
         {
             string str = string.Empty;
             CustomerClass cls = new CustomerClass();
-            str = cls.GetItemChargeValue(itmid).Tables[0].Rows[0]["Charge"].ToString();
+            
+            str = cls.GetItemChargeValue(itmid,uniqueShopid,CompID).Tables[0].Rows[0]["Charge"].ToString();
+            if (!string.IsNullOrEmpty(str))
+            {
+                ITEMCHARGE = Convert.ToDecimal(str);
+                txtitemprice.Text =Convert.ToString(ITEMCHARGE);
+                txtavlqty.Text = cls.GetItemChargeValue(itmid, uniqueShopid, CompID).Tables[0].Rows[0]["AvlQty"].ToString();
+            }            
             return str;
 
         }
@@ -75,6 +87,13 @@ namespace MSSwindow
                     return;
                 }
 
+                //if (Convert.ToInt32(TxtQty.Text) > Convert.ToInt32(txtavlqty.Text))
+                //{
+                //    MessageBox.Show(this, "Item quantity can not exceed available quantity.", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                //    TxtQty.Focus();
+                //    return;
+                //}
+
                 if (CheckitemExist(Convert.ToInt32(SelectedCharge)))
                 {
                     MessageBox.Show(this, "Charge Already Added", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
@@ -82,7 +101,7 @@ namespace MSSwindow
                 }
                 
                 CustomerClass cms = new CustomerClass();
-                int i = cms.InsertUpdateServiceCharge(Convert.ToInt32(lblComplainID.Text), TxtComplaintNo.Text, Convert.ToInt32(SelectedCharge), Convert.ToInt32(txtCharge.Text),Convert.ToInt32(TxtQty.Text),Convert.ToInt32(TxtTotalCharge.Text));
+                int i = cms.InsertUpdateServiceCharge(Convert.ToInt32(lblComplainID.Text), TxtComplaintNo.Text, Convert.ToInt32(SelectedCharge), Convert.ToDecimal(txtCharge.Text), Convert.ToInt32(TxtQty.Text), Convert.ToDecimal(TxtTotalCharge.Text),ITEMCHARGE);
                 if (i > 0)
                 {
                     MessageBox.Show(this, "Charge added Successfully.", "Customer Complaint", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -92,9 +111,7 @@ namespace MSSwindow
                     TxtQty.Text = string.Empty;
                     TxtTotalCharge.Text = string.Empty;
                     cmpl.SetTotalCharge();
-
                 }
-
             }
         }
 
@@ -182,7 +199,7 @@ namespace MSSwindow
         {
             if (txtCharge.Text != string.Empty)
             {
-                TxtTotalCharge.Text = (Convert.ToInt32(txtCharge.Text) * Convert.ToInt32(TxtQty.Text)).ToString();
+                TxtTotalCharge.Text = (Convert.ToDecimal(txtCharge.Text) * Convert.ToInt32(TxtQty.Text)).ToString();
             }
         }
 
@@ -191,24 +208,26 @@ namespace MSSwindow
             cmpl.SetTotalCharge();
         }
 
-        private void TxtItem_TextChanged(object sender, EventArgs e)
+       private void TxtItem_TextChanged(object sender, EventArgs e)
        {
             try
             {
                 if (txtCharge.Text == string.Empty)
                 {
-                    LstCharge.Visible = false;
+                    LstCharge.Visible = false;                   
                 }
+               
+               if (dtchargedetail.Rows.Count > 0)
+                 {
+                        DataView dv = new DataView(dtchargedetail);
+                        dv.RowFilter = "itemname like '%" + TxtItem.Text + "%'";
+                        LstCharge.Visible = true;
+                        LstCharge.DataSource = dv.ToTable();
+                        LstCharge.DisplayMember = "itemname";
+                        LstCharge.ValueMember = "itemid";
+                    }
+               
                 
-                if (dtchargedetail.Rows.Count > 0)
-                {
-                    DataView dv = new DataView(dtchargedetail);
-                    dv.RowFilter = "itemname like '%" + TxtItem.Text + "%'";
-                    LstCharge.Visible = true;
-                    LstCharge.DataSource = dv.ToTable();
-                    LstCharge.DisplayMember = "itemname";
-                    LstCharge.ValueMember = "itemid";
-                }
             }
             catch (Exception)
             {
@@ -220,17 +239,34 @@ namespace MSSwindow
         private void LstCharge_Click(object sender, EventArgs e)
         {
             SelectedCharge = Convert.ToInt32(LstCharge.GetItemText(LstCharge.SelectedValue));
-            if (SelectedCharge > 0)
+            if (SelectedCharge==0)
             {
-                TxtItem.Text = LstCharge.GetItemText(LstCharge.SelectedItem);
+                MessageBox.Show(this, "Please Selected  Item ", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                TxtItem.Focus();
+                return;
+                
+               
+            }
+            else
+            {
                 if (SelectedCharge > 0)
                 {
-                    txtCharge.Text = GetServiceCharge(Convert.ToInt32(SelectedCharge));
-                    TxtQty.Text = "1";
-                    TxtTotalCharge.Text = (Convert.ToInt32(txtCharge.Text) * Convert.ToInt32(TxtQty.Text)).ToString();
+                    TxtItem.Text = LstCharge.GetItemText(LstCharge.SelectedItem);
+                    if (SelectedCharge > 0)
+                    {
+                        txtCharge.Text = GetServiceCharge(Convert.ToInt32(SelectedCharge));
+                        TxtQty.Text = "1";
+                        TxtTotalCharge.Text = (Convert.ToDecimal(txtCharge.Text) * Convert.ToInt32(TxtQty.Text)).ToString();
+                    }
+                    LstCharge.Visible = false;
                 }
-                LstCharge.Visible = false;
             }
+            
+        }
+
+        private void LstCharge_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

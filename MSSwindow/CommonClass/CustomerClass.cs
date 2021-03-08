@@ -61,17 +61,6 @@ namespace MSSwindow.CommonClass
 
         }
 
-        public DataTable RentDetails(int ShopID,string Search)
-        {
-            cmd = dbconn.ConnectionWithCommand("Spo_GetRentDetails");
-            cmd.Parameters.AddWithValue("@ShopID", ShopID);
-            cmd.Parameters.AddWithValue("@SearchText", Search);
-            DataTable DT = new DataTable();
-            DT = dbconn.ExecuteDataSet(cmd);
-            return DT;
-
-        }
-
         public DataTable GetFeedBackByOwner(int CompID)
         {
             cmd = dbconn.ConnectionWithCommand("dbo.Spo_GetFeedBackByOwner");
@@ -183,7 +172,6 @@ namespace MSSwindow.CommonClass
         public DataSet GetCustomerComplaintDetails(int CstID)
         {
             cmd = dbconn.ConnectionWithCommand("Spo_GetComplaintHistory");
-
             cmd.Parameters.AddWithValue("@CompID", CstID);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
@@ -307,10 +295,29 @@ namespace MSSwindow.CommonClass
         }
 
 
-        public DataSet GetAllItemMaster(int uniqueShopid)
+        public DataSet GetAllItemMaster(int uniqueShopid,int compid)
         {
             cmd = dbconn.ConnectionWithCommand("spo_BindItemMaster");
             cmd.Parameters.AddWithValue("@Shopid", uniqueShopid);
+            cmd.Parameters.AddWithValue("@compid", compid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
+        public DataSet GetAllItemStockMaster(int uniqueShopid,int productid)
+        {
+            cmd = dbconn.ConnectionWithCommand("spo_BindItemMaster");
+            cmd.Parameters.AddWithValue("@Shopid", uniqueShopid);
+            cmd.Parameters.AddWithValue("@Shopid", productid);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
             try
@@ -517,6 +524,18 @@ namespace MSSwindow.CommonClass
             }
             return ds;
         }
+
+
+        public DataTable RentDetails(int ShopID, string Search)
+        {
+            cmd = dbconn.ConnectionWithCommand("Spo_GetRentDetails");
+            cmd.Parameters.AddWithValue("@ShopID", ShopID);
+            cmd.Parameters.AddWithValue("@SearchText", Search);
+            DataTable DT = new DataTable();
+            DT = dbconn.ExecuteDataSet(cmd);
+            return DT;
+
+        }
         public DataSet GetReceivedAmount(int? Compid=null, int? OrderID=null)
         {
             cmd = dbconn.ConnectionWithCommand("spo_GetPaymentDetails");
@@ -586,6 +605,26 @@ namespace MSSwindow.CommonClass
             return ds;
         }
 
+
+        public DataSet GetItemChargeValue(int ItmID,int Shopid,int Compid)
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_BindChargeDetails");
+            cmd.Parameters.AddWithValue("@Itemid", ItmID);
+            cmd.Parameters.AddWithValue("@Shopid", Shopid);
+            cmd.Parameters.AddWithValue("@Compid", Compid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
         public DataSet InsertEmiDetails(EMI emobject)
         {
             cmd = dbconn.ConnectionWithCommand("Spo_CreateCustomerEMI");
@@ -632,6 +671,25 @@ namespace MSSwindow.CommonClass
         }
 
 
+        public DataSet GetEmiId(int Invoiceid,int shopid)
+        {
+            cmd = dbconn.ConnectionWithCommand("sp_Getemiid");
+            cmd.Parameters.AddWithValue("@Orderid", Invoiceid);
+            cmd.Parameters.AddWithValue("@Shopid", shopid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
+
 
 
         public int DeleteServiceCharge(int srno)
@@ -639,6 +697,17 @@ namespace MSSwindow.CommonClass
             cmd = dbconn.ConnectionWithCommand("Spo_DeleteCharge");
             cmd.Parameters.AddWithValue("@Itemsrid", srno);
 
+            int Results = dbconn.Executenonquery(cmd);
+            return Results;
+
+        }
+
+
+        public int DeleteLocation(int locationid, int shopid)
+        {
+            cmd = dbconn.ConnectionWithCommand("Spo_DeleteLocation");
+            cmd.Parameters.AddWithValue("@locationid", locationid);
+            cmd.Parameters.AddWithValue("@Shopid", shopid);
             int Results = dbconn.Executenonquery(cmd);
             return Results;
 
@@ -923,8 +992,9 @@ namespace MSSwindow.CommonClass
 
         public int InsertUpdateCustomerCmplaint(CustomerComplaint be)
         {
-            cmd = dbconn.ConnectionWithCommand("Spo_InsertUpdateComplaint");//Using Procedure Pentacare(Spo_InsertUpdateComplaint)
-           // cmd = dbconn.ConnectionWithCommand("Spo_InsertUpdateComplaint_test_2");
+           // cmd = dbconn.ConnectionWithCommand("Spo_InsertUpdateComplaint");//Using Procedure Pentacare(Spo_InsertUpdateComplaint)
+            //cmd = dbconn.ConnectionWithCommand("Spo_InsertUpdateComplaint_test_1");// Suresh and Arora Traders
+           cmd = dbconn.ConnectionWithCommand("Spo_InsertUpdateComplaint_test_2");
             cmd.Parameters.AddWithValue("@CompID", be.CompID);
             cmd.Parameters.AddWithValue("@ComplaintID", be.ComplaintID);
             cmd.Parameters.AddWithValue("@ComplaintDate", be.ComplaintDate);
@@ -1062,7 +1132,7 @@ namespace MSSwindow.CommonClass
 
 
 
-        public int InsertUpdateServiceCharge(int Cmpid, string ComplainNo, int Serviceid, int Amount,int Qty,int TotalCharge)
+        public int InsertUpdateServiceCharge(int Cmpid, string ComplainNo, int Serviceid, decimal Amount, int Qty, decimal TotalCharge, decimal ITEMCHARGE)
         {
             cmd = dbconn.ConnectionWithCommand("sp_ItemServiceCharge");
             cmd.Parameters.AddWithValue("@Complainid", Cmpid);
@@ -1071,6 +1141,7 @@ namespace MSSwindow.CommonClass
             cmd.Parameters.AddWithValue("@ServiceCharge", Amount);
             cmd.Parameters.AddWithValue("@Qty", Qty);
             cmd.Parameters.AddWithValue("@TotalCharge", TotalCharge);
+            cmd.Parameters.AddWithValue("@StockCharge", ITEMCHARGE);           
             int Results = dbconn.Executenonquery(cmd);
             return Results;
         }

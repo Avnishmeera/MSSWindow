@@ -1040,22 +1040,7 @@ namespace MSSwindow
             //}
         }
 
-        private void btnAddAmcSchedule_Click(object sender, EventArgs e)
-        {
-            if (IsEditMode == true)
-            {
-                AmcScheduleFrm amc = new AmcScheduleFrm(txtPurdate.Value, dtUPAMCSchedule, dtAMCSchedule);
-                amc.ShowDialog();
-            }
-            else
-            {
-                DateTime saledate = txtPurdate.Value;
-                DateTime SaleExpDate = saledate.AddMonths(12);
-                int duration = 2;
-                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule);
-                amc.ShowDialog();
-            }
-        }
+       
 
         public void SetNewSchedule(DataTable dtnewamc)
         {

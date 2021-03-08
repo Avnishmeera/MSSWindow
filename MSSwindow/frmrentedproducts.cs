@@ -60,6 +60,7 @@ namespace MSSwindow
                     lstcustomer.DisplayMember = "Name";
                     lstcustomer.ValueMember = "Customerid";
                 }
+               
             }
             catch (Exception)
             {
@@ -100,6 +101,8 @@ namespace MSSwindow
             {
                 DataView dv = new DataView(dsProduct.Tables[0]);
                 dv.RowFilter = "Productname like '%" + txtproduct.Text + "%'";
+                txtprice.Text = dv.ToTable().Rows[0]["price"].ToString();
+              //  txtprice.Text = dsProduct.Tables[0].Rows[0]["price"].ToString();
                 lstproduct.Visible = true;
                 lstproduct.DataSource = dv.ToTable();
                 lstproduct.DisplayMember = "Productname";
@@ -124,6 +127,7 @@ namespace MSSwindow
             dsProduct = prod.BindProducts(UniqueShopID);
             CustomerClass CSL = new CustomerClass();
             dsCustDetail = CSL.SearchCustomers(UniqueShopID, txtcustomer.Text);
+            lstcustomer.Visible = false;
         }
 
         private void btnsave_Click(object sender, EventArgs e)
@@ -148,47 +152,92 @@ namespace MSSwindow
 
         private void btnsave_Click_1(object sender, EventArgs e)
         {
-            CustomerClass cl = new CustomerClass();
-            Rent rnt = new Rent();
-            rnt.rentid = null;
-            rnt.Invoiceid = txtinvoiceno.Text;
-            rnt.productid = Convert.ToInt32(SelectedProductID);
-            rnt.customerid = Convert.ToInt32(SelectedCustomerID);
-            rnt.rentstartdate = datetimeStartdate.Value;
-            rnt.rentenddate = dateTimePicker1.Value;
-            rnt.securityAmount = Convert.ToInt32(txtserurityamt.Text);
-            rnt.Daliyrentamount = Convert.ToInt32(txtdailyamt.Text);
-            rnt.Monthlyrentamount = Convert.ToInt32(txtmonthlyamt.Text);
-            rnt.Yearlyrentamount = Convert.ToInt32(txtyearlyamt.Text);
-            rnt.penaltycharge = Convert.ToInt32(txtpenaltycharge.Text);
-            rnt.bouncecharge = Convert.ToInt32(txtbouncechrg.Text);
-            rnt.policy = 1;
-            rnt.servicestartdate = null;
-            rnt.remserday = Convert.ToInt32(remserday.Text);
-            rnt.noofser = Convert.ToInt32(noofser.Value);
-            rnt.remrentday = Convert.ToInt32(remrentday.Value);
-            rnt.rentcoldays = Convert.ToInt32(rentcoldays.Value);
-            rnt.isactive = true;
-            rnt.Price = Convert.ToInt32(txtprice.Text);
-            rnt.Qty = Convert.ToInt32(txtqty.Text);
-            rnt.ShopID = UniqueShopID;
-            DataSet ds = new DataSet();
-            ds = cl.CreateRent(rnt);
-            if (ds.Tables.Count>0)
+            if (SelectedCustomerID=="0")
             {
-                dataGridViewRent.DataSource = ds.Tables[0];
-                dataGridViewAmc.DataSource = ds.Tables[1];
+                MessageBox.Show(this, "Please enter Customer Name.", "Rent on Product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtcustomer.Focus();
+                return;
             }
+            if (SelectedProductID=="0")
+            {
+                MessageBox.Show(this, "Please enter Product Name.", "Rent on Product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtproduct.Focus();
+                return;
+            }
+            else
+            {
+                CustomerClass cl = new CustomerClass();
+                Rent rnt = new Rent();
+                rnt.rentid = null;
+                rnt.Invoiceid = txtinvoiceno.Text;
+                rnt.productid = Convert.ToInt32(SelectedProductID);
+                rnt.customerid = Convert.ToInt32(SelectedCustomerID);
+                rnt.rentstartdate = datetimeStartdate.Value;
+                rnt.rentenddate = dateTimePicker1.Value;
+                rnt.securityAmount = Convert.ToInt32(txtserurityamt.Text);
+                rnt.Daliyrentamount = Convert.ToInt32(txtdailyamt.Text);
+                rnt.Monthlyrentamount = Convert.ToInt32(txtmonthlyamt.Text);
+                rnt.Yearlyrentamount = Convert.ToInt32(txtyearlyamt.Text);
+                rnt.penaltycharge = Convert.ToInt32(txtpenaltycharge.Text);
+                rnt.bouncecharge = Convert.ToInt32(txtbouncechrg.Text);
+                rnt.policy = 1;
+                rnt.servicestartdate = null;
+                rnt.remserday = Convert.ToInt32(remserday.Text);
+                rnt.noofser = Convert.ToInt32(noofser.Value);
+                rnt.remrentday = Convert.ToInt32(remrentday.Value);
+                rnt.rentcoldays = Convert.ToInt32(rentcoldays.Value);
+                rnt.isactive = true;
+                rnt.Price = Convert.ToDecimal(txtprice.Text);
+                rnt.Qty = Convert.ToInt32(txtqty.Text);
+                rnt.ShopID = UniqueShopID;
+                DataSet ds = new DataSet();
+                ds = cl.CreateRent(rnt);
+                if (ds.Tables.Count > 0)
+                {
+                    MessageBox.Show(this, "Record Saved Successfully.", "Sales Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dataGridViewRent.DataSource = ds.Tables[0];
+                    dataGridViewAmc.DataSource = ds.Tables[1];
+                }
+               
+            }
+            
         }
 
         private void numrentduration_ValueChanged(object sender, EventArgs e)
         {
-           // dtexp.Value = txtPurdate.Value.AddYears((int)NMWarDuration.Value);
+            dateTimePicker1.Value = datetimeStartdate.Value.AddMonths((int)numrentduration.Value);
         }
 
         private void txtdailyamt_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnaddnew_Click(object sender, EventArgs e)
+        {
+            ResetControl();
+            GetRefNo();
+        }
+
+        private void ResetControl()
+        {
+          
+           SelectedCustomerID = "0";          
+           SelectedProductID = "0";
+           txtcustomer.Text = string.Empty;
+           txtcontact.Text = string.Empty;
+           txtaddress.Text = string.Empty;
+           txtproduct.Text = string.Empty;
+           txtqty.Text = string.Empty;
+           txtprice.Text = string.Empty;
+           txtdailyamt.Text = string.Empty;
+           txtmonthlyamt.Text = string.Empty;
+           txtyearlyamt.Text = string.Empty;
+           txtpenaltycharge.Text = string.Empty;
+           txtbouncechrg.Text = string.Empty;
+           dataGridViewAmc.DataSource = null;
+           dataGridViewRent.DataSource = null;
+           GetRefNo();
         }
 
         //private void SetKeyPress(object sender, KeyPressEventArgs e)

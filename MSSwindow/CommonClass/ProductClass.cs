@@ -36,6 +36,24 @@ namespace MSSwindow.CommonClass
             return ds;
         }
 
+        public DataSet BindProductOnSale(int shopid)
+        {
+
+            cmd = dbconn.ConnectionWithCommand("BindProductMaster_Sale");
+            cmd.Parameters.AddWithValue("@Shopid", shopid);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ds;
+        }
+
 
         public DataSet ProductDetailsReport(int ShopID)
         {

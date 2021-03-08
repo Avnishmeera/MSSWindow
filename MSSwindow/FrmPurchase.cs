@@ -1473,7 +1473,7 @@ namespace MSSwindow
             Purchase p = new Purchase();
             int i = Convert.ToInt32(cmbProductname.SelectedIndex);
             int unitid = 0;
-            int price = 0;
+            double price = 0;
             double CGST = 0.00;
             double SGST = 0.00;
             double IGST = 0.00;
@@ -1668,22 +1668,7 @@ namespace MSSwindow
             //}
         }
 
-        private void btnAddAmcSchedule_Click(object sender, EventArgs e)
-        {
-            if (IsEditMode == true)
-            {
-                AmcScheduleFrm amc = new AmcScheduleFrm(txtPurdate.Value, dtUPAMCSchedule, dtAMCSchedule);
-                amc.ShowDialog();
-            }
-            else
-            {
-                DateTime saledate = txtPurdate.Value;
-                DateTime SaleExpDate = saledate.AddMonths(12);
-                int duration = 2;
-                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule);
-                amc.ShowDialog();
-            }
-        }
+       
 
         public void SetNewSchedule(DataTable dtnewamc)
         {

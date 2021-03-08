@@ -266,6 +266,33 @@ namespace MSSwindow.CommonClass
             return ds;
         }
 
+
+
+        public DataSet MoveItemFromMainStockToCustomer(int ProductID, decimal ProductPrice, int ProductUnit, int ShopID, string UserID, int ProductQty)
+        {
+            DatabaseConnection dbconn = new DatabaseConnection();
+            SqlCommand cmd;
+            cmd = dbconn.ConnectionWithCommand("Spo_MoveItemFromMainStockToCustomer");
+            cmd.Parameters.AddWithValue("@ProductPrice", ProductPrice);
+            cmd.Parameters.AddWithValue("@ProductID", ProductID);
+            cmd.Parameters.AddWithValue("@ProductQty", ProductQty);
+            cmd.Parameters.AddWithValue("@ProductUnit", ProductUnit);
+            cmd.Parameters.AddWithValue("@ShopID", ShopID);
+            cmd.Parameters.AddWithValue("@UserID", UserID);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return ds;
+        }
+
+
         public string GetItemHSNCode(int id, out int unitid, out int Price)
         {
             string address = string.Empty;
@@ -286,7 +313,7 @@ namespace MSSwindow.CommonClass
 
         }
 
-        public string GetItemHSNCode(int Shopid, int id, out int unitid, out int Price, out string ModelNo, out double CGST, out double SGST, out double IGST)
+        public string GetItemHSNCode(int Shopid, int id, out int unitid, out double Price, out string ModelNo, out double CGST, out double SGST, out double IGST)
         {
             string address = string.Empty;
             string hsncode = string.Empty;
@@ -303,7 +330,7 @@ namespace MSSwindow.CommonClass
             dv.RowFilter = "Productid='" + id + "'";
             hsncode =  dv.ToTable().Rows[0]["HSNCode"].ToString();
             unitid = Convert.ToInt32(dv.ToTable().Rows[0]["unitid"].ToString());
-            Price = Convert.ToInt32(dv.ToTable().Rows[0]["price"].ToString());
+            Price = Convert.ToDouble(dv.ToTable().Rows[0]["price"].ToString());
             ModelNo = dv.ToTable().Rows[0]["ModalNo"].ToString();
             CGST = Convert.ToDouble(dv.ToTable().Rows[0]["CGST"].ToString());
             SGST = Convert.ToDouble(dv.ToTable().Rows[0]["SGST"].ToString());

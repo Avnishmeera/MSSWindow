@@ -212,8 +212,6 @@
             this.Discount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NetAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TaxIncluded = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label59 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -846,8 +844,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label59);
+            this.groupBox2.Controls.Add(this.txtAmount);
             this.groupBox2.Controls.Add(this.groupBox5);
             this.groupBox2.Controls.Add(this.LstProduct);
             this.groupBox2.Controls.Add(this.TxtSearchBarCode);
@@ -861,9 +858,7 @@
             this.groupBox2.Controls.Add(this.label30);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.label38);
-            this.groupBox2.Controls.Add(this.txtAmount);
             this.groupBox2.Controls.Add(this.btnAddPurchaseItem);
-            this.groupBox2.Controls.Add(this.txtDiscount);
             this.groupBox2.Controls.Add(this.label37);
             this.groupBox2.Controls.Add(this.txtQty);
             this.groupBox2.Controls.Add(this.txtPrice);
@@ -884,6 +879,7 @@
             this.groupBox2.Controls.Add(this.TxtModel);
             this.groupBox2.Controls.Add(this.cmbBrandName);
             this.groupBox2.Controls.Add(this.TxtSrno);
+            this.groupBox2.Controls.Add(this.txtDiscount);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(3, 221);
             this.groupBox2.Name = "groupBox2";
@@ -903,7 +899,7 @@
             this.groupBox5.Controls.Add(this.label56);
             this.groupBox5.Controls.Add(this.label57);
             this.groupBox5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(880, 100);
+            this.groupBox5.Location = new System.Drawing.Point(1046, 15);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(302, 103);
             this.groupBox5.TabIndex = 83;
@@ -969,11 +965,14 @@
             // 
             // LstProduct
             // 
+            this.LstProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.LstProduct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LstProduct.Font = new System.Drawing.Font("Century Schoolbook", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LstProduct.FormattingEnabled = true;
-            this.LstProduct.ItemHeight = 16;
+            this.LstProduct.ItemHeight = 18;
             this.LstProduct.Location = new System.Drawing.Point(155, 66);
             this.LstProduct.Name = "LstProduct";
-            this.LstProduct.Size = new System.Drawing.Size(244, 84);
+            this.LstProduct.Size = new System.Drawing.Size(494, 164);
             this.LstProduct.TabIndex = 33;
             this.LstProduct.Visible = false;
             this.LstProduct.Click += new System.EventHandler(this.LstProduct_Click);
@@ -997,11 +996,11 @@
             this.TxtAvailQty.Enabled = false;
             this.TxtAvailQty.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtAvailQty.ForeColor = System.Drawing.Color.Red;
-            this.TxtAvailQty.Location = new System.Drawing.Point(906, 36);
+            this.TxtAvailQty.Location = new System.Drawing.Point(886, 128);
             this.TxtAvailQty.MaxLength = 10;
             this.TxtAvailQty.Multiline = true;
             this.TxtAvailQty.Name = "TxtAvailQty";
-            this.TxtAvailQty.Size = new System.Drawing.Size(89, 26);
+            this.TxtAvailQty.Size = new System.Drawing.Size(147, 26);
             this.TxtAvailQty.TabIndex = 84;
             // 
             // label46
@@ -1258,7 +1257,7 @@
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.Red;
-            this.label47.Location = new System.Drawing.Point(745, 38);
+            this.label47.Location = new System.Drawing.Point(882, 102);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(154, 23);
             this.label47.TabIndex = 77;
@@ -1268,7 +1267,7 @@
             // 
             this.btnAddAmcSchedule.BackColor = System.Drawing.Color.Azure;
             this.btnAddAmcSchedule.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAmcSchedule.Location = new System.Drawing.Point(689, 205);
+            this.btnAddAmcSchedule.Location = new System.Drawing.Point(1159, 202);
             this.btnAddAmcSchedule.Name = "btnAddAmcSchedule";
             this.btnAddAmcSchedule.Size = new System.Drawing.Size(185, 26);
             this.btnAddAmcSchedule.TabIndex = 45;
@@ -1281,9 +1280,9 @@
             // 
             this.BtnAddExtra.BackColor = System.Drawing.Color.Azure;
             this.BtnAddExtra.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddExtra.Location = new System.Drawing.Point(553, 206);
+            this.BtnAddExtra.Location = new System.Drawing.Point(1160, 170);
             this.BtnAddExtra.Name = "BtnAddExtra";
-            this.BtnAddExtra.Size = new System.Drawing.Size(136, 26);
+            this.BtnAddExtra.Size = new System.Drawing.Size(184, 26);
             this.BtnAddExtra.TabIndex = 46;
             this.BtnAddExtra.Text = "Add Extra Service";
             this.BtnAddExtra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1313,13 +1312,13 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Azure;
-            this.button2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1045, 66);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button2.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(886, 200);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 30);
+            this.button2.Size = new System.Drawing.Size(150, 30);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Remove";
+            this.button2.Text = "REMOVE";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -1327,7 +1326,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(535, 19);
+            this.label38.Location = new System.Drawing.Point(816, 19);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(73, 16);
             this.label38.TabIndex = 66;
@@ -1338,22 +1337,22 @@
             this.txtAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAmount.Enabled = false;
             this.txtAmount.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAmount.Location = new System.Drawing.Point(879, 69);
+            this.txtAmount.Location = new System.Drawing.Point(786, 72);
             this.txtAmount.MaxLength = 30;
             this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(103, 27);
+            this.txtAmount.Size = new System.Drawing.Size(123, 27);
             this.txtAmount.TabIndex = 12;
             this.txtAmount.TextChanged += new System.EventHandler(this.txtAmount_TextChanged);
             // 
             // btnAddPurchaseItem
             // 
-            this.btnAddPurchaseItem.BackColor = System.Drawing.Color.Azure;
-            this.btnAddPurchaseItem.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddPurchaseItem.Location = new System.Drawing.Point(989, 66);
+            this.btnAddPurchaseItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnAddPurchaseItem.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddPurchaseItem.Location = new System.Drawing.Point(886, 163);
             this.btnAddPurchaseItem.Name = "btnAddPurchaseItem";
-            this.btnAddPurchaseItem.Size = new System.Drawing.Size(51, 31);
+            this.btnAddPurchaseItem.Size = new System.Drawing.Size(150, 31);
             this.btnAddPurchaseItem.TabIndex = 6;
-            this.btnAddPurchaseItem.Text = "Add";
+            this.btnAddPurchaseItem.Text = "ADD";
             this.btnAddPurchaseItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAddPurchaseItem.UseVisualStyleBackColor = false;
             this.btnAddPurchaseItem.Click += new System.EventHandler(this.btnAddPurchaseItem_Click);
@@ -1362,7 +1361,7 @@
             // 
             this.txtDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDiscount.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiscount.Location = new System.Drawing.Point(745, 73);
+            this.txtDiscount.Location = new System.Drawing.Point(644, 72);
             this.txtDiscount.MaxLength = 10;
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(56, 27);
@@ -1372,7 +1371,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(638, 17);
+            this.label37.Location = new System.Drawing.Point(934, 19);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(66, 16);
             this.label37.TabIndex = 64;
@@ -1396,7 +1395,7 @@
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrice.Enabled = false;
             this.txtPrice.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(472, 71);
+            this.txtPrice.Location = new System.Drawing.Point(472, 72);
             this.txtPrice.MaxLength = 20;
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(82, 27);
@@ -1409,7 +1408,7 @@
             this.TxtProduct.Location = new System.Drawing.Point(155, 38);
             this.TxtProduct.Multiline = true;
             this.TxtProduct.Name = "TxtProduct";
-            this.TxtProduct.Size = new System.Drawing.Size(244, 27);
+            this.TxtProduct.Size = new System.Drawing.Size(494, 27);
             this.TxtProduct.TabIndex = 32;
             this.TxtProduct.TextChanged += new System.EventHandler(this.TxtProduct_TextChanged);
             // 
@@ -1430,7 +1429,7 @@
             this.TxtHSNCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtHSNCode.Enabled = false;
             this.TxtHSNCode.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHSNCode.Location = new System.Drawing.Point(536, 38);
+            this.TxtHSNCode.Location = new System.Drawing.Point(817, 38);
             this.TxtHSNCode.MaxLength = 10;
             this.TxtHSNCode.Name = "TxtHSNCode";
             this.TxtHSNCode.Size = new System.Drawing.Size(85, 27);
@@ -1439,7 +1438,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(679, 78);
+            this.label15.Location = new System.Drawing.Point(581, 76);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(60, 16);
             this.label15.TabIndex = 32;
@@ -1461,7 +1460,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(807, 77);
+            this.label14.Location = new System.Drawing.Point(715, 78);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(65, 16);
             this.label14.TabIndex = 28;
@@ -1470,7 +1469,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(404, 19);
+            this.label6.Location = new System.Drawing.Point(674, 21);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 16);
             this.label6.TabIndex = 41;
@@ -1479,7 +1478,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(426, 76);
+            this.label10.Location = new System.Drawing.Point(426, 78);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 16);
             this.label10.TabIndex = 26;
@@ -1551,7 +1550,7 @@
             this.TxtModel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtModel.Enabled = false;
             this.TxtModel.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtModel.Location = new System.Drawing.Point(401, 38);
+            this.TxtModel.Location = new System.Drawing.Point(671, 40);
             this.TxtModel.MaxLength = 10;
             this.TxtModel.Name = "TxtModel";
             this.TxtModel.Size = new System.Drawing.Size(129, 27);
@@ -1571,7 +1570,7 @@
             // 
             // TxtSrno
             // 
-            this.TxtSrno.Location = new System.Drawing.Point(627, 37);
+            this.TxtSrno.Location = new System.Drawing.Point(923, 39);
             this.TxtSrno.MaxLength = 100;
             this.TxtSrno.Multiline = true;
             this.TxtSrno.Name = "TxtSrno";
@@ -2294,27 +2293,6 @@
             this.TaxIncluded.ReadOnly = true;
             this.TaxIncluded.Width = 130;
             // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(560, 77);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(72, 16);
-            this.label59.TabIndex = 85;
-            this.label59.Text = "Disc Type";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "%",
-            "Rs."});
-            this.comboBox1.Location = new System.Drawing.Point(627, 73);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(51, 24);
-            this.comboBox1.TabIndex = 83;
-            // 
             // RetailSaleDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2541,7 +2519,5 @@
         private System.Windows.Forms.Label LblEMIAmt;
         private System.Windows.Forms.Label LBlEmiDate;
         private System.Windows.Forms.Label LblEmiStatus;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label59;
     }
 }

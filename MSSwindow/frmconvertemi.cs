@@ -23,17 +23,24 @@ namespace MSSwindow
         {
             InitializeComponent();
         }
+
+        int emi_id;
         public frmconvertemi(int OrderID, string InvoiceNo, int Shopid, double AmtToReceive,RetailSaleDetails rsd)
         {
             InitializeComponent();
             OrdID = OrderID;
+
+
             txtinvoiceno.Text = InvoiceNo;
             txttotalAmt.Text =AmtToReceive.ToString();            
             uniqueShopid = Shopid;
             sld = rsd;
+
+           
+            
         }
 
-
+        
        
         private void txtdownPayment_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -54,8 +61,8 @@ namespace MSSwindow
             CustomerClass cls = new CustomerClass();
             EMI emobject = new EMI();
             DataSet ds = new DataSet();
-            emobject.shopid = uniqueShopid;
-            emobject.emiid = 0;
+            emobject.shopid = uniqueShopid;          
+            emobject.emiid = 0; 
             emobject.invoiceid = Convert.ToInt32(OrdID);
             emobject.TotalAmount = Convert.ToInt32(txttotalAmt.Text);
             emobject.DownPayment = 0;
@@ -73,7 +80,6 @@ namespace MSSwindow
                BindEmiDetails(Convert.ToInt32(OrdID));
             }           
         }
-
 
         private void BindEmiDetails(int Invocieid)
         {
