@@ -2116,3 +2116,13 @@ D:\Avnish Personal\WindowApps\MSS Source Code\MSSWindow\MSSwindow\obj\Debug\Inte
 D:\Avnish Personal\WindowApps\MSS Source Code\MSSWindow\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
 D:\Avnish Personal\WindowApps\MSS Source Code\MSSWindow\MSSwindow\obj\Debug\MSSwindow.exe
 D:\Avnish Personal\WindowApps\MSS Source Code\MSSWindow\MSSwindow\obj\Debug\MSSwindow.pdb
+F:\MSS Source Code\MSSwindow\bin\Debug\MSSwindow.exe.config
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalReportsControllersLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalReportsDataDefModelLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\Interop.CrystalReportsReportDefModelLib.dll
+F:\MSS Source Code\MSSwindow\obj\Debug\MSSwindow.csproj.ResolveComReference.cache
+F:\MSS Source Code\MSSwindow\obj\Debug\MSSwindow.exe
+F:\MSS Source Code\MSSwindow\obj\Debug\MSSwindow.pdb
