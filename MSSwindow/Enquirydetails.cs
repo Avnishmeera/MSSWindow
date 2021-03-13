@@ -92,7 +92,7 @@ namespace MSSwindow
             BindStatus();
         }
         //hello
-
+// hello 1
         private void BindStatus()
         {
             CustomerClass cls = new CustomerClass();
