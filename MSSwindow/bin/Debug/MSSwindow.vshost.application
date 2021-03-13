@@ -8,20 +8,20 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="http://desktop-3ppgpi0/MSSwindow/MSSwindow.application" />
+    <deploymentProvider codebase="http://servicelap14/MSSwindow/MSSwindow.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="MSSwindow.exe.manifest" size="16173">
+    <dependentAssembly dependencyType="install" codebase="MSSwindow.exe.manifest" size="22453">
       <assemblyIdentity name="MSSwindow.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7m5UjVDA5a9ubmEc717lil3wR9i0vduGj6fHqutcQwo=</dsig:DigestValue>
+        <dsig:DigestValue>ywexC6V7Rmq8IZ1uF1dvweMyoLu7zl8tAjymIp/Rw6k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -960,13 +960,15 @@ namespace MSSwindow
                       NetTax = Convert.ToDecimal(a["NetTax"].ToString())
                   }).ToList();
             var disct = lp.Sum(x => x.disc);
+            var TotalCost = lp.Sum(x => x.qty * x.BasePrice);
             var amountt = lp.Sum(x => x.BasePrice);
             var cgstval = lp.Sum(x => x.CGSTVal);
             var sgstval = lp.Sum(x => x.SGSTVal);
             var IGSTval = lp.Sum(x => x.IGSTVal);
             var NetTax = lp.Sum(x => x.NetTax);
             var NetAmt = lp.Sum(x => x.amount);
-            TxtTotalAmount.Text = (amountt + disct).ToString();
+            TxtTotalAmount.Text = (TotalCost).ToString();
+            textsumdisc.Text = disct.ToString();
             txtsumnet.Text = NetAmt.ToString();
             textsumdisc.Text = disct.ToString();
             TxtCGSTVal.Text = cgstval.ToString();
@@ -1061,7 +1063,7 @@ namespace MSSwindow
 
                 if (Convert.ToDecimal(ItemNetTax.Text) != decimal.Zero)
                     txtPrice.Text = BasePrice.ToString();
-                TxtTotalAmt.Text = Math.Round((Convert.ToDouble(ItemNetTax.Text) + Convert.ToDouble(txtAmount.Text)), 0).ToString();
+                TxtTotalAmt.Text = Math.Round((Convert.ToDouble(ItemNetTax.Text) + Convert.ToDouble(txtAmount.Text)), 2).ToString();
             }
 
         }
@@ -1793,7 +1795,7 @@ namespace MSSwindow
 
         private void txtbaseprice_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsNumber(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsNumber(e.KeyChar) &&  e.KeyChar != '.')
             {
                 e.Handled = true;
             }
