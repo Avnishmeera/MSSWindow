@@ -44,10 +44,13 @@
             this.cmbmsgcategory = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.IsActive = new System.Windows.Forms.CheckBox();
             this.NotID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DetailID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NotificationDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MessageText = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -132,7 +135,8 @@
             this.NotID,
             this.DetailID,
             this.NotificationDesc,
-            this.MessageText});
+            this.MessageText,
+            this.Status});
             this.dgvNotiMaster.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvNotiMaster.Location = new System.Drawing.Point(4, 4);
             this.dgvNotiMaster.Name = "dgvNotiMaster";
@@ -147,6 +151,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panel2.Controls.Add(this.IsActive);
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.txtMsgSub);
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Controls.Add(this.btnSave);
@@ -174,7 +180,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(257, 347);
+            this.btnClose.Location = new System.Drawing.Point(374, 355);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(101, 33);
             this.btnClose.TabIndex = 7;
@@ -185,7 +191,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(133, 347);
+            this.btnSave.Location = new System.Drawing.Point(250, 355);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(101, 33);
             this.btnSave.TabIndex = 6;
@@ -254,6 +260,27 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Message Category";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(19, 363);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Status";
+            // 
+            // IsActive
+            // 
+            this.IsActive.AutoSize = true;
+            this.IsActive.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IsActive.Location = new System.Drawing.Point(71, 359);
+            this.IsActive.Name = "IsActive";
+            this.IsActive.Size = new System.Drawing.Size(75, 24);
+            this.IsActive.TabIndex = 37;
+            this.IsActive.Text = "Active";
+            this.IsActive.UseVisualStyleBackColor = true;
+            // 
             // NotID
             // 
             this.NotID.DataPropertyName = "NotID";
@@ -285,6 +312,14 @@
             this.MessageText.Name = "MessageText";
             this.MessageText.ReadOnly = true;
             this.MessageText.Visible = false;
+            // 
+            // Status
+            // 
+            this.Status.DataPropertyName = "Status";
+            this.Status.HeaderText = "Status";
+            this.Status.Name = "Status";
+            this.Status.ReadOnly = true;
+            this.Status.Visible = false;
             // 
             // frmMessageconfiguration
             // 
@@ -326,9 +361,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMsgSub;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox IsActive;
         private System.Windows.Forms.DataGridViewTextBoxColumn NotID;
         private System.Windows.Forms.DataGridViewTextBoxColumn DetailID;
         private System.Windows.Forms.DataGridViewTextBoxColumn NotificationDesc;
         private System.Windows.Forms.DataGridViewTextBoxColumn MessageText;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
     }
 }

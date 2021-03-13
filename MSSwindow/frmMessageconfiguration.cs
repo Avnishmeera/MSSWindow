@@ -114,13 +114,22 @@ namespace MSSwindow
                 lblNotid = Convert.ToInt32(row.Cells["NotID"].Value.ToString());
                 txtMsgSub.Text = row.Cells["NotificationDesc"].Value.ToString();
                 txtMessageText.Text = Convert.ToString(row.Cells["MessageText"].Value.ToString());
+                IsActive.Checked = Convert.ToBoolean(row.Cells["Status"].Value.ToString());
             }          
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             ShopMaster sm = new ShopMaster();
-            sm.InsertUpdateSHOPWISEMessageDetail(UniqueShopid,lblNotid,lbldetailsid,txtMessageText.Text);
+            if (IsActive.Checked==true)
+            {
+                IsActive.Checked = true;
+            }
+            else
+            {
+                IsActive.Checked = false;
+            }
+            sm.InsertUpdateSHOPWISEMessageDetail(UniqueShopid,lblNotid,lbldetailsid,txtMessageText.Text,IsActive.Checked);
             if (lbldetailsid == 0)
             {
                 MessageBox.Show(this, "Record Saved Successfully.", "Message Details", MessageBoxButtons.OK, MessageBoxIcon.Information);               

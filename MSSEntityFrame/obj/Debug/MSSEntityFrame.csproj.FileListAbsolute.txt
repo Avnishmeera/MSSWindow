@@ -195,3 +195,13 @@ D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFr
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\EntityFramework.dll
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\EntityFramework.xml
+F:\MSS Source Code\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
+F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
+F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
+F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb

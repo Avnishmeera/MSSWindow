@@ -176,3 +176,12 @@ D:\Avnish Personal\WindowApps\vikash\MSSwindow\CommService\obj\Debug\CommService
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\CommService\obj\Debug\CommService.csproj.GenerateResource.Cache
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\CommService\obj\Debug\CommService.exe
 D:\Avnish Personal\WindowApps\vikash\MSSwindow\CommService\obj\Debug\CommService.pdb
+F:\MSS Source Code\CommService\bin\Debug\CommService.exe.config
+F:\MSS Source Code\CommService\bin\Debug\CommService.exe
+F:\MSS Source Code\CommService\bin\Debug\CommService.pdb
+F:\MSS Source Code\CommService\obj\Debug\CommService.csprojResolveAssemblyReference.cache
+F:\MSS Source Code\CommService\obj\Debug\CommService.ProjectInstaller.resources
+F:\MSS Source Code\CommService\obj\Debug\CommService.Service1.resources
+F:\MSS Source Code\CommService\obj\Debug\CommService.csproj.GenerateResource.Cache
+F:\MSS Source Code\CommService\obj\Debug\CommService.exe
+F:\MSS Source Code\CommService\obj\Debug\CommService.pdb

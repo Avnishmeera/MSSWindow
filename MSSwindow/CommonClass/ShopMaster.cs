@@ -126,7 +126,7 @@ namespace MSSwindow.CommonClass
 
 
 
-        public void InsertUpdateSHOPWISEMessageDetail(int Shopid, int Notid,int Detailsid ,string Messagetext)
+        public void InsertUpdateSHOPWISEMessageDetail(int Shopid, int Notid,int Detailsid ,string Messagetext,bool Status)
         {
             DatabaseConnection dbconn = new DatabaseConnection();
             cmd = dbconn.ConnectionWithCommand("sp_InsertUpdateSHOPWISEMessageDetail");
@@ -134,6 +134,7 @@ namespace MSSwindow.CommonClass
             cmd.Parameters.AddWithValue("@Notid", Notid);
             cmd.Parameters.AddWithValue("@Detailsid", Detailsid);
             cmd.Parameters.AddWithValue("@Messagetext",Messagetext);
+            cmd.Parameters.AddWithValue("@IsActive", Status);
             int Results = dbconn.Executenonquery(cmd);
             if (Results == 1)
             {

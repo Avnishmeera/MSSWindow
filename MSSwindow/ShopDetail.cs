@@ -39,6 +39,14 @@ namespace MSSwindow
             Helper.ShopEMail = TxtOfficeEmail.Text;
             Helper.ReportName = TxtReportName.Text;
             Helper.ApiUrl = txtapi.Text;
+            if (IsActive.Checked==true)
+            {
+                Helper.HappyCodeEnabled = true;
+            }
+            else
+            {
+                Helper.HappyCodeEnabled = false;
+            }
            
         }
 
@@ -109,6 +117,7 @@ namespace MSSwindow
             TxtOfficeEmail.Text = Helper.ShopEMail;
             TxtReportName.Text = Helper.ReportName;
             txtapi.Text = Helper.ApiUrl;
+            IsActive.Checked = Helper.HappyCodeEnabled;
         }
 
         private void btnClose_Click(object sender, EventArgs e)

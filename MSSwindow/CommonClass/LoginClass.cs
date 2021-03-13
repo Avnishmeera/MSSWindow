@@ -167,6 +167,7 @@ namespace MSSwindow.CommonClass
             cmd.Parameters.AddWithValue("ShopEMail", Helper.ShopEMail);
             cmd.Parameters.AddWithValue("ReportName", Helper.ReportName);
             cmd.Parameters.AddWithValue("ApiUrl", Helper.ApiUrl);
+            cmd.Parameters.AddWithValue("IsHappyCodeEnable", Helper.HappyCodeEnabled);
             int i = dbconn.Executenonquery(cmd);
             return i;
         }

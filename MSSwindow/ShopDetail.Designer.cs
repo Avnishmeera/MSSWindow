@@ -63,6 +63,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.IsActive = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -81,10 +83,10 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.49484F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.50516F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(929, 418);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.68715F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 86.31285F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(929, 440);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // panel1
@@ -93,7 +95,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(923, 53);
+            this.panel1.Size = new System.Drawing.Size(923, 47);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -111,6 +113,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel2.Controls.Add(this.IsActive);
+            this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.txtapi);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.TxtReportName);
@@ -141,9 +145,9 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(3, 62);
+            this.panel2.Location = new System.Drawing.Point(3, 56);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(923, 293);
+            this.panel2.Size = new System.Drawing.Size(923, 328);
             this.panel2.TabIndex = 1;
             // 
             // txtapi
@@ -154,7 +158,7 @@
             this.txtapi.MaxLength = 1000;
             this.txtapi.Multiline = true;
             this.txtapi.Name = "txtapi";
-            this.txtapi.Size = new System.Drawing.Size(424, 52);
+            this.txtapi.Size = new System.Drawing.Size(424, 74);
             this.txtapi.TabIndex = 34;
             // 
             // label15
@@ -422,9 +426,9 @@
             this.panel3.Controls.Add(this.btnClose);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(3, 361);
+            this.panel3.Location = new System.Drawing.Point(3, 390);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(923, 54);
+            this.panel3.Size = new System.Drawing.Size(923, 47);
             this.panel3.TabIndex = 2;
             // 
             // btnSend
@@ -449,11 +453,30 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(14, 284);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(87, 16);
+            this.label16.TabIndex = 35;
+            this.label16.Text = "Happy Code";
+            // 
+            // IsActive
+            // 
+            this.IsActive.AutoSize = true;
+            this.IsActive.Location = new System.Drawing.Point(121, 282);
+            this.IsActive.Name = "IsActive";
+            this.IsActive.Size = new System.Drawing.Size(69, 20);
+            this.IsActive.TabIndex = 36;
+            this.IsActive.Text = "Active";
+            this.IsActive.UseVisualStyleBackColor = true;
+            // 
             // ShopDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(929, 418);
+            this.ClientSize = new System.Drawing.Size(929, 440);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ShopDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -506,5 +529,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtapi;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.CheckBox IsActive;
+        private System.Windows.Forms.Label label16;
     }
 }
