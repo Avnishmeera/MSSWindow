@@ -91,6 +91,7 @@ namespace MSSwindow
             BindTypesCMB();
             BindStatus();
         }
+        //hello
 
         private void BindStatus()
         {
