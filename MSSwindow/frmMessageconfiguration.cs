@@ -35,6 +35,7 @@ namespace MSSwindow
 
         private void BindNotification()
         {
+            ShopMaster sp1 = new ShopMaster();
             ShopMaster sm = new ShopMaster();
             DataTable dt = new DataTable();
             dt = sm.SetMessagePatamNotification().Tables[0];
