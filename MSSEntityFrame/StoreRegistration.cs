@@ -67,6 +67,7 @@ namespace MSSEntityFrame
         public string imgfav { get; set; }
         public int InConvertEMIEnable { get; set; }
         public string AndroidAppUrl { get; set; }
+        public Nullable<int> IsSeprateSaleService { get; set; }
     
         public virtual ICollection<MemberRegistraction> MemberRegistraction { get; set; }
         public virtual ICollection<UserMaster> UserMaster { get; set; }

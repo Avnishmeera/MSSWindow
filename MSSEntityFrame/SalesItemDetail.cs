@@ -37,5 +37,6 @@ namespace MSSEntityFrame
         public Nullable<decimal> IGSTAmt { get; set; }
         public Nullable<decimal> NetTax { get; set; }
         public Nullable<decimal> NetAmt { get; set; }
+        public string DiscType { get; set; }
     }
 }

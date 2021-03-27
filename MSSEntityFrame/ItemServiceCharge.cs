@@ -24,5 +24,7 @@ namespace MSSEntityFrame
         public System.DateTime Updatedate { get; set; }
         public Nullable<int> Qty { get; set; }
         public Nullable<int> TotalCharge { get; set; }
+        public string ItemReferenceNo { get; set; }
+        public Nullable<decimal> StockCharge { get; set; }
     }
 }

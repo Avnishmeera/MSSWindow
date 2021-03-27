@@ -40,6 +40,7 @@ namespace MSSEntityFrame
         public Nullable<decimal> CGST { get; set; }
         public Nullable<decimal> SGST { get; set; }
         public Nullable<decimal> IGST { get; set; }
+        public Nullable<int> ProductType { get; set; }
     
         public virtual BrandMaster BrandMaster { get; set; }
         public virtual CategoryMaster CategoryMaster { get; set; }

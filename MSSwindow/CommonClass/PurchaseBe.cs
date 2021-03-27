@@ -60,6 +60,7 @@ namespace MSSwindow.CommonClass
         public bool? PayStatus { get; set; }
         public bool IsDelivered { get; set; }
         public DateTime? ExpDelDate { get; set; }
+        public string DiscType { get; set; }
 
 
     }

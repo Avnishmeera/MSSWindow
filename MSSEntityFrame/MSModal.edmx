@@ -211,6 +211,8 @@ warning 6002: The table/view 'MSSDBPROD.ashish123.EnquiryDetails' does not have 
           <Property Name="Updatedate" Type="datetime" Nullable="false" />
           <Property Name="Qty" Type="int" />
           <Property Name="TotalCharge" Type="int" />
+          <Property Name="ItemReferenceNo" Type="varchar" MaxLength="300" />
+          <Property Name="StockCharge" Type="numeric" Precision="18" Scale="2" />
         </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'MSSDBPROD.ashish123.ModuleMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
@@ -265,7 +267,7 @@ warning 6002: The table/view 'MSSDBPROD.ashish123.ProductExpStatus' does not hav
           <Property Name="OrderID" Type="int" />
           <Property Name="CompID" Type="int" />
           <Property Name="ModeID" Type="int" />
-          <Property Name="Amount" Type="int" />
+          <Property Name="Amount" Type="numeric" Precision="18" Scale="2" />
           <Property Name="PayDate" Type="datetime" />
           <Property Name="IsActive" Type="bit" />
           <Property Name="Remark" Type="nvarchar" MaxLength="200" />
@@ -675,7 +677,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.ComplaintAttachment' does not have a
           <Property Name="Country" Type="nvarchar" MaxLength="100" />
           <Property Name="Pincode" Type="nvarchar" MaxLength="100" />
           <Property Name="Emailid" Type="nvarchar" MaxLength="100" />
-          <Property Name="Contact" Type="varchar" MaxLength="15" />
+          <Property Name="Contact" Type="nvarchar" MaxLength="200" />
           <Property Name="AltContact" Type="varchar" MaxLength="15" />
           <Property Name="Address" Type="nvarchar" MaxLength="200" />
           <Property Name="Descriptions" Type="nvarchar" MaxLength="200" />
@@ -980,6 +982,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.LedgerTransaction' does not have a p
           <Property Name="Role" Type="nvarchar" MaxLength="10" />
           <Property Name="Password" Type="nvarchar" MaxLength="20" />
           <Property Name="UserID" Type="nvarchar" MaxLength="50" />
+          <Property Name="StockEmpid" Type="int" />
         </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'MSSDBPROD.dbo.OfferInvitation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
@@ -1077,7 +1080,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.OrderFeedback' does not have a prima
           <Property Name="Updateby" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="Createdate" Type="datetime" Nullable="false" />
           <Property Name="Updatedate" Type="datetime" Nullable="false" />
-          <Property Name="Price" Type="int" />
+          <Property Name="Price" Type="numeric" Precision="18" Scale="2" />
           <Property Name="Barcode" Type="nvarchar" MaxLength="100" />
           <Property Name="ProductCode" Type="nvarchar" MaxLength="100" />
           <Property Name="ShopID" Type="int" />
@@ -1086,6 +1089,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.OrderFeedback' does not have a prima
           <Property Name="CGST" Type="numeric" Precision="18" Scale="2" />
           <Property Name="SGST" Type="numeric" Precision="18" Scale="2" />
           <Property Name="IGST" Type="numeric" Precision="18" Scale="2" />
+          <Property Name="ProductType" Type="int" />
         </EntityType>
         <EntityType Name="Proofdetails">
           <Key>
@@ -1132,7 +1136,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.OrderFeedback' does not have a prima
           <Property Name="HSNCode" Type="nvarchar" MaxLength="50" />
           <Property Name="Barcode" Type="nvarchar" MaxLength="50" />
           <Property Name="Shopid" Type="int" />
-          <Property Name="BasePrice" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="BasePrice" Type="numeric" Precision="18" Scale="2" />
           <Property Name="IncludingTax" Type="bit" />
           <Property Name="ModelNO" Type="varchar" MaxLength="75" />
           <Property Name="ItemSrNo" Type="varchar" MaxLength="100" />
@@ -1245,7 +1249,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.reviewPics' does not have a primary 
           <Property Name="UnitID" Type="int" />
           <Property Name="Qty" Type="int" />
           <Property Name="Rate" Type="numeric" Precision="18" Scale="2" />
-          <Property Name="Discount" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="Discount" Type="numeric" Precision="18" Scale="2" />
           <Property Name="NetPrice" Type="numeric" Precision="18" Scale="2" />
           <Property Name="HSNCode" Type="nvarchar" MaxLength="50" />
           <Property Name="Barcode" Type="nvarchar" MaxLength="50" />
@@ -1262,6 +1266,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.reviewPics' does not have a primary 
           <Property Name="IGSTAmt" Type="numeric" Precision="18" Scale="2" />
           <Property Name="NetTax" Type="numeric" Precision="18" Scale="2" />
           <Property Name="NetAmt" Type="numeric" Precision="18" Scale="2" />
+          <Property Name="DiscType" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="SalesItemTaxDetail">
           <Key>
@@ -1274,6 +1279,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.reviewPics' does not have a primary 
           <Property Name="TaxOption" Type="nvarchar" MaxLength="10" />
           <Property Name="TaxAmount" Type="decimal" Precision="10" Scale="2" />
           <Property Name="Shopid" Type="int" />
+          <Property Name="DiscType" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="Salon_Emp_Salary">
           <Key>
@@ -1453,6 +1459,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.SMSNotification' does not have a pri
           <Property Name="imgfav" Type="nvarchar" MaxLength="200" />
           <Property Name="InConvertEMIEnable" Type="int" Nullable="false" />
           <Property Name="AndroidAppUrl" Type="varchar" MaxLength="500" />
+          <Property Name="IsSeprateSaleService" Type="int" />
         </EntityType>
         <EntityType Name="sub_services">
           <Key>
@@ -2018,6 +2025,8 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
         </Function>
         <Function Name="sp_BindChargeDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="Itemid" Type="int" Mode="In" />
+          <Parameter Name="Shopid" Type="int" Mode="In" />
+          <Parameter Name="Compid" Type="int" Mode="In" />
         </Function>
         <Function Name="sp_BindItemMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="Shopid" Type="int" Mode="In" />
@@ -2064,12 +2073,14 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Parameter Name="ServiceCharge" Type="nvarchar" Mode="In" />
           <Parameter Name="Qty" Type="int" Mode="In" />
           <Parameter Name="TotalCharge" Type="int" Mode="In" />
+          <Parameter Name="StockCharge" Type="numeric" Mode="In" />
         </Function>
         <Function Name="Spo_BillSummary" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="Compid" Type="int" Mode="In" />
         </Function>
         <Function Name="spo_BindItemMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="Shopid" Type="int" Mode="In" />
+          <Parameter Name="compid" Type="int" Mode="In" />
         </Function>
         <Function Name="Spo_ChangeShopProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="ShopID" Type="int" Mode="In" />
@@ -2087,6 +2098,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Parameter Name="ShopEMail" Type="nvarchar" Mode="In" />
           <Parameter Name="ReportName" Type="nvarchar" Mode="In" />
           <Parameter Name="ApiUrl" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="IsHappyCodeEnable" Type="int" Mode="In" />
         </Function>
         <Function Name="Spo_DeleteCharge" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
           <Parameter Name="Itemsrid" Type="int" Mode="In" />
@@ -2107,6 +2119,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Parameter Name="FromDate" Type="datetime" Mode="In" />
           <Parameter Name="ToDate" Type="datetime" Mode="In" />
           <Parameter Name="Status" Type="nvarchar" Mode="In" />
+          <Parameter Name="ComplaintStatusIds" Type="varchar" Mode="In" />
         </Function>
         <Function Name="spo_getallcomplaintResolutionStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123" />
         <Function Name="spo_getallcomplaintStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ashish123">
@@ -2382,6 +2395,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
         <Function Name="DeleteBindCustomersDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Action" Type="nvarchar" Mode="In" />
           <Parameter Name="CustomerId" Type="int" Mode="In" />
+          <Parameter Name="Shopid" Type="int" Mode="In" />
         </Function>
         <Function Name="DeleteBindItemDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Action" Type="nvarchar" Mode="In" />
@@ -3976,6 +3990,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <FunctionImport Name="DeleteBindCustomersDetails">
             <Parameter Name="Action" Mode="In" Type="String" />
             <Parameter Name="CustomerId" Mode="In" Type="Int32" />
+            <Parameter Name="Shopid" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="DeleteBindProductDetails" ReturnType="Collection(MSModel.DeleteBindProductDetails_Result)">
             <Parameter Name="Action" Mode="In" Type="String" />
@@ -4370,7 +4385,9 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
             <Parameter Name="Allergies" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_BindChargeDetails" ReturnType="Collection(MSModel.sp_BindChargeDetails_Result)">
-          <Parameter Name="Itemid" Mode="In" Type="Int32" />
+            <Parameter Name="Itemid" Mode="In" Type="Int32" />
+            <Parameter Name="Shopid" Mode="In" Type="Int32" />
+            <Parameter Name="Compid" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_BindItemMaster" ReturnType="Collection(MSModel.sp_BindItemMaster_Result)">
           <Parameter Name="Shopid" Mode="In" Type="Int32" />
@@ -4417,12 +4434,14 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
             <Parameter Name="ServiceCharge" Mode="In" Type="String" />
             <Parameter Name="Qty" Mode="In" Type="Int32" />
             <Parameter Name="TotalCharge" Mode="In" Type="Int32" />
+            <Parameter Name="StockCharge" Mode="In" Type="Decimal" />
           </FunctionImport>
           <FunctionImport Name="Spo_BillSummary" ReturnType="Collection(String)">
           <Parameter Name="Compid" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="spo_BindItemMaster" ReturnType="Collection(MSModel.spo_BindItemMaster_Result)">
-          <Parameter Name="Shopid" Mode="In" Type="Int32" />
+            <Parameter Name="Shopid" Mode="In" Type="Int32" />
+            <Parameter Name="compid" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="Spo_ChangeShopProfile">
             <Parameter Name="ShopID" Mode="In" Type="Int32" />
@@ -4440,6 +4459,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
             <Parameter Name="ShopEMail" Mode="In" Type="String" />
             <Parameter Name="ReportName" Mode="In" Type="String" />
             <Parameter Name="ApiUrl" Mode="In" Type="String" />
+            <Parameter Name="IsHappyCodeEnable" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="Spo_DeleteCharge">
           <Parameter Name="Itemsrid" Mode="In" Type="Int32" />
@@ -4460,6 +4480,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
             <Parameter Name="FromDate" Mode="In" Type="DateTime" />
             <Parameter Name="ToDate" Mode="In" Type="DateTime" />
             <Parameter Name="Status" Mode="In" Type="String" />
+            <Parameter Name="ComplaintStatusIds" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="spo_getallcomplaintResolutionStatus" ReturnType="Collection(MSModel.spo_getallcomplaintResolutionStatus_Result)" />
           <FunctionImport Name="spo_getallcomplaintStatus" ReturnType="Collection(MSModel.spo_getallcomplaintStatus_Result)">
@@ -6143,7 +6164,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="UnitID" Type="Int32" />
           <Property Name="Qty" Type="Int32" />
           <Property Name="Rate" Type="Decimal" Precision="18" Scale="2" />
-          <Property Name="Discount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Discount" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="NetPrice" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="HSNCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Barcode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -6160,6 +6181,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="IGSTAmt" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="NetTax" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="NetAmt" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="DiscType" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
         </EntityType>
         <ComplexType Name="BindDDLCustomerMaster_Result">
           <Property Type="Int32" Name="Customerid" Nullable="false" />
@@ -6349,6 +6371,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="imgfav" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="InConvertEMIEnable" Type="Int32" Nullable="false" />
           <Property Name="AndroidAppUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="IsSeprateSaleService" Type="Int32" />
         </EntityType>
         <EntityType Name="EmployeesMaster">
           <Key>
@@ -6510,7 +6533,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="Country" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Pincode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Emailid" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Contact" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="AltContact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
           <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="Descriptions" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
@@ -6570,6 +6593,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="SGST" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="IGST" Type="Decimal" Precision="18" Scale="2" />
           <NavigationProperty Name="PurchaseItemDetail" Relationship="MSModel.FK__PurchaseI__Produ__190BB0C3" FromRole="ProductsMaster" ToRole="PurchaseItemDetail" />
+          <Property Name="ProductType" Type="Int32" />
           </EntityType>
         <EntityType Name="TaxesMaster">
           <Key>
@@ -6778,6 +6802,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="TaxOption" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
           <Property Name="TaxAmount" Type="Decimal" Precision="10" Scale="2" />
           <Property Name="Shopid" Type="Int32" />
+          <Property Name="DiscType" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="purchaseheader">
           <Key>
@@ -6815,7 +6840,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="HSNCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Barcode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Shopid" Type="Int32" />
-          <Property Name="BasePrice" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="BasePrice" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="IncludingTax" Type="Boolean" />
           <Property Name="ModelNO" Type="String" MaxLength="75" FixedLength="false" Unicode="false" />
           <Property Name="ItemSrNo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
@@ -6893,6 +6918,8 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="Updatedate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Qty" Type="Int32" />
           <Property Name="TotalCharge" Type="Int32" />
+          <Property Name="ItemReferenceNo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="StockCharge" Type="Decimal" Precision="18" Scale="2" />
         </EntityType>
         <EntityType Name="PurchaseSrNoDetails">
           <Key>
@@ -7292,6 +7319,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="StoreRegistration" Relationship="MSModel.FK__MemberReg__Shopi__52793849" FromRole="MemberRegistraction" ToRole="StoreRegistration" />
           <Property Name="UserID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StockEmpid" Type="Int32" />
         </EntityType>
         <EntityType Name="OfferTermsMaster">
           <Key>
@@ -10080,6 +10108,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="SalesItemDetail">
             <EntityTypeMapping TypeName="MSModel.SalesItemDetail">
               <MappingFragment StoreEntitySet="SalesItemDetail">
+                <ScalarProperty Name="DiscType" ColumnName="DiscType" />
                 <ScalarProperty Name="NetAmt" ColumnName="NetAmt" />
                 <ScalarProperty Name="NetTax" ColumnName="NetTax" />
                 <ScalarProperty Name="IGSTAmt" ColumnName="IGSTAmt" />
@@ -10271,6 +10300,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="StoreRegistration">
             <EntityTypeMapping TypeName="MSModel.StoreRegistration">
               <MappingFragment StoreEntitySet="StoreRegistration">
+                <ScalarProperty Name="IsSeprateSaleService" ColumnName="IsSeprateSaleService" />
                 <ScalarProperty Name="AndroidAppUrl" ColumnName="AndroidAppUrl" />
                 <ScalarProperty Name="InConvertEMIEnable" ColumnName="InConvertEMIEnable" />
                 <ScalarProperty Name="imgfav" ColumnName="imgfav" />
@@ -10506,6 +10536,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="ProductsMaster">
             <EntityTypeMapping TypeName="MSModel.ProductsMaster">
               <MappingFragment StoreEntitySet="ProductsMaster">
+                <ScalarProperty Name="ProductType" ColumnName="ProductType" />
                 <ScalarProperty Name="IGST" ColumnName="IGST" />
                 <ScalarProperty Name="SGST" ColumnName="SGST" />
                 <ScalarProperty Name="CGST" ColumnName="CGST" />
@@ -10550,6 +10581,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="SalesItemTaxDetail">
             <EntityTypeMapping TypeName="MSModel.SalesItemTaxDetail">
               <MappingFragment StoreEntitySet="SalesItemTaxDetail">
+                <ScalarProperty Name="DiscType" ColumnName="DiscType" />
                 <ScalarProperty Name="Shopid" ColumnName="Shopid" />
                 <ScalarProperty Name="TaxAmount" ColumnName="TaxAmount" />
                 <ScalarProperty Name="TaxOption" ColumnName="TaxOption" />
@@ -10654,6 +10686,8 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="ItemServiceCharge">
             <EntityTypeMapping TypeName="MSModel.ItemServiceCharge">
               <MappingFragment StoreEntitySet="ItemServiceCharge">
+                <ScalarProperty Name="StockCharge" ColumnName="StockCharge" />
+                <ScalarProperty Name="ItemReferenceNo" ColumnName="ItemReferenceNo" />
                 <ScalarProperty Name="TotalCharge" ColumnName="TotalCharge" />
                 <ScalarProperty Name="Qty" ColumnName="Qty" />
                 <ScalarProperty Name="Updatedate" ColumnName="Updatedate" />
@@ -11067,6 +11101,7 @@ warning 6002: The table/view 'MSSDBPROD.dbo.VendorContract' does not have a prim
           <EntitySetMapping Name="MemberRegistraction">
             <EntityTypeMapping TypeName="MSModel.MemberRegistraction">
               <MappingFragment StoreEntitySet="MemberRegistraction">
+                <ScalarProperty Name="StockEmpid" ColumnName="StockEmpid" />
                 <ScalarProperty Name="UserID" ColumnName="UserID" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="Role" ColumnName="Role" />

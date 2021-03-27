@@ -282,7 +282,7 @@ namespace MSSEntityFrame
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DeleteBindCategoryDetails_Result>("DeleteBindCategoryDetails", actionParameter, categoryIdParameter);
         }
     
-        public virtual int DeleteBindCustomersDetails(string action, Nullable<int> customerId)
+        public virtual int DeleteBindCustomersDetails(string action, Nullable<int> customerId, Nullable<int> shopid)
         {
             var actionParameter = action != null ?
                 new ObjectParameter("Action", action) :
@@ -292,7 +292,11 @@ namespace MSSEntityFrame
                 new ObjectParameter("CustomerId", customerId) :
                 new ObjectParameter("CustomerId", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DeleteBindCustomersDetails", actionParameter, customerIdParameter);
+            var shopidParameter = shopid.HasValue ?
+                new ObjectParameter("Shopid", shopid) :
+                new ObjectParameter("Shopid", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DeleteBindCustomersDetails", actionParameter, customerIdParameter, shopidParameter);
         }
     
         public virtual ObjectResult<DeleteBindProductDetails_Result> DeleteBindProductDetails(string action, Nullable<int> productId)
@@ -968,13 +972,21 @@ namespace MSSEntityFrame
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertEnduser", business_idParameter, enduser_nameParameter, lnameParameter, genderParameter, emailParameter, contact_noParameter, allergiesParameter);
         }
     
-        public virtual ObjectResult<sp_BindChargeDetails_Result> sp_BindChargeDetails(Nullable<int> itemid)
+        public virtual ObjectResult<sp_BindChargeDetails_Result> sp_BindChargeDetails(Nullable<int> itemid, Nullable<int> shopid, Nullable<int> compid)
         {
             var itemidParameter = itemid.HasValue ?
                 new ObjectParameter("Itemid", itemid) :
                 new ObjectParameter("Itemid", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_BindChargeDetails_Result>("sp_BindChargeDetails", itemidParameter);
+            var shopidParameter = shopid.HasValue ?
+                new ObjectParameter("Shopid", shopid) :
+                new ObjectParameter("Shopid", typeof(int));
+    
+            var compidParameter = compid.HasValue ?
+                new ObjectParameter("Compid", compid) :
+                new ObjectParameter("Compid", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_BindChargeDetails_Result>("sp_BindChargeDetails", itemidParameter, shopidParameter, compidParameter);
         }
     
         public virtual ObjectResult<sp_BindItemMaster_Result> sp_BindItemMaster(Nullable<int> shopid)
@@ -1105,7 +1117,7 @@ namespace MSSEntityFrame
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("sp_IsVerifyByOtp", mobileParameter, oTPParameter, shopidParameter);
         }
     
-        public virtual int sp_ItemServiceCharge(Nullable<int> complainid, string compalinNo, string serviceID, string serviceCharge, Nullable<int> qty, Nullable<int> totalCharge)
+        public virtual int sp_ItemServiceCharge(Nullable<int> complainid, string compalinNo, string serviceID, string serviceCharge, Nullable<int> qty, Nullable<int> totalCharge, Nullable<decimal> stockCharge)
         {
             var complainidParameter = complainid.HasValue ?
                 new ObjectParameter("Complainid", complainid) :
@@ -1131,7 +1143,11 @@ namespace MSSEntityFrame
                 new ObjectParameter("TotalCharge", totalCharge) :
                 new ObjectParameter("TotalCharge", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_ItemServiceCharge", complainidParameter, compalinNoParameter, serviceIDParameter, serviceChargeParameter, qtyParameter, totalChargeParameter);
+            var stockChargeParameter = stockCharge.HasValue ?
+                new ObjectParameter("StockCharge", stockCharge) :
+                new ObjectParameter("StockCharge", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_ItemServiceCharge", complainidParameter, compalinNoParameter, serviceIDParameter, serviceChargeParameter, qtyParameter, totalChargeParameter, stockChargeParameter);
         }
     
         public virtual ObjectResult<string> Spo_BillSummary(Nullable<int> compid)
@@ -1143,16 +1159,20 @@ namespace MSSEntityFrame
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("Spo_BillSummary", compidParameter);
         }
     
-        public virtual ObjectResult<spo_BindItemMaster_Result> spo_BindItemMaster(Nullable<int> shopid)
+        public virtual ObjectResult<spo_BindItemMaster_Result> spo_BindItemMaster(Nullable<int> shopid, Nullable<int> compid)
         {
             var shopidParameter = shopid.HasValue ?
                 new ObjectParameter("Shopid", shopid) :
                 new ObjectParameter("Shopid", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spo_BindItemMaster_Result>("spo_BindItemMaster", shopidParameter);
+            var compidParameter = compid.HasValue ?
+                new ObjectParameter("compid", compid) :
+                new ObjectParameter("compid", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spo_BindItemMaster_Result>("spo_BindItemMaster", shopidParameter, compidParameter);
         }
     
-        public virtual int Spo_ChangeShopProfile(Nullable<int> shopID, string shopName, string shopAddress, string shopDescription, string shopGSTIN, string shopTin, string shopCIN, string shopRegNo, string shopOwner, string shopOwnerPAN, string shopOwnerMob, string shopOwnerOfficeContact, string shopEMail, string reportName, string apiUrl)
+        public virtual int Spo_ChangeShopProfile(Nullable<int> shopID, string shopName, string shopAddress, string shopDescription, string shopGSTIN, string shopTin, string shopCIN, string shopRegNo, string shopOwner, string shopOwnerPAN, string shopOwnerMob, string shopOwnerOfficeContact, string shopEMail, string reportName, string apiUrl, Nullable<int> isHappyCodeEnable)
         {
             var shopIDParameter = shopID.HasValue ?
                 new ObjectParameter("ShopID", shopID) :
@@ -1214,7 +1234,11 @@ namespace MSSEntityFrame
                 new ObjectParameter("ApiUrl", apiUrl) :
                 new ObjectParameter("ApiUrl", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Spo_ChangeShopProfile", shopIDParameter, shopNameParameter, shopAddressParameter, shopDescriptionParameter, shopGSTINParameter, shopTinParameter, shopCINParameter, shopRegNoParameter, shopOwnerParameter, shopOwnerPANParameter, shopOwnerMobParameter, shopOwnerOfficeContactParameter, shopEMailParameter, reportNameParameter, apiUrlParameter);
+            var isHappyCodeEnableParameter = isHappyCodeEnable.HasValue ?
+                new ObjectParameter("IsHappyCodeEnable", isHappyCodeEnable) :
+                new ObjectParameter("IsHappyCodeEnable", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Spo_ChangeShopProfile", shopIDParameter, shopNameParameter, shopAddressParameter, shopDescriptionParameter, shopGSTINParameter, shopTinParameter, shopCINParameter, shopRegNoParameter, shopOwnerParameter, shopOwnerPANParameter, shopOwnerMobParameter, shopOwnerOfficeContactParameter, shopEMailParameter, reportNameParameter, apiUrlParameter, isHappyCodeEnableParameter);
         }
     
         public virtual int Spo_DeleteCharge(Nullable<int> itemsrid)
@@ -1253,7 +1277,7 @@ namespace MSSEntityFrame
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SPO_GENERATEEnquiryNO", shopIDParameter);
         }
     
-        public virtual ObjectResult<SPO_GETAllComplaint_Result> SPO_GETAllComplaint(string searchText, Nullable<int> shopID, string complaintNo, Nullable<System.DateTime> fromDate, Nullable<System.DateTime> toDate, string status)
+        public virtual ObjectResult<SPO_GETAllComplaint_Result> SPO_GETAllComplaint(string searchText, Nullable<int> shopID, string complaintNo, Nullable<System.DateTime> fromDate, Nullable<System.DateTime> toDate, string status, string complaintStatusIds)
         {
             var searchTextParameter = searchText != null ?
                 new ObjectParameter("SearchText", searchText) :
@@ -1279,7 +1303,11 @@ namespace MSSEntityFrame
                 new ObjectParameter("Status", status) :
                 new ObjectParameter("Status", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SPO_GETAllComplaint_Result>("SPO_GETAllComplaint", searchTextParameter, shopIDParameter, complaintNoParameter, fromDateParameter, toDateParameter, statusParameter);
+            var complaintStatusIdsParameter = complaintStatusIds != null ?
+                new ObjectParameter("ComplaintStatusIds", complaintStatusIds) :
+                new ObjectParameter("ComplaintStatusIds", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SPO_GETAllComplaint_Result>("SPO_GETAllComplaint", searchTextParameter, shopIDParameter, complaintNoParameter, fromDateParameter, toDateParameter, statusParameter, complaintStatusIdsParameter);
         }
     
         public virtual ObjectResult<spo_getallcomplaintResolutionStatus_Result> spo_getallcomplaintResolutionStatus()

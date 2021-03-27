@@ -75,13 +75,13 @@ namespace MSSwindow
             CustomerClass cls = new CustomerClass();
             dtitm = cls.GetReceivedAmount(CompID, OrdID).Tables[0];
             dataGridViewItemServices.DataSource = dtitm;
-            int i = 0;
+            decimal i = 0;
             foreach (DataRow item in dtitm.Rows)
             {
-               // i = i + Convert.ToInt32(item["Amount"]);
+               i = i + Convert.ToDecimal(item["Amount"]);
             }
             TxtPaidAmt.Text = i.ToString();
-            TxtBalance.Text = (Convert.ToDecimal(TxtRecAmt.Text) - Convert.ToInt32(TxtPaidAmt.Text)).ToString();
+            TxtBalance.Text = (Convert.ToDecimal(TxtRecAmt.Text) - Convert.ToDecimal(TxtPaidAmt.Text)).ToString();
 
         }
 
@@ -101,7 +101,7 @@ namespace MSSwindow
                     return;
                 }
 
-                if (Convert.ToInt32(TxtAmt.Text) > Convert.ToDecimal(TxtBalance.Text))
+                if (Convert.ToDecimal(TxtAmt.Text) > Convert.ToDecimal(TxtBalance.Text))
                 {
                     MessageBox.Show(this, "Received Amount Can not be greater than Balance Amount.", "MSS", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
                     return;
@@ -111,9 +111,9 @@ namespace MSSwindow
                 int i = 0;
 
                 if (CompID != null)
-                    i = cms.InsertUpdateReceivePayment(OrdID, CompID, Convert.ToInt32(ddlItemName.SelectedValue), Convert.ToInt32(TxtAmt.Text), dtp1.Value, 0, TxtRef.Text);
+                    i = cms.InsertUpdateReceivePayment(OrdID, CompID, Convert.ToInt32(ddlItemName.SelectedValue), Convert.ToDecimal(TxtAmt.Text), dtp1.Value, 0, TxtRef.Text);
                 else
-                    i = cms.InsertUpdateReceivePayment(OrdID, CompID, Convert.ToInt32(ddlItemName.SelectedValue), Convert.ToInt32(TxtAmt.Text), dtp1.Value, 1, TxtRef.Text);
+                    i = cms.InsertUpdateReceivePayment(OrdID, CompID, Convert.ToInt32(ddlItemName.SelectedValue), Convert.ToDecimal(TxtAmt.Text), dtp1.Value, 1, TxtRef.Text);
 
                 if (i > 0)
                 {
@@ -241,7 +241,7 @@ namespace MSSwindow
 
         private void TxtAmt_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar!='.')
             {
                 e.Handled = true;
             }

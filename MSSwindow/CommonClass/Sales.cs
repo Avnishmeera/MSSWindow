@@ -164,7 +164,8 @@ namespace MSSwindow.CommonClass
                     SGSTAmt = PBE.SGSTVal,
                     IGSTAmt = PBE.IGSTVal,
                     NetTax = PBE.NetTax,
-                    NetAmt = PBE.NetAmt
+                    NetAmt = PBE.NetAmt,
+                    DiscType=PBE.DiscType
                 });
             }
             db.SaveChanges();
@@ -285,7 +286,8 @@ namespace MSSwindow.CommonClass
                     SGSTAmt=PBE.SGSTVal,
                     IGSTAmt=PBE.IGSTVal,
                     NetTax=PBE.NetTax,
-                    NetAmt=PBE.NetAmt
+                    NetAmt=PBE.NetAmt,
+                    DiscType = PBE.DiscType
                 });
             }
 

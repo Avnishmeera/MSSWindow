@@ -33,6 +33,7 @@ namespace MSSEntityFrame
         public string Role { get; set; }
         public string Password { get; set; }
         public string UserID { get; set; }
+        public Nullable<int> StockEmpid { get; set; }
     
         public virtual StoreRegistration StoreRegistration { get; set; }
     }

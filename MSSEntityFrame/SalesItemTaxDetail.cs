@@ -21,5 +21,6 @@ namespace MSSEntityFrame
         public string TaxOption { get; set; }
         public Nullable<decimal> TaxAmount { get; set; }
         public Nullable<int> Shopid { get; set; }
+        public string DiscType { get; set; }
     }
 }

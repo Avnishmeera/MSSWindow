@@ -63,7 +63,7 @@ namespace MSSwindow
             LstEmp.Visible = false;
             cmbSupplierName.SelectedValue = SelectedCustomerID;
         }
-        public RetailSaleDetails(bool IsEditm, int ShopID, string pono,int GenID)
+        public RetailSaleDetails(bool IsEditm, int ShopID, string pono, int GenID)
         {
             InitializeComponent();
             IsEditMode = IsEditm;
@@ -147,13 +147,13 @@ namespace MSSwindow
             DataTable dtitm = new DataTable();
             dtitm = cls.GetReceivedAmount(null, OrdID).Tables[0];
             dataGridViewItemServices.DataSource = dtitm;
-            int i = 0;
+            decimal i = 0;
             foreach (DataRow item in dtitm.Rows)
             {
-                i = i + Convert.ToInt32(item["Amount"]);
+                i = i + Convert.ToDecimal(item["Amount"]);
             }
             txtpaidamt.Text = i.ToString();
-           // txtbalanceamt.Text = (Convert.ToInt32(txtsumnet.Text) - Convert.ToInt32(txtpaidamt.Text)).ToString();
+            // txtbalanceamt.Text = (Convert.ToInt32(txtsumnet.Text) - Convert.ToInt32(txtpaidamt.Text)).ToString();
         }
 
         private void PurchaseDetails_Load(object sender, EventArgs e)
@@ -183,7 +183,7 @@ namespace MSSwindow
             BindDelMode();
             BindPaymentStatus();
             if (IsEditMode)
-                 EditPo(Editpono, InvoiceID);
+                EditPo(Editpono, InvoiceID);
         }
         public void BindPaymentStatus()
         {
@@ -282,7 +282,7 @@ namespace MSSwindow
             dtProduct.Columns.Add("SrNoVal", typeof(System.String));
             dtProduct.Columns.Add("BasePrice", typeof(System.Double));
             dtProduct.Columns.Add("Price", typeof(System.Double));
-            dtProduct.Columns.Add("Discount", typeof(System.Int32));
+            dtProduct.Columns.Add("Discount", typeof(System.Double));
             dtProduct.Columns.Add("NetAmount", typeof(System.Double));
             dtProduct.Columns.Add("TaxIncluded", typeof(System.Boolean));
             dtProduct.Columns.Add("SCGST", typeof(System.Boolean));
@@ -295,6 +295,7 @@ namespace MSSwindow
             dtProduct.Columns.Add("IGSTVal", typeof(System.Double));
             dtProduct.Columns.Add("NetTax", typeof(System.Double));
             dtProduct.Columns.Add("NetAmt", typeof(System.Double));
+            dtProduct.Columns.Add("DiscType", typeof(System.String));
 
         }
 
@@ -663,7 +664,8 @@ namespace MSSwindow
                     Convert.ToDouble(TxtItemSGSTVal.Text),
                     Convert.ToDouble(TxtItemIGSTVal.Text),
                     Convert.ToDouble(ItemNetTax.Text),
-                    Convert.ToDouble(TxtTotalAmt.Text));
+                    Convert.ToDouble(TxtTotalAmt.Text),
+                    CmpDType.SelectedItem.ToString());
                 dataGridViewItemDetails.DataSource = dtProduct;
                 ResetControl();
                 txtBarCode.Focus();
@@ -695,6 +697,7 @@ namespace MSSwindow
                     dr["IGSTVal"] = Convert.ToDouble(TxtItemIGSTVal.Text).ToString();
                     dr["NetTax"] = Convert.ToDouble(ItemNetTax.Text).ToString();
                     dr["NetAmt"] = Convert.ToDouble(TxtTotalAmt.Text).ToString();
+                    dr["DiscType"] = CmpDType.SelectedItem.ToString();
                 }
                 dtProduct.AcceptChanges();
                 dataGridViewItemDetails.DataSource = dtProduct;
@@ -998,7 +1001,28 @@ namespace MSSwindow
         {
             decimal Result = decimal.Zero;
             ProductPrice = ProductBasePrice;
-            Result = ((ProductQuantity * ProductPrice) - ((ProductQuantity * ProductPrice) * ProductDiscount / 100));
+            if (CmpDType.SelectedItem != null)
+            {
+                if (CmpDType.SelectedItem.ToString() == "%")
+                {
+                    Result = ((ProductQuantity * ProductPrice) - ((ProductQuantity * ProductPrice) * ProductDiscount / 100));
+                }
+                else if (CmpDType.SelectedItem.ToString() == "Rs")
+                {
+
+                    Result = ((ProductQuantity * ProductPrice) - ProductDiscount);
+                }
+                else
+                {
+                    txtDiscount.Text = string.Empty;
+                    Result = (ProductQuantity * ProductPrice);
+                }
+            }
+            else
+            {
+                txtDiscount.Text = string.Empty;
+                Result = (ProductQuantity * ProductPrice);
+            }
             txtAmount.Text = Result.ToString();
 
         }
@@ -1034,24 +1058,27 @@ namespace MSSwindow
                       CGSTVal = Convert.ToDecimal(a["CGSTVal"].ToString()),
                       SGSTVal = Convert.ToDecimal(a["SGSTVal"].ToString()),
                       IGSTVal = Convert.ToDecimal(a["IGSTVal"].ToString()),
-                      NetTax = Convert.ToDecimal(a["NetTax"].ToString())
+                      NetTax = Convert.ToDecimal(a["NetTax"].ToString()),
+                      DiscType = a["DiscType"].ToString()
+
                   }).ToList();
-            var disct = lp.Sum(x => x.disc);
+            var disctRs = lp.Sum(x => x.DiscType == "Rs" ? x.disc : 0);
+            var disctPer = lp.Sum(x => x.DiscType=="%"? (x.price*x.qty) * x.disc/100: 0);
             var amountt = lp.Sum(x => x.BasePrice);
             var cgstval = lp.Sum(x => x.CGSTVal);
             var sgstval = lp.Sum(x => x.SGSTVal);
             var IGSTval = lp.Sum(x => x.IGSTVal);
             var NetTax = lp.Sum(x => x.NetTax);
             var NetAmt = lp.Sum(x => x.amount);
-            TxtTotalAmount.Text = (amountt + disct).ToString();
+            TxtTotalAmount.Text = (NetAmt + disctRs+ disctPer).ToString();
             txtsumnet.Text = NetAmt.ToString();
-            textsumdisc.Text = disct.ToString();
+            textsumdisc.Text = (disctRs + disctPer).ToString();
             TxtCGSTVal.Text = cgstval.ToString();
             TxtSgstVal.Text = sgstval.ToString();
             TxtIGSTVal.Text = IGSTval.ToString();
             txtsumtax.Text = NetTax.ToString();
             //txtsumnet.Text = (amountt + ProductSumTaxAmt).ToString();
-            txtbalanceamt.Text=(Convert.ToDecimal(txtsumnet.Text)-Convert.ToDecimal(txtpaidamt.Text==string.Empty?"0.00":txtpaidamt.Text)).ToString();
+            txtbalanceamt.Text = (Convert.ToDecimal(txtsumnet.Text) - Convert.ToDecimal(txtpaidamt.Text == string.Empty ? "0.00" : txtpaidamt.Text)).ToString();
         }
 
         private void ShowItemSummary(decimal Rate, string Typetx)
@@ -1064,20 +1091,19 @@ namespace MSSwindow
                       amount = Convert.ToDecimal(a["NetAmount"].ToString()),
                       price = Convert.ToDecimal(a["Price"].ToString()),
                       disc = Convert.ToDecimal(a["Discount"].ToString()),
+                      DiscType = a["DiscType"].ToString(),
                       qty = Convert.ToInt32(a["Qty"].ToString()),
                   }).ToList();
             var disct = lp.Sum(x => x.disc);
             var amountt = lp.Sum(x => x.amount);
             TxtTotalAmount.Text = (amountt).ToString();
-
-            textsumdisc.Text = (amountt * disct / 100).ToString();
-            disct = (amountt * disct / 100);
+            textsumdisc.Text = disct.ToString();
             TxtNetAmount.Text = (amountt - disct).ToString();
             ProductSumTaxAmt = Math.Round((amountt - disct) * Rate / 100, 2);
             if (!IsEditMode)
                 txtbalanceamt.Text = ((amountt - disct) + Math.Round((amountt - disct) * Rate / 100, 2)).ToString();
             else
-                txtbalanceamt.Text = ((amountt - disct) + Math.Round((amountt - disct) * Rate / 100, 2)- Convert.ToInt32(txtpaidamt.Text==string.Empty?0 : Convert.ToInt32(txtpaidamt.Text))).ToString();
+                txtbalanceamt.Text = ((amountt - disct) + Math.Round((amountt - disct) * Rate / 100, 2) - Convert.ToInt32(txtpaidamt.Text == string.Empty ? 0 : Convert.ToInt32(txtpaidamt.Text))).ToString();
 
             if (Typetx == "SC")
             {
@@ -1145,7 +1171,7 @@ namespace MSSwindow
 
                 if (Convert.ToDecimal(ItemNetTax.Text) != decimal.Zero)
                     txtPrice.Text = BasePrice.ToString();
-                TxtTotalAmt.Text = Math.Round((Convert.ToDouble(ItemNetTax.Text) + Convert.ToDouble(txtAmount.Text)), 0).ToString();
+                TxtTotalAmt.Text = (Convert.ToDouble(ItemNetTax.Text) + Convert.ToDouble(txtAmount.Text)).ToString();
             }
 
         }
@@ -1159,7 +1185,6 @@ namespace MSSwindow
         private void txtDiscount_TextChanged(object sender, EventArgs e)
         {
             CalculatedValue();
-
             ShowTaxValues();
         }
 
@@ -1274,7 +1299,7 @@ namespace MSSwindow
                               DelMode = Convert.ToInt32(CmbDelMode.SelectedValue),
                               DeliverBy = TxtDelBy.Text,
                               IsDelivered = ChkDel.Checked,
-                              ExpDelDate = Convert.ToDateTime(ChkDel.Checked == false?DtpExp.Value:(DateTime?)null),
+                              ExpDelDate = Convert.ToDateTime(ChkDel.Checked == false ? DtpExp.Value : (DateTime?)null),
                               //  Barcode= Convert.ToString(a[""].ToString()),
                               dbid = Convert.ToInt32(a["dbid"].ToString()),
                               Categoryid = Convert.ToInt32(a["Categoryid"].ToString()),
@@ -1301,8 +1326,7 @@ namespace MSSwindow
                               IGSTVal = Convert.ToDecimal(a["IGSTVal"].ToString()),
                               NetTax = Convert.ToDecimal(a["NetTax"].ToString()),
                               NetAmt = Convert.ToDecimal(a["NetAmt"].ToString()),
-                              
-
+                              DiscType = a["DiscType"].ToString(),
                               Remark = TxtRemark.Text,
                               Bankname = txtBankname.Text,
                               Accountno = txtAccountno.Text,
@@ -1342,9 +1366,9 @@ namespace MSSwindow
                                       IgnoreStatus = Convert.ToBoolean(a["IgnoreStatus"].ToString()),
                                       Remark = a["Remark"].ToString()
                                   }).ToList();
-                   }
-                    
-                   
+                    }
+
+
                     Sales PUR = new Sales();
                     int phid = 0;
                     int GenID = 0;
@@ -1353,12 +1377,12 @@ namespace MSSwindow
                         MSEntities db = new MSEntities();
                         string pono = txtPono.Text;
                         phid = db.SalesHeader.Where(x => x.PoNo == pono && x.ShopID == UniqueShopID).Select(x => x.SAID).FirstOrDefault();
-                        PUR.UpdateSalesOrder(lp, lt, AMCSch,out GenID, IsEditMode, phid, Helper.ShopUserID);
+                        PUR.UpdateSalesOrder(lp, lt, AMCSch, out GenID, IsEditMode, phid, Helper.ShopUserID);
                         MessageBox.Show(this, "Record Updated Successfully.", "Sales Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        PUR.SaveSalesOrder(lp, lt, AMCSch,out GenID, IsEditMode, phid, Helper.ShopUserID);
+                        PUR.SaveSalesOrder(lp, lt, AMCSch, out GenID, IsEditMode, phid, Helper.ShopUserID);
                         MessageBox.Show(this, "Record Saved Successfully.", "Sales Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
@@ -1380,7 +1404,7 @@ namespace MSSwindow
                         Editpono = txtPono.Text;
                         OrdID = GenID;
                         InvoiceID = GenID;
-                        EditPo(Editpono,GenID);
+                        EditPo(Editpono, GenID);
                     }
                 }
             }
@@ -1543,7 +1567,7 @@ namespace MSSwindow
 
             }
         }
-        private void EditPo(string pono,int GenID)
+        private void EditPo(string pono, int GenID)
         {
             if (IsEditMode)
             {
@@ -1564,8 +1588,8 @@ namespace MSSwindow
                     dttaxd = ds.Tables[2];
                     dtUPAMCSchedule = ds.Tables[3];
                     dtEMISummary = ds.Tables[4];
-                    if (dtEMISummary.Rows.Count > 0)                    
-                    {                       
+                    if (dtEMISummary.Rows.Count > 0)
+                    {
                         LblEmiStatus.Text = "Active";
                         LblEmiStatus.ForeColor = Color.Green;
                         LBlEmiDate.Text = dtEMISummary.Rows[0]["emidate"].ToString();
@@ -1603,11 +1627,11 @@ namespace MSSwindow
                         if (dthead.Rows[0]["IsDelivered"] != DBNull.Value)
                         {
                             ChkDel.Checked = Convert.ToBoolean(dthead.Rows[0]["IsDelivered"]);
-                        }                       
+                        }
                         if (dthead.Rows[0]["ExpDelDate"] != DBNull.Value)
                         {
                             DtpExp.Value = Convert.ToDateTime(dthead.Rows[0]["ExpDelDate"]);
-                        }                       
+                        }
                         TxtBookNO.Text = dthead.Rows[0]["BookNo"].ToString();
                         txtPurdate.Text = Convert.ToDateTime(dthead.Rows[0]["PoDate"].ToString()).ToString();
                         cmbSupplierName.SelectedValue = dthead.Rows[0]["CustomerID"].ToString();
@@ -1863,6 +1887,7 @@ namespace MSSwindow
                       ItemSrNo = a["SrNoVal"].ToString(),
                       price = Convert.ToDecimal(a["Price"].ToString()),
                       disc = Convert.ToDecimal(a["Discount"].ToString()),
+                      DiscType = a["DiscType"].ToString(),
                       qty = Convert.ToInt32(a["Qty"].ToString()),
                       IsTaxIncluded = Convert.ToBoolean(a["TaxIncluded"].ToString()),
                       SCGST = Convert.ToBoolean(a["SCGST"].ToString()),
@@ -1889,7 +1914,9 @@ namespace MSSwindow
                 txtQty.Text = item.qty.ToString();
                 txtPrice.Text = item.price.ToString();
                 txtbaseprice.Text = item.BasePrice.ToString();
+                CmpDType.SelectedItem = item.DiscType.ToString();
                 txtDiscount.Text = item.disc.ToString();
+                
                 txtAmount.Text = item.amount.ToString();
                 ChkTaxIncluded.Checked = item.IsTaxIncluded;
 
@@ -1909,6 +1936,8 @@ namespace MSSwindow
             cmbCategoryname.Enabled = false;
             cmbBrandName.Enabled = false;
             cmbProductname.Enabled = false;
+            CalculatedValue();
+            ShowTaxValues();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -1954,13 +1983,13 @@ namespace MSSwindow
 
         private void btnAddAmcSchedule_Click(object sender, EventArgs e)
         {
-            
+
             if (IsEditMode == true)
             {
                 DateTime saledate = txtPurdate.Value;
                 DateTime SaleExpDate = saledate.AddYears((int)NMWarDuration.Value);
                 int duration = 2;
-                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate,duration, dtUPAMCSchedule,this);
+                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtUPAMCSchedule, this);
                 amc.ShowDialog();
             }
             else
@@ -1968,7 +1997,7 @@ namespace MSSwindow
                 DateTime saledate = txtPurdate.Value;
                 DateTime SaleExpDate = saledate.AddYears((int)NMWarDuration.Value);
                 int duration = 2;
-                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule,this);
+                AmcScheduleFrm amc = new AmcScheduleFrm(saledate, SaleExpDate, duration, dtAMCSchedule, this);
                 amc.ShowDialog();
             }
         }
@@ -2299,6 +2328,21 @@ namespace MSSwindow
             if (ChkIgst.Checked == true)
             {
                 Chkscgst.Checked = false;
+                TxtItemIGST.Text = (Convert.ToInt32(TxtItemCGST.Text) + Convert.ToInt32(TxtItemCGST.Text)).ToString();
+                TxtItemCGST.Text = "0";
+                TxtItemSGST.Text = "0";
+                TxtItemCGSTVal.Text = "0";
+                TxtItemSGSTVal.Text = "0";
+                CalculatedValue();
+                ShowTaxValues();
+            }
+            else
+            {
+                ChkIgst.Checked = false;
+                TxtItemCGST.Text = (Convert.ToDecimal(TxtItemIGST.Text) / 2).ToString();
+                TxtItemSGST.Text = (Convert.ToDecimal(TxtItemIGST.Text) / 2).ToString();
+                TxtItemIGST.Text = "0";
+                TxtItemIGSTVal.Text = "0";
                 CalculatedValue();
                 ShowTaxValues();
             }
@@ -2419,11 +2463,11 @@ namespace MSSwindow
             }
         }
 
-        
+
 
         private void btnConvertEmi_Click(object sender, EventArgs e)
-        {           
-            frmconvertemi frmcnvt = new frmconvertemi(OrdID, txtPono.Text, UniqueShopID, Convert.ToDouble(txtbalanceamt.Text),this);
+        {
+            frmconvertemi frmcnvt = new frmconvertemi(OrdID, txtPono.Text, UniqueShopID, Convert.ToDouble(txtbalanceamt.Text), this);
             frmcnvt.ShowDialog();
         }
 
@@ -2437,13 +2481,20 @@ namespace MSSwindow
             if (ChkDel.Checked)
             {
                 ChkDel.Text = "Delivered";
-                
+
             }
             else
             {
                 ChkDel.Text = "Not Delivered";
-                
+
             }
+        }
+
+        private void CmpDType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CalculatedValue();
+            ShowTaxValues();
+
         }
     }
 }

@@ -1146,7 +1146,7 @@ namespace MSSwindow.CommonClass
             return Results;
         }
 
-        public int InsertUpdateReceivePayment(int? OrderID, int? CompID, int ModeID, int Amount, DateTime PayDate, int PaymentType,string Remark)
+        public int InsertUpdateReceivePayment(int? OrderID, int? CompID, int ModeID, decimal Amount, DateTime PayDate, int PaymentType,string Remark)
         {
             cmd = dbconn.ConnectionWithCommand("spo_insertPayment");
             cmd.Parameters.AddWithValue("@OrderID", OrderID);
