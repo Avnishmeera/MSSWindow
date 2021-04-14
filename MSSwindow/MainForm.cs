@@ -31,7 +31,7 @@ namespace MSSwindow
 
         }
 
-        public MainForm(int SHOPID,int UserID, string Rol, Loginform log)
+        public MainForm(int SHOPID, int UserID, string Rol, Loginform log)
         {
             InitializeComponent();
             Shopid = SHOPID;
@@ -266,16 +266,23 @@ namespace MSSwindow
             string PUristring;
             string ShopName;
             string Customername;
+            string TempID;
             foreach (DataRow item in DT.Rows)
             {
                 NotID = Convert.ToInt32(item["NotID"].ToString());
                 SMSText = item["MessageText"].ToString();
                 SMSContact = item["ContactNo"].ToString();
+                TempID = item["TempID"].ToString();
                 //PUristring = lstCred.Where(x => x.Key == "PUristring").Select(x => x.Value).FirstOrDefault();
                 PUristring = Helper.ApiUrl;
                 //ShopName = item["ShopName"].ToString();
                 //Customername = item["Customername"].ToString();
-                SendSingleSms(NotID, SMSText, SMSContact, PUristring);
+                if (Shopid == 3)
+                {
+                    SendSingleSmsPentacare(NotID, SMSText, SMSContact, PUristring, TempID);
+                }
+                else
+                    SendSingleSms(NotID, SMSText, SMSContact, PUristring);
             }
         }
         public void SendSMS()
@@ -289,13 +296,36 @@ namespace MSSwindow
             }
             catch (Exception)
             {
-                               
+
             }
-            
+
         }
         private void SendSingleSms(int NotID, string SMSText, string SMSContact, string PUristring)
         {
             string URISTRING = string.Format(PUristring, SMSContact, SMSText);
+            System.Net.WebRequest WEBreq;
+            System.Net.WebResponse WEBRES;
+            WEBreq = System.Net.HttpWebRequest.Create(URISTRING);
+            WEBreq.Timeout = 25000;
+            string ResponseString = string.Empty;
+            try
+            {
+                WEBRES = WEBreq.GetResponse();
+                StreamReader strd = new StreamReader(WEBRES.GetResponseStream());
+                ResponseString = strd.ReadToEnd();
+                WEBRES.Close();
+                SMSTrans.UpdateSMSSend(NotID, true, false, ResponseString);
+            }
+            catch (Exception ex)
+            {
+                SMSTrans.UpdateSMSSend(NotID, false, true, Convert.ToString(ex.InnerException));
+            }
+
+        }
+
+        private void SendSingleSmsPentacare(int NotID, string SMSText, string SMSContact, string PUristring, string TempID)
+        {
+            string URISTRING = string.Format("http://sms.digimiles.in/bulksms/bulksms?username=di78-pentacare&password=digimile&type=0&dlr=1&destination={0}&source=PNTACR&message={1}&entityid=1101625060000019104&tempid={2}", SMSContact, SMSText, TempID);
             System.Net.WebRequest WEBreq;
             System.Net.WebResponse WEBRES;
             WEBreq = System.Net.HttpWebRequest.Create(URISTRING);
@@ -335,7 +365,7 @@ namespace MSSwindow
 
                 if (ds.Tables[2].Rows.Count > 0)
                 {
-                    LnkDueComplaint.Text= ds.Tables[2].Rows[0][0].ToString();
+                    LnkDueComplaint.Text = ds.Tables[2].Rows[0][0].ToString();
                 }
 
                 if (ds.Tables[3].Rows.Count > 0)
@@ -361,7 +391,7 @@ namespace MSSwindow
                 if (ds.Tables[7].Rows.Count > 0)
                 {
                     dgv10Cust.DataSource = ds.Tables[7];
-                    
+
                 }
                 if (ds.Tables[8].Rows.Count > 0)
                 {
@@ -399,7 +429,7 @@ namespace MSSwindow
 
                 if (ds.Tables[15].Rows.Count > 0)
                 {
-                   Lnk_Unplanned.Text = ds.Tables[15].Rows[0][0].ToString();
+                    Lnk_Unplanned.Text = ds.Tables[15].Rows[0][0].ToString();
 
                 }
 
@@ -449,7 +479,7 @@ namespace MSSwindow
 
                             itm1.Visible = Convert.ToBoolean(item["IsActive"]);
                         }
-                    }                    
+                    }
                 }
             }
         }
@@ -527,7 +557,7 @@ namespace MSSwindow
 
         private void complaintFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+
             //ComplaintForm cmp = new ComplaintForm(Shopid);
             //cmp.ShowDialog();
         }
@@ -669,7 +699,7 @@ namespace MSSwindow
 
         private void LnkOpenComplaint_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FrmSearchComplaint cmpl = new FrmSearchComplaint(Shopid,"Open");
+            FrmSearchComplaint cmpl = new FrmSearchComplaint(Shopid, "Open");
             cmpl.ShowDialog();
         }
 
@@ -729,13 +759,13 @@ namespace MSSwindow
 
         private void fillChart(DataTable dt)
         {
-            
+
             //chart1.Titles.Add("Week Wise Complaint");
         }
 
         private void fillChart1(DataTable dt)
         {
-           
+
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -745,7 +775,7 @@ namespace MSSwindow
 
         private void LnkDueComplaint_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FrmSearchComplaint cmpl = new FrmSearchComplaint(Shopid,DateTime.Now.Date);
+            FrmSearchComplaint cmpl = new FrmSearchComplaint(Shopid, DateTime.Now.Date);
             cmpl.ShowDialog();
         }
 
@@ -781,7 +811,7 @@ namespace MSSwindow
 
         private void receiveServiceItemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmAddStock cstm = new FrmAddStock(false,Shopid);
+            FrmAddStock cstm = new FrmAddStock(false, Shopid);
             cstm.ShowDialog();
         }
 
@@ -854,7 +884,7 @@ namespace MSSwindow
 
         private void DgvEMI_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex==7)
+            if (e.ColumnIndex == 7)
             {
                 string InvoiceNo = string.Empty;
                 int Emidetid = 0;
@@ -863,16 +893,16 @@ namespace MSSwindow
                 Emidetid = Convert.ToInt32(DgvEMI.CurrentRow.Cells[0].Value.ToString());
                 Invid = Convert.ToInt32(DgvEMI.CurrentRow.Cells[1].Value.ToString());
                 InvoiceNo = DgvEMI.CurrentRow.Cells[2].Value.ToString();
-                Amount =Convert.ToInt32(DgvEMI.CurrentRow.Cells[6].Value.ToString());
+                Amount = Convert.ToInt32(DgvEMI.CurrentRow.Cells[6].Value.ToString());
 
-                ReceivedEmiPayment rsp = new ReceivedEmiPayment(Emidetid, Invid, Amount, InvoiceNo,null);
+                ReceivedEmiPayment rsp = new ReceivedEmiPayment(Emidetid, Invid, Amount, InvoiceNo, null);
                 rsp.ShowDialog();
-               // ReceivedEmiPayment rsp = new ReceivedEmiPayment(detailid,GenID,Amount,pono);
-               // rsp.ShowDialog();
-               // RetailSaleDetails sd = new RetailSaleDetails(true, Shopid, pono, GenID);
-              //  sd.ShowDialog();
+                // ReceivedEmiPayment rsp = new ReceivedEmiPayment(detailid,GenID,Amount,pono);
+                // rsp.ShowDialog();
+                // RetailSaleDetails sd = new RetailSaleDetails(true, Shopid, pono, GenID);
+                //  sd.ShowDialog();
             }
-           
+
         }
 
         private void stockDetailsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -912,6 +942,12 @@ namespace MSSwindow
         private void dgvDelivery_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void stockInventoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InventoryReport frmconfig = new InventoryReport(Shopid);
+            frmconfig.ShowDialog();
         }
     }
 }

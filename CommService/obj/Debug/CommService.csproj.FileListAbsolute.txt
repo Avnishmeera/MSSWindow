@@ -188,9 +188,9 @@ F:\MSS Source Code\CommService\obj\Debug\CommService.pdb
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\bin\Debug\CommService.exe.config
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\bin\Debug\CommService.exe
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\bin\Debug\CommService.pdb
-D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.csprojResolveAssemblyReference.cache
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.ProjectInstaller.resources
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.Service1.resources
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.csproj.GenerateResource.Cache
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.exe
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.pdb
+D:\Avnish Personal\WindowApps\Latest\MSSWindow\CommService\obj\Debug\CommService.csprojResolveAssemblyReference.cache

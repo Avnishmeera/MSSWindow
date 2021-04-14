@@ -283,19 +283,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZVv0ieQkcFqGhAvchiqGMz8fXZaDqBNLiL16scZLsck=</dsig:DigestValue>
+        <dsig:DigestValue>+ejLBqkvP9LYtK3nGBEvBU0r/wXOMFUDEyRrIyKY0gA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MSSwindow.exe" size="2199024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MSSwindow.exe" size="2272240">
       <assemblyIdentity name="MSSwindow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Lt5nrflYovqknA4ROsAXjuRJCt3Iw2C/loevha6B35c=</dsig:DigestValue>
+        <dsig:DigestValue>AxYbOfXRz6lJ/XXAHrBMcBv+xICtjsZSOvwSupQp548=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

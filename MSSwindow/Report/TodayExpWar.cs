@@ -38,13 +38,25 @@ namespace MSSwindow.Report
         {
             Sales sl = new Sales();
             DataSet ds = new DataSet();
-            ds = sl.GetExpiredWaranty(dtfrm.Value, UniqueShopID);
+            ds = sl.GetExpiredWaranty(dtfrm.Value, UniqueShopID,DtTo.Value);
             if (ds.Tables.Count > 0)
             {
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     dataGridView1.DataSource = ds.Tables[0];
 
+                }
+            }
+
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (Convert.ToInt32(row.Cells["Day"].Value) > 0)
+                {
+                    row.DefaultCellStyle.BackColor = Color.LightGreen;
+                }
+                else
+                {
+                    row.DefaultCellStyle.BackColor = Color.IndianRed;
                 }
             }
         }
@@ -53,7 +65,7 @@ namespace MSSwindow.Report
         {
             Sales sl = new Sales();
             DataSet ds = new DataSet();
-            ds = sl.GetExpiredWaranty(dtfrm.Value, UniqueShopID);
+            ds = sl.GetExpiredWaranty(dtfrm.Value, UniqueShopID,DtTo.Value);
             if (ds.Tables.Count > 0)
             {
                 if (ds.Tables[0].Rows.Count > 0)
@@ -62,14 +74,34 @@ namespace MSSwindow.Report
 
                 }
             }
+
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (Convert.ToInt32(row.Cells["Day"].Value) > 0)
+                {
+                    row.DefaultCellStyle.BackColor = Color.LightGreen;
+                }
+                else
+                {
+                    row.DefaultCellStyle.BackColor = Color.IndianRed;
+                }
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FrmRepoExpWaranty RPT = new FrmRepoExpWaranty(UniqueShopID, dtfrm.Value);
+            FrmRepoExpWaranty RPT = new FrmRepoExpWaranty(UniqueShopID, dtfrm.Value,DtTo.Value);
             RPT.ShowDialog();
         }
 
-       
+        private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+           
+        }
+
+        private void dataGridView1_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+           
+        }
     }
 }

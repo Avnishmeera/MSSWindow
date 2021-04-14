@@ -1028,6 +1028,7 @@ namespace MSSwindow.CommonClass
             cmd.Parameters.AddWithValue("@WarantyStatus", be.WExpStatus);
             cmd.Parameters.AddWithValue("@AltContact", be.AltContact);
             cmd.Parameters.AddWithValue("@NextServiceCat", be.NextCategoryID);
+            cmd.Parameters.AddWithValue("@AMCID", be.AMCID);
             int Results = dbconn.Executenonquery(cmd);
             return Results;
         }

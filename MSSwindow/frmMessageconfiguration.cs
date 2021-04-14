@@ -115,6 +115,7 @@ namespace MSSwindow
                 txtMsgSub.Text = row.Cells["NotificationDesc"].Value.ToString();
                 txtMessageText.Text = Convert.ToString(row.Cells["MessageText"].Value.ToString());
                 IsActive.Checked = Convert.ToBoolean(row.Cells["Status"].Value.ToString());
+                TxtTemplateID.Text = row.Cells["TempID"].Value.ToString();
             }          
         }
 
@@ -129,7 +130,7 @@ namespace MSSwindow
             {
                 IsActive.Checked = false;
             }
-            sm.InsertUpdateSHOPWISEMessageDetail(UniqueShopid,lblNotid,lbldetailsid,txtMessageText.Text,IsActive.Checked);
+            sm.InsertUpdateSHOPWISEMessageDetail(UniqueShopid,lblNotid,lbldetailsid,txtMessageText.Text,IsActive.Checked,TxtTemplateID.Text);
             if (lbldetailsid == 0)
             {
                 MessageBox.Show(this, "Record Saved Successfully.", "Message Details", MessageBoxButtons.OK, MessageBoxIcon.Information);               
@@ -207,6 +208,11 @@ namespace MSSwindow
         }
 
         private void elementHost1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

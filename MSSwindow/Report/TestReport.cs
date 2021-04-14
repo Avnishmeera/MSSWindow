@@ -4,6 +4,14 @@
 
     public partial class TestReport
     {
+        partial class StockTransferDataTable
+        {
+        }
+
+        partial class TermsConditionDataTable
+        {
+        }
+
         partial class ReportSlipDataTable
         {
         }

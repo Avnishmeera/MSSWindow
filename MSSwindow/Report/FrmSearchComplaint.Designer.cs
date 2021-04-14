@@ -82,6 +82,7 @@
             this.ExpStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NextCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AMCID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -317,7 +318,8 @@
             this.ExpDate,
             this.ExpStatus,
             this.Category,
-            this.NextCategory});
+            this.NextCategory,
+            this.AMCID});
             this.DgvComplaint.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DgvComplaint.EnableHeadersVisualStyles = false;
             this.DgvComplaint.Location = new System.Drawing.Point(0, 0);
@@ -608,6 +610,12 @@
             this.NextCategory.HeaderText = "NextCategory";
             this.NextCategory.Name = "NextCategory";
             // 
+            // AMCID
+            // 
+            this.AMCID.DataPropertyName = "AMCID";
+            this.AMCID.HeaderText = "AMCID";
+            this.AMCID.Name = "AMCID";
+            // 
             // FrmSearchComplaint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -641,6 +649,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.CheckedListBox checkedstatus;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbltotalcmp;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckedListBox checkedEmp;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Select;
         private System.Windows.Forms.DataGridViewTextBoxColumn GenID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ComplaintID;
@@ -678,11 +692,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ExpStatus;
         private System.Windows.Forms.DataGridViewTextBoxColumn Category;
         private System.Windows.Forms.DataGridViewTextBoxColumn NextCategory;
-        private System.Windows.Forms.CheckedListBox checkedstatus;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lbltotalcmp;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckedListBox checkedEmp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AMCID;
     }
 }

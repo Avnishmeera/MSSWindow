@@ -637,13 +637,14 @@ namespace MSSwindow.CommonClass
             return ds;
         }
 
-        public DataSet GetExpiredWarantyReport(DateTime StartDate, int ShopID)
+        public DataSet GetExpiredWarantyReport(DateTime StartDate, int ShopID, DateTime DtTo)
         {
             DatabaseConnection dbconn = new DatabaseConnection();
             SqlCommand cmd;
             cmd = dbconn.ConnectionWithCommand("Spo_GetExpiredWaranty_Repo");
             cmd.Parameters.AddWithValue("@ShopID", ShopID);
             cmd.Parameters.AddWithValue("@Date", StartDate);
+            cmd.Parameters.AddWithValue("@DtTo", DtTo);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
             try
@@ -656,7 +657,7 @@ namespace MSSwindow.CommonClass
             }
             return ds;
         }
-        public DataSet GetExpiredWaranty(DateTime StartDate, int ShopID)
+        public DataSet GetExpiredWaranty(DateTime StartDate, int ShopID,DateTime EndDate)
         {
             DatabaseConnection dbconn = new DatabaseConnection();
             SqlCommand cmd;
@@ -664,6 +665,7 @@ namespace MSSwindow.CommonClass
             cmd = dbconn.ConnectionWithCommand("Spo_GetExpiredWaranty");
             cmd.Parameters.AddWithValue("@ShopID", ShopID);
             cmd.Parameters.AddWithValue("@Date", StartDate);
+            cmd.Parameters.AddWithValue("@DateTo", EndDate);
 
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();

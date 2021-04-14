@@ -205,6 +205,7 @@ F:\MSS Source Code\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
 F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
 F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 F:\MSS Source Code\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll.config
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.dll
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\MSSEntityFrame.pdb
@@ -212,6 +213,5 @@ D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\EntityFr
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.dll
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\EntityFramework.xml
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\bin\Debug\EntityFramework.SqlServer.xml
-D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache
-D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.dll
 D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.pdb
+D:\Avnish Personal\WindowApps\Latest\MSSWindow\MSSEntityFrame\obj\Debug\MSSEntityFrame.csprojResolveAssemblyReference.cache

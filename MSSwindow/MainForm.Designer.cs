@@ -110,6 +110,7 @@
             this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.srockDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.issueMatrialToEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productDetailReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventoryReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -183,15 +184,15 @@
             this.Lnk_Customer = new System.Windows.Forms.LinkLabel();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
+            this.LnkDueRent = new System.Windows.Forms.LinkLabel();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel36 = new System.Windows.Forms.Panel();
+            this.LnkPendingInvoice = new System.Windows.Forms.LinkLabel();
+            this.label15 = new System.Windows.Forms.Label();
             this.panel41 = new System.Windows.Forms.Panel();
             this.LinkLabelOnline = new System.Windows.Forms.LinkLabel();
             this.label21 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.LnkPendingInvoice = new System.Windows.Forms.LinkLabel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.LnkDueRent = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -258,7 +259,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.82394F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 280F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 248F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 291F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 293F));
             this.tableLayoutPanel2.Controls.Add(this.panel10, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel9, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel6, 2, 0);
@@ -278,7 +279,7 @@
             this.panel10.Controls.Add(this.label5);
             this.panel10.Controls.Add(this.LnkDueComplaint);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(543, 3);
+            this.panel10.Location = new System.Drawing.Point(541, 3);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(274, 140);
             this.panel10.TabIndex = 4;
@@ -316,9 +317,9 @@
             this.panel9.Controls.Add(this.label4);
             this.panel9.Controls.Add(this.linkLabel2);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(274, 3);
+            this.panel9.Location = new System.Drawing.Point(273, 3);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(263, 140);
+            this.panel9.Size = new System.Drawing.Size(262, 140);
             this.panel9.TabIndex = 3;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
@@ -353,9 +354,9 @@
             // 
             this.panel6.Controls.Add(this.panel8);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(1071, 3);
+            this.panel6.Location = new System.Drawing.Point(1069, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(286, 140);
+            this.panel6.Size = new System.Drawing.Size(288, 140);
             this.panel6.TabIndex = 2;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
@@ -367,7 +368,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(286, 140);
+            this.panel8.Size = new System.Drawing.Size(288, 140);
             this.panel8.TabIndex = 2;
             // 
             // tableLayoutPanel8
@@ -484,7 +485,7 @@
             // 
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(823, 3);
+            this.panel5.Location = new System.Drawing.Point(821, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(242, 140);
             this.panel5.TabIndex = 1;
@@ -617,7 +618,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(265, 140);
+            this.panel4.Size = new System.Drawing.Size(264, 140);
             this.panel4.TabIndex = 0;
             // 
             // LnkOpenComplaint
@@ -1072,7 +1073,8 @@
             // 
             this.toolStripMenuItem8.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.srockDetailsToolStripMenuItem,
-            this.issueMatrialToEmployeeToolStripMenuItem});
+            this.issueMatrialToEmployeeToolStripMenuItem,
+            this.stockInventoryToolStripMenuItem});
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.Size = new System.Drawing.Size(107, 53);
             this.toolStripMenuItem8.Text = "Inventory";
@@ -1092,6 +1094,15 @@
             this.issueMatrialToEmployeeToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
             this.issueMatrialToEmployeeToolStripMenuItem.Text = "Issue Stock Matrial";
             this.issueMatrialToEmployeeToolStripMenuItem.Click += new System.EventHandler(this.issueMatrialToEmployeeToolStripMenuItem_Click);
+            // 
+            // stockInventoryToolStripMenuItem
+            // 
+            this.stockInventoryToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.stockInventoryToolStripMenuItem.Name = "stockInventoryToolStripMenuItem";
+            this.stockInventoryToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.stockInventoryToolStripMenuItem.Text = "Stock Inventory";
+            this.stockInventoryToolStripMenuItem.Visible = false;
+            this.stockInventoryToolStripMenuItem.Click += new System.EventHandler(this.stockInventoryToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
@@ -1838,6 +1849,32 @@
             this.panel30.Size = new System.Drawing.Size(285, 140);
             this.panel30.TabIndex = 2;
             // 
+            // LnkDueRent
+            // 
+            this.LnkDueRent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LnkDueRent.AutoSize = true;
+            this.LnkDueRent.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LnkDueRent.LinkColor = System.Drawing.Color.White;
+            this.LnkDueRent.Location = new System.Drawing.Point(109, 52);
+            this.LnkDueRent.Name = "LnkDueRent";
+            this.LnkDueRent.Size = new System.Drawing.Size(31, 36);
+            this.LnkDueRent.TabIndex = 5;
+            this.LnkDueRent.TabStop = true;
+            this.LnkDueRent.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(78, 5);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(103, 25);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "Due Rent";
+            // 
             // panel35
             // 
             this.panel35.Controls.Add(this.panel36);
@@ -1857,6 +1894,32 @@
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(242, 140);
             this.panel36.TabIndex = 1;
+            // 
+            // LnkPendingInvoice
+            // 
+            this.LnkPendingInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LnkPendingInvoice.AutoSize = true;
+            this.LnkPendingInvoice.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LnkPendingInvoice.LinkColor = System.Drawing.Color.White;
+            this.LnkPendingInvoice.Location = new System.Drawing.Point(106, 52);
+            this.LnkPendingInvoice.Name = "LnkPendingInvoice";
+            this.LnkPendingInvoice.Size = new System.Drawing.Size(31, 36);
+            this.LnkPendingInvoice.TabIndex = 4;
+            this.LnkPendingInvoice.TabStop = true;
+            this.LnkPendingInvoice.Text = "0";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(1, 6);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(231, 25);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "Not Delivered Invoice";
             // 
             // panel41
             // 
@@ -1891,58 +1954,6 @@
             this.label21.Size = new System.Drawing.Size(191, 25);
             this.label21.TabIndex = 2;
             this.label21.Text = "Online Complaint";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(1, 6);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(231, 25);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "Not Delivered Invoice";
-            // 
-            // LnkPendingInvoice
-            // 
-            this.LnkPendingInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.LnkPendingInvoice.AutoSize = true;
-            this.LnkPendingInvoice.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LnkPendingInvoice.LinkColor = System.Drawing.Color.White;
-            this.LnkPendingInvoice.Location = new System.Drawing.Point(106, 52);
-            this.LnkPendingInvoice.Name = "LnkPendingInvoice";
-            this.LnkPendingInvoice.Size = new System.Drawing.Size(31, 36);
-            this.LnkPendingInvoice.TabIndex = 4;
-            this.LnkPendingInvoice.TabStop = true;
-            this.LnkPendingInvoice.Text = "0";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(78, 5);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(103, 25);
-            this.label16.TabIndex = 5;
-            this.label16.Text = "Due Rent";
-            // 
-            // LnkDueRent
-            // 
-            this.LnkDueRent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.LnkDueRent.AutoSize = true;
-            this.LnkDueRent.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LnkDueRent.LinkColor = System.Drawing.Color.White;
-            this.LnkDueRent.Location = new System.Drawing.Point(109, 52);
-            this.LnkDueRent.Name = "LnkDueRent";
-            this.LnkDueRent.Size = new System.Drawing.Size(31, 36);
-            this.LnkDueRent.TabIndex = 5;
-            this.LnkDueRent.TabStop = true;
-            this.LnkDueRent.Text = "0";
             // 
             // MainForm
             // 
@@ -2192,6 +2203,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.LinkLabel LnkPendingInvoice;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ToolStripMenuItem stockInventoryToolStripMenuItem;
     }
 }
 

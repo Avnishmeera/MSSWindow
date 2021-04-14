@@ -35,16 +35,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dtfrm = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.RowID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ScheduleDt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Day = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.DtTo = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dtfrm = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -116,7 +119,8 @@
             this.ScheduleDt,
             this.CustomerName,
             this.Address,
-            this.Contact});
+            this.Contact,
+            this.Day});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -127,56 +131,8 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(829, 399);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.dtfrm);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(3, 67);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(829, 55);
-            this.panel2.TabIndex = 1;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(715, 9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 32);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "&Print";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // dtfrm
-            // 
-            this.dtfrm.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtfrm.Location = new System.Drawing.Point(63, 10);
-            this.dtfrm.Name = "dtfrm";
-            this.dtfrm.Size = new System.Drawing.Size(126, 27);
-            this.dtfrm.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(204, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 32);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "&Display";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Date";
+            this.dataGridView1.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridView1_DataBindingComplete);
+            this.dataGridView1.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView1_RowsAdded);
             // 
             // RowID
             // 
@@ -206,13 +162,88 @@
             this.Address.DataPropertyName = "Address";
             this.Address.HeaderText = "Address";
             this.Address.Name = "Address";
-            this.Address.Width = 550;
+            this.Address.Width = 350;
             // 
             // Contact
             // 
             this.Contact.DataPropertyName = "Contact";
             this.Contact.HeaderText = "Contact";
             this.Contact.Name = "Contact";
+            // 
+            // Day
+            // 
+            this.Day.DataPropertyName = "Days";
+            this.Day.HeaderText = "Day";
+            this.Day.Name = "Day";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.DtTo);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.dtfrm);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(3, 67);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(829, 55);
+            this.panel2.TabIndex = 1;
+            // 
+            // DtTo
+            // 
+            this.DtTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DtTo.Location = new System.Drawing.Point(304, 8);
+            this.DtTo.Name = "DtTo";
+            this.DtTo.Size = new System.Drawing.Size(126, 27);
+            this.DtTo.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(226, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 21);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "To Date";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(715, 9);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(105, 32);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "&Print";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // dtfrm
+            // 
+            this.dtfrm.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtfrm.Location = new System.Drawing.Point(94, 8);
+            this.dtfrm.Name = "dtfrm";
+            this.dtfrm.Size = new System.Drawing.Size(126, 27);
+            this.dtfrm.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(485, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 32);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "&Display";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "From Date";
             // 
             // TodayExpWar
             // 
@@ -246,11 +277,13 @@
         private System.Windows.Forms.DateTimePicker dtfrm;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker DtTo;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridViewTextBoxColumn RowID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ScheduleDt;
         private System.Windows.Forms.DataGridViewTextBoxColumn CustomerName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn Contact;
-
+        private System.Windows.Forms.DataGridViewTextBoxColumn Day;
     }
 }

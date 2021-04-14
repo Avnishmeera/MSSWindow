@@ -203,6 +203,8 @@ namespace MSSwindow.Report
                         cmpl.WEXPDate = Convert.ToDateTime(DgvComplaint.CurrentRow.Cells["ExpDate"].Value.ToString());
                     if (!string.IsNullOrEmpty(DgvComplaint.CurrentRow.Cells["ExpStatus"].Value.ToString()))
                         cmpl.WExpStatus = Convert.ToInt32(DgvComplaint.CurrentRow.Cells["ExpStatus"].Value.ToString());
+
+                    cmpl.AMCID= Convert.ToInt32(DgvComplaint.CurrentRow.Cells["AMCID"].Value.ToString());
                     ComplaintForm frm = new ComplaintForm(cmpl, UniqueShopID, this);
                     frm.ShowDialog();
 

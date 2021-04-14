@@ -76,8 +76,8 @@ namespace MSSwindow
             txtEmail.Enabled = false;
             txtPinCode.Enabled = false;
             cmbMaritalStatus.Enabled = false;
-            dateTimePickerAnivarsary.Enabled = false;
-            datetimePickerBirthday.Enabled = false;
+            TxtAnniversary.Enabled = false;
+            TxtDOB.Enabled = false;
             txtAltContact.Enabled = false;
             txtAddress.Enabled = false;
             txtDescription.Enabled = false;
@@ -102,8 +102,8 @@ namespace MSSwindow
             txtEmail.Enabled = true;
             txtPinCode.Enabled = true;
             cmbMaritalStatus.Enabled = true;
-            dateTimePickerAnivarsary.Enabled = true;
-            datetimePickerBirthday.Enabled = true;
+            TxtAnniversary.Enabled = true;
+            TxtDOB.Enabled = true;
             txtAltContact.Enabled = true;
             txtAddress.Enabled = true;
             txtDescription.Enabled = true;
@@ -119,8 +119,8 @@ namespace MSSwindow
             txtEmail.Text = string.Empty;
             txtPinCode.Text = string.Empty;
             cmbMaritalStatus.SelectedIndex = 0;
-            dateTimePickerAnivarsary.Text = string.Empty;
-            datetimePickerBirthday.Text = string.Empty;
+            TxtAnniversary.Text = string.Empty;
+            TxtDOB.Text = string.Empty;
             txtAltContact.Text = string.Empty;
             txtAddress.Text = string.Empty;
             txtDescription.Text = string.Empty;
@@ -153,8 +153,8 @@ namespace MSSwindow
             txtEmail.Text = string.Empty;
             txtPinCode.Text = string.Empty;
             cmbMaritalStatus.SelectedIndex = 0;
-            dateTimePickerAnivarsary.Text = string.Empty;
-            datetimePickerBirthday.Text = string.Empty;
+            TxtAnniversary.Text = string.Empty;
+            TxtDOB.Text = string.Empty;
             txtAltContact.Text = string.Empty;
             txtAddress.Text = string.Empty;
             txtDescription.Text = string.Empty;
@@ -170,8 +170,8 @@ namespace MSSwindow
             txtEmail.Enabled = false;
             txtPinCode.Enabled = false;
             cmbMaritalStatus.Enabled = false;
-            dateTimePickerAnivarsary.Enabled = false;
-            datetimePickerBirthday.Enabled = false;
+            TxtAnniversary.Enabled = false;
+            TxtDOB.Enabled = false;
             txtAltContact.Enabled = false;
             txtAddress.Enabled = false;
             txtDescription.Enabled = false;
@@ -204,8 +204,8 @@ namespace MSSwindow
             txtEmail.Text = string.Empty;
             txtPinCode.Text = string.Empty;
             cmbMaritalStatus.SelectedIndex = 0;
-            dateTimePickerAnivarsary.Text = string.Empty;
-            datetimePickerBirthday.Text = string.Empty;
+            TxtAnniversary.Text = string.Empty;
+            TxtDOB.Text = string.Empty;
             txtAltContact.Text = string.Empty;
             txtAddress.Text = string.Empty;
             txtDescription.Text = string.Empty;
@@ -222,8 +222,8 @@ namespace MSSwindow
             txtEmail.Enabled = false;
             txtPinCode.Enabled = false;
             cmbMaritalStatus.Enabled = false;
-            dateTimePickerAnivarsary.Enabled = false;
-            datetimePickerBirthday.Enabled = false;
+            TxtAnniversary.Enabled = false;
+            TxtDOB.Enabled = false;
             txtAltContact.Enabled = false;
             txtAddress.Enabled = false;
             txtDescription.Enabled = false;
@@ -257,8 +257,8 @@ namespace MSSwindow
             txtEmail.Text = string.Empty;
             txtPinCode.Text = string.Empty;
             cmbMaritalStatus.SelectedIndex = 0;
-            dateTimePickerAnivarsary.Text = string.Empty;
-            datetimePickerBirthday.Text = string.Empty;
+            TxtAnniversary.Text = string.Empty;
+            TxtDOB.Text = string.Empty;
             txtAltContact.Text = string.Empty;
             txtAddress.Text = string.Empty;
             txtDescription.Text = string.Empty;
@@ -276,8 +276,8 @@ namespace MSSwindow
             txtEmail.Enabled = false;
             txtPinCode.Enabled = false;
             cmbMaritalStatus.Enabled = false;
-            dateTimePickerAnivarsary.Enabled = false;
-            datetimePickerBirthday.Enabled = false;
+            TxtAnniversary.Enabled = false;
+            TxtDOB.Enabled = false;
             txtAltContact.Enabled = false;
             txtAddress.Enabled = false;
             txtDescription.Enabled = false;
@@ -357,8 +357,8 @@ namespace MSSwindow
             txtEmail.Enabled = true;
             txtPinCode.Enabled = true;
             cmbMaritalStatus.Enabled = true;
-            dateTimePickerAnivarsary.Enabled = true;
-            datetimePickerBirthday.Enabled = true;
+            TxtAnniversary.Enabled = true;
+            TxtDOB.Enabled = true;
             txtAltContact.Enabled = true;
             txtAddress.Enabled = true;
             txtDescription.Enabled = true;
@@ -433,8 +433,8 @@ namespace MSSwindow
                 be.AltContact = txtAltContact.Text;
                 be.Address = txtAddress.Text;
                 be.Descriptions = txtDescription.Text;
-                be.Birthdate = datetimePickerBirthday.Value;
-                be.Aniversarydate = dateTimePickerAnivarsary.Value;
+                be.Birthdate = TxtDOB.Text.Trim() == "/  /" ? (DateTime?)null: Convert.ToDateTime(TxtDOB.Text);
+                be.Aniversarydate = TxtAnniversary.Text.Trim() == "/  /" ? (DateTime?)null : Convert.ToDateTime(TxtAnniversary.Text);
                 be.IsActive = Convert.ToInt32(chkIsActive.Checked);
                 be.ShopID = UniqueShopID;
                 be.MaritalStatus = Convert.ToInt32(cmbMaritalStatus.SelectedValue);
@@ -582,9 +582,9 @@ namespace MSSwindow
             txtPinCode.Text = dataGridViewCustomer.Rows[e.RowIndex].Cells["pincode"].Value.ToString();
             txtContact.Text = dataGridViewCustomer.Rows[e.RowIndex].Cells["Contact"].Value.ToString();
             if (!string.IsNullOrEmpty(dataGridViewCustomer.Rows[e.RowIndex].Cells["AniversaryDate"].Value.ToString()))
-                dateTimePickerAnivarsary.Value = Convert.ToDateTime(dataGridViewCustomer.Rows[e.RowIndex].Cells["AniversaryDate"].Value.ToString());
+                TxtAnniversary.Text = Convert.ToDateTime(dataGridViewCustomer.Rows[e.RowIndex].Cells["AniversaryDate"].Value.ToString()).ToString("dd/MM/yyyy");
             if (!string.IsNullOrEmpty(dataGridViewCustomer.Rows[e.RowIndex].Cells["BirthDate"].Value.ToString()))
-                datetimePickerBirthday.Value = Convert.ToDateTime(dataGridViewCustomer.Rows[e.RowIndex].Cells["BirthDate"].Value.ToString());
+                TxtDOB.Text = Convert.ToDateTime(dataGridViewCustomer.Rows[e.RowIndex].Cells["BirthDate"].Value.ToString()).ToString("dd/MM/yyyy");
             txtEmail.Text = dataGridViewCustomer.Rows[e.RowIndex].Cells["Emailid"].Value.ToString();
             txtAltContact.Text = dataGridViewCustomer.Rows[e.RowIndex].Cells["GSTIN"].Value.ToString();
             if (dataGridViewCustomer.Rows[e.RowIndex].Cells["MaritalStatus"].Value.ToString() != string.Empty)
@@ -745,11 +745,12 @@ namespace MSSwindow
         {
             if (cmbMaritalStatus.SelectedIndex == 2)
             {
-                dateTimePickerAnivarsary.Enabled = true;
+                TxtAnniversary.Enabled = true;
             }
             else
             {
-                dateTimePickerAnivarsary.Enabled = false;
+                TxtAnniversary.Text = string.Empty;
+                TxtAnniversary.Enabled = false;
             }
         }
 

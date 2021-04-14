@@ -26,6 +26,7 @@ namespace MSSwindow
         Report.FrmSearchComplaint scomp = null;
         int HappyCode = 0;
         int CurComplaint = 0;
+        int Local_AMCScheduleID = 0;
         public ComplaintForm(int ShopID, int Status)
         {
             InitializeComponent();
@@ -59,6 +60,25 @@ namespace MSSwindow
             scomp = null;
             button5.Visible = false;
            
+        }
+
+        public ComplaintForm(int CustomerID,int AmcScheduleID,int ShopID)
+        {
+            InitializeComponent();
+            UniqueShopID = ShopID;
+            CustomerClass CSL = new CustomerClass();
+            dsCustDetail = CSL.SearchCustomers(UniqueShopID, TxtEmp.Text);
+            DataView DV = new DataView(dsCustDetail.Tables[0]);
+            DV.RowFilter = "CustomerID = '" + CustomerID + "'";
+            TxtEmp.Text = DV.ToTable().Rows[0]["Name"].ToString();
+            SelectedCustomerID = CustomerID.ToString();
+            mskStart.Text = DateTime.Now.ToString("HH:mm");
+            mskEnd.Text = DateTime.Now.ToString("HH:mm");
+            Local_AMCScheduleID = AmcScheduleID;
+            CmbLogType.SelectedValue = "2";
+            scomp = null;
+            button5.Visible = false;
+
         }
 
         private void BindCategoryDropDown()
@@ -212,6 +232,54 @@ namespace MSSwindow
             }
 
         }
+        private void ShowSelectedCustomerDetail()
+        {
+            if (!string.IsNullOrEmpty(SelectedCustomerID))
+            {
+                TxtEmp.Text = LstEmp.GetItemText(LstEmp.SelectedItem);
+                CustomerClass p = new CustomerClass();
+                string CustomerContact = string.Empty;
+                int i = Convert.ToInt32(SelectedCustomerID);
+                if (i != 0)
+                {
+                    DataView dv = new DataView(p.BindCustomers(UniqueShopID).Tables[0]);
+                    dv.RowFilter = "Customerid = '" + SelectedCustomerID + "'";
+
+                    txtadd.Text = dv.ToTable().Rows[0]["ShippingAddress"].ToString();
+
+                    TxtContact.Text = dv.ToTable().Rows[0]["Contact"].ToString();
+
+                    TxtAltContact.Text = dv.ToTable().Rows[0]["GSTIN"].ToString();
+                    if (dv.ToTable().Rows[0]["ZoneID"].ToString() != String.Empty)
+                        CmbZone.SelectedValue = dv.ToTable().Rows[0]["ZoneID"].ToString();
+
+                    DataView dv1 = new DataView(p.SearchCustomerRefNo(i).Tables[0]);
+                    if (dv1.ToTable().Rows.Count > 0)
+                        txtRefno.Text = dv1.ToTable().Rows[0]["Custsalerefno"].ToString();
+
+                    LstEmp.Visible = false;
+
+
+                }
+                SetTotalDueCharge();
+                //-----------------Customer Warranty-------------------
+                DataTable dtWar = new DataTable();
+                dtWar = p.BindCustomerWarranty(UniqueShopID, Convert.ToInt32(SelectedCustomerID)).Tables[0];
+                if (dtWar.Rows.Count > 0)
+                {
+                    CmbWarantyStatus.SelectedValue = dtWar.Rows[0]["Status"].ToString();
+
+                    if (Convert.ToString(dtWar.Rows[0]["Status"]) == "2")
+                        PexpDate.Enabled = false;
+
+                    PexpDate.Value = Convert.ToDateTime(dtWar.Rows[0]["PoDate"].ToString());
+                    TxtProductModelNo.Text = dtWar.Rows[0]["Productname"].ToString() + '-' + dtWar.Rows[0]["ModelNO"].ToString();
+
+                }
+                //----------------End Customer Warranty-------------------
+
+            }
+        }
         private void LstEmp_Click(object sender, EventArgs e)
         {
             SelectedCustomerID = LstEmp.GetItemText(LstEmp.SelectedValue);
@@ -338,7 +406,12 @@ namespace MSSwindow
                 BindPaymentStatus();
                 BindZone();
                 BindExpStatus();
-                BindPaymentDetails();                
+                BindPaymentDetails();
+                if (Local_AMCScheduleID > 0)
+                {
+                    CmbLogType.SelectedValue = "2";
+                    ShowSelectedCustomerDetail();
+                }               
             }
             TxtEmp.Focus();
         }
@@ -515,7 +588,7 @@ namespace MSSwindow
                 cmpl.ComplaintLogType = Convert.ToInt32(CmbLogType.SelectedValue);
                 cmpl.ServiceDate = Convert.ToDateTime(dtservicedate.Value);
                 cmpl.ActualServiceDate = Convert.ToDateTime(dtactservicedate.Value);
-
+                cmpl.AMCID = Local_AMCScheduleID;
                 cmpl.PayStatus = Convert.ToBoolean(CmbPayStatus.SelectedValue.ToString() == "2" ? 0 : 1);
                 cmpl.PrevDue = Convert.ToInt32(LblPrevCharge.Text);
 
@@ -717,6 +790,7 @@ namespace MSSwindow
                 LblTotalCharges.Text = (Convert.ToInt32(LblPrevCharge.Text) + Convert.ToInt32(LblCharges.Text)).ToString();
                 TxtProductModelNo.Text = cmpl.PModelNo;
                 CmbWarantyStatus.SelectedValue = cmpl.WExpStatus;
+                Local_AMCScheduleID = cmpl.AMCID;
                 if (cmpl.WEXPDate.Year != 1)
                     PexpDate.Value = cmpl.WEXPDate;
                 CmbCat_Next.SelectedValue = cmpl.NextCategoryID;

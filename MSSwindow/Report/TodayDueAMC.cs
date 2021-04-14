@@ -84,12 +84,12 @@ namespace MSSwindow.Report
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex == 6)
+            if (e.ColumnIndex == 7)
             {
                 if (dataGridView1.CurrentRow.Cells[e.ColumnIndex].Value.ToString() == "Pending")
                 {
                   
-                        int RowID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[1].Value);
+                        int RowID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["RowID"].Value);
                         CpmpleteAMCReason amcmp = new CpmpleteAMCReason(this, RowID, 1);
                         amcmp.ShowDialog();
                    
@@ -97,13 +97,27 @@ namespace MSSwindow.Report
                   
                 }
             }
+            if (e.ColumnIndex == 0)
+            {
+                if (dataGridView1.CurrentRow.Cells[7].Value.ToString() == "Pending")
+                {
+                    int RowID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["RowID"].Value);
+                    int CustomerID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["CustomerID"].Value);
+                    ComplaintForm amcmp = new ComplaintForm(CustomerID, RowID, UniqueShopID);
+                    amcmp.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Service Has been Done");
+                }
+            }
 
-            if (e.ColumnIndex == 7)
+            if (e.ColumnIndex == 8)
             {
                 if (dataGridView1.CurrentRow.Cells[e.ColumnIndex].Value.ToString() == "No")
                 {
                    
-                        int RowID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[1].Value);
+                        int RowID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["RowID"].Value);
                         CpmpleteAMCReason amcmp = new CpmpleteAMCReason(this, RowID, 2);
                         amcmp.ShowDialog();
                     

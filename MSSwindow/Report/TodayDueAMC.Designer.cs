@@ -35,20 +35,23 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.ToDate = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dtfrm = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.RowID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ScheduleDt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CompanyAddress = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Ignore = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dtfrm = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ToDate = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
+            this.CreateService = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.CustomerID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -121,8 +124,11 @@
             this.CustomerName,
             this.Address,
             this.Contact,
+            this.CompanyAddress,
             this.Status,
-            this.Ignore});
+            this.Ignore,
+            this.CreateService,
+            this.CustomerID});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -134,61 +140,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(829, 399);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // RowID
-            // 
-            this.RowID.DataPropertyName = "RowID";
-            this.RowID.HeaderText = "RowID";
-            this.RowID.Name = "RowID";
-            this.RowID.Visible = false;
-            // 
-            // ScheduleDt
-            // 
-            this.ScheduleDt.DataPropertyName = "Date";
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ScheduleDt.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ScheduleDt.HeaderText = "Date";
-            this.ScheduleDt.Name = "ScheduleDt";
-            // 
-            // CustomerName
-            // 
-            this.CustomerName.DataPropertyName = "Name";
-            this.CustomerName.HeaderText = "Name";
-            this.CustomerName.Name = "CustomerName";
-            this.CustomerName.Width = 200;
-            // 
-            // Address
-            // 
-            this.Address.DataPropertyName = "Address";
-            this.Address.HeaderText = "Address";
-            this.Address.Name = "Address";
-            this.Address.Width = 250;
-            // 
-            // Contact
-            // 
-            this.Contact.DataPropertyName = "Contact";
-            this.Contact.HeaderText = "Contact";
-            this.Contact.Name = "Contact";
-            // 
-            // Status
-            // 
-            this.Status.DataPropertyName = "Status";
-            this.Status.HeaderText = "Status";
-            this.Status.Name = "Status";
-            this.Status.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Status.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Status.Text = "Status";
-            // 
-            // Ignore
-            // 
-            this.Ignore.DataPropertyName = "IgnoreStatus";
-            this.Ignore.HeaderText = "Ignore";
-            this.Ignore.Name = "Ignore";
-            this.Ignore.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Ignore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Ignore.Text = "";
-            this.Ignore.ToolTipText = "ignore the follow-up";
             // 
             // panel2
             // 
@@ -204,6 +155,23 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(829, 55);
             this.panel2.TabIndex = 1;
+            // 
+            // ToDate
+            // 
+            this.ToDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.ToDate.Location = new System.Drawing.Point(313, 13);
+            this.ToDate.Name = "ToDate";
+            this.ToDate.Size = new System.Drawing.Size(126, 27);
+            this.ToDate.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(234, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 21);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "To Date";
             // 
             // button2
             // 
@@ -242,22 +210,84 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "From Date";
             // 
-            // ToDate
+            // RowID
             // 
-            this.ToDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.ToDate.Location = new System.Drawing.Point(313, 13);
-            this.ToDate.Name = "ToDate";
-            this.ToDate.Size = new System.Drawing.Size(126, 27);
-            this.ToDate.TabIndex = 7;
+            this.RowID.DataPropertyName = "RowID";
+            this.RowID.HeaderText = "RowID";
+            this.RowID.Name = "RowID";
+            this.RowID.Visible = false;
             // 
-            // label2
+            // ScheduleDt
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(234, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "To Date";
+            this.ScheduleDt.DataPropertyName = "Date";
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScheduleDt.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ScheduleDt.HeaderText = "Date";
+            this.ScheduleDt.Name = "ScheduleDt";
+            this.ScheduleDt.Width = 85;
+            // 
+            // CustomerName
+            // 
+            this.CustomerName.DataPropertyName = "Name";
+            this.CustomerName.HeaderText = "Name";
+            this.CustomerName.Name = "CustomerName";
+            this.CustomerName.Width = 150;
+            // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "Address";
+            this.Address.HeaderText = "Address";
+            this.Address.Name = "Address";
+            this.Address.Width = 225;
+            // 
+            // Contact
+            // 
+            this.Contact.DataPropertyName = "Contact";
+            this.Contact.HeaderText = "Contact";
+            this.Contact.Name = "Contact";
+            // 
+            // CompanyAddress
+            // 
+            this.CompanyAddress.DataPropertyName = "CompanyAddress";
+            this.CompanyAddress.HeaderText = "CompanyAddress";
+            this.CompanyAddress.Name = "CompanyAddress";
+            this.CompanyAddress.Visible = false;
+            // 
+            // Status
+            // 
+            this.Status.DataPropertyName = "Status";
+            this.Status.HeaderText = "Status";
+            this.Status.Name = "Status";
+            this.Status.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Status.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Status.Text = "Status";
+            this.Status.Width = 85;
+            // 
+            // Ignore
+            // 
+            this.Ignore.DataPropertyName = "IgnoreStatus";
+            this.Ignore.HeaderText = "Ignore";
+            this.Ignore.Name = "Ignore";
+            this.Ignore.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Ignore.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Ignore.Text = "";
+            this.Ignore.ToolTipText = "ignore the follow-up";
+            this.Ignore.Width = 85;
+            // 
+            // CreateService
+            // 
+            this.CreateService.HeaderText = "Create Service";
+            this.CreateService.Name = "CreateService";
+            this.CreateService.Text = "Create Service";
+            this.CreateService.UseColumnTextForButtonValue = true;
+            // 
+            // CustomerID
+            // 
+            this.CustomerID.DataPropertyName = "CustomerID";
+            this.CustomerID.HeaderText = "CustomerID";
+            this.CustomerID.Name = "CustomerID";
+            this.CustomerID.Visible = false;
             // 
             // TodayDueAMC
             // 
@@ -291,15 +321,17 @@
         private System.Windows.Forms.DateTimePicker dtfrm;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker ToDate;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridViewTextBoxColumn RowID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ScheduleDt;
         private System.Windows.Forms.DataGridViewTextBoxColumn CustomerName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn Contact;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyAddress;
         private System.Windows.Forms.DataGridViewButtonColumn Status;
         private System.Windows.Forms.DataGridViewButtonColumn Ignore;
-        private System.Windows.Forms.DateTimePicker ToDate;
-        private System.Windows.Forms.Label label2;
-
+        private System.Windows.Forms.DataGridViewButtonColumn CreateService;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CustomerID;
     }
 }

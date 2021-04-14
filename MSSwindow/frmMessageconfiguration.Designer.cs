@@ -35,6 +35,8 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.dgvNotiMaster = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.IsActive = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtMsgSub = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
@@ -44,13 +46,14 @@
             this.cmbmsgcategory = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.IsActive = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TxtTemplateID = new System.Windows.Forms.TextBox();
             this.NotID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DetailID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NotificationDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MessageText = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TempID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -136,7 +139,8 @@
             this.DetailID,
             this.NotificationDesc,
             this.MessageText,
-            this.Status});
+            this.Status,
+            this.TempID});
             this.dgvNotiMaster.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvNotiMaster.Location = new System.Drawing.Point(4, 4);
             this.dgvNotiMaster.Name = "dgvNotiMaster";
@@ -151,6 +155,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panel2.Controls.Add(this.TxtTemplateID);
+            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.IsActive);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.txtMsgSub);
@@ -167,6 +173,28 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(491, 401);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // IsActive
+            // 
+            this.IsActive.AutoSize = true;
+            this.IsActive.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IsActive.Location = new System.Drawing.Point(400, 310);
+            this.IsActive.Name = "IsActive";
+            this.IsActive.Size = new System.Drawing.Size(75, 24);
+            this.IsActive.TabIndex = 37;
+            this.IsActive.Text = "Active";
+            this.IsActive.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(305, 314);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Status";
             // 
             // txtMsgSub
             // 
@@ -204,7 +232,7 @@
             this.txtMessageText.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtMessageText.Location = new System.Drawing.Point(22, 145);
             this.txtMessageText.Name = "txtMessageText";
-            this.txtMessageText.Size = new System.Drawing.Size(453, 186);
+            this.txtMessageText.Size = new System.Drawing.Size(453, 162);
             this.txtMessageText.TabIndex = 5;
             this.txtMessageText.Text = "";
             // 
@@ -260,26 +288,23 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Message Category";
             // 
-            // label5
+            // label6
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 363);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Status";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(21, 316);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 16);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Template ID";
             // 
-            // IsActive
+            // TxtTemplateID
             // 
-            this.IsActive.AutoSize = true;
-            this.IsActive.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IsActive.Location = new System.Drawing.Point(71, 359);
-            this.IsActive.Name = "IsActive";
-            this.IsActive.Size = new System.Drawing.Size(75, 24);
-            this.IsActive.TabIndex = 37;
-            this.IsActive.Text = "Active";
-            this.IsActive.UseVisualStyleBackColor = true;
+            this.TxtTemplateID.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.TxtTemplateID.Location = new System.Drawing.Point(112, 311);
+            this.TxtTemplateID.Name = "TxtTemplateID";
+            this.TxtTemplateID.Size = new System.Drawing.Size(176, 23);
+            this.TxtTemplateID.TabIndex = 39;
             // 
             // NotID
             // 
@@ -320,6 +345,14 @@
             this.Status.Name = "Status";
             this.Status.ReadOnly = true;
             this.Status.Visible = false;
+            // 
+            // TempID
+            // 
+            this.TempID.DataPropertyName = "TempID";
+            this.TempID.HeaderText = "TempID";
+            this.TempID.Name = "TempID";
+            this.TempID.ReadOnly = true;
+            this.TempID.Visible = false;
             // 
             // frmMessageconfiguration
             // 
@@ -363,10 +396,13 @@
         private System.Windows.Forms.TextBox txtMsgSub;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox IsActive;
+        private System.Windows.Forms.TextBox TxtTemplateID;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridViewTextBoxColumn NotID;
         private System.Windows.Forms.DataGridViewTextBoxColumn DetailID;
         private System.Windows.Forms.DataGridViewTextBoxColumn NotificationDesc;
         private System.Windows.Forms.DataGridViewTextBoxColumn MessageText;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TempID;
     }
 }

@@ -26,8 +26,8 @@ namespace MSSwindow.CommonClass
         public string Contact { get; set; }
         public string AltContact { get; set; }
         public string Descriptions { get; set; }
-        public DateTime Birthdate { get; set; }
-        public DateTime Aniversarydate { get; set; }
+        public DateTime? Birthdate { get; set; }
+        public DateTime? Aniversarydate { get; set; }
         public int IsActive { get; set; }
         public int ShopID { get; set; }
         public int MaritalStatus { get; set; }
@@ -80,6 +80,7 @@ namespace MSSwindow.CommonClass
         public int ResolutionStatusID { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public int AMCID { get; set; }
 
         public int SubmittedBY { get; set; }
         public String ReferenceNo { get; set; }

@@ -69,8 +69,6 @@
             this.cmbMaritalStatus = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.dateTimePickerAnivarsary = new System.Windows.Forms.DateTimePicker();
-            this.datetimePickerBirthday = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.txtDescription = new System.Windows.Forms.TextBox();
@@ -87,6 +85,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblSearchRecords = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.lblCountCust = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.lblSearch = new System.Windows.Forms.Label();
@@ -127,8 +127,8 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblSearchRecords = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.TxtDOB = new System.Windows.Forms.MaskedTextBox();
+            this.TxtAnniversary = new System.Windows.Forms.MaskedTextBox();
             this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -157,6 +157,8 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.TxtAnniversary);
+            this.panel2.Controls.Add(this.TxtDOB);
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.cmbCustType);
             this.panel2.Controls.Add(this.txtgstin);
@@ -170,8 +172,6 @@
             this.panel2.Controls.Add(this.cmbMaritalStatus);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.dateTimePickerAnivarsary);
-            this.panel2.Controls.Add(this.datetimePickerBirthday);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.txtDescription);
@@ -605,25 +605,6 @@
             this.label13.Text = "Gender";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // dateTimePickerAnivarsary
-            // 
-            this.dateTimePickerAnivarsary.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerAnivarsary.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerAnivarsary.Location = new System.Drawing.Point(866, 47);
-            this.dateTimePickerAnivarsary.Name = "dateTimePickerAnivarsary";
-            this.dateTimePickerAnivarsary.Size = new System.Drawing.Size(131, 27);
-            this.dateTimePickerAnivarsary.TabIndex = 7;
-            this.dateTimePickerAnivarsary.ValueChanged += new System.EventHandler(this.dateTimePickerAnivarsary_ValueChanged);
-            // 
-            // datetimePickerBirthday
-            // 
-            this.datetimePickerBirthday.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datetimePickerBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.datetimePickerBirthday.Location = new System.Drawing.Point(648, 47);
-            this.datetimePickerBirthday.Name = "datetimePickerBirthday";
-            this.datetimePickerBirthday.Size = new System.Drawing.Size(120, 27);
-            this.datetimePickerBirthday.TabIndex = 6;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -800,6 +781,29 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1124, 49);
             this.panel3.TabIndex = 1;
+            // 
+            // lblSearchRecords
+            // 
+            this.lblSearchRecords.AutoSize = true;
+            this.lblSearchRecords.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearchRecords.ForeColor = System.Drawing.Color.Red;
+            this.lblSearchRecords.Location = new System.Drawing.Point(362, 16);
+            this.lblSearchRecords.Name = "lblSearchRecords";
+            this.lblSearchRecords.Size = new System.Drawing.Size(15, 25);
+            this.lblSearchRecords.TabIndex = 24;
+            this.lblSearchRecords.Text = "0";
+            this.lblSearchRecords.UseCompatibleTextRendering = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Red;
+            this.label27.Location = new System.Drawing.Point(218, 16);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(138, 20);
+            this.label27.TabIndex = 23;
+            this.label27.Text = "Search Records";
             // 
             // lblCountCust
             // 
@@ -1235,28 +1239,23 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1124, 403);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // lblSearchRecords
+            // TxtDOB
             // 
-            this.lblSearchRecords.AutoSize = true;
-            this.lblSearchRecords.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearchRecords.ForeColor = System.Drawing.Color.Red;
-            this.lblSearchRecords.Location = new System.Drawing.Point(362, 16);
-            this.lblSearchRecords.Name = "lblSearchRecords";
-            this.lblSearchRecords.Size = new System.Drawing.Size(15, 25);
-            this.lblSearchRecords.TabIndex = 24;
-            this.lblSearchRecords.Text = "0";
-            this.lblSearchRecords.UseCompatibleTextRendering = true;
+            this.TxtDOB.Location = new System.Drawing.Point(648, 50);
+            this.TxtDOB.Mask = "00/00/0000";
+            this.TxtDOB.Name = "TxtDOB";
+            this.TxtDOB.Size = new System.Drawing.Size(120, 20);
+            this.TxtDOB.TabIndex = 35;
+            this.TxtDOB.ValidatingType = typeof(System.DateTime);
             // 
-            // label27
+            // TxtAnniversary
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.Red;
-            this.label27.Location = new System.Drawing.Point(218, 16);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(138, 20);
-            this.label27.TabIndex = 23;
-            this.label27.Text = "Search Records";
+            this.TxtAnniversary.Location = new System.Drawing.Point(866, 50);
+            this.TxtAnniversary.Mask = "00/00/0000";
+            this.TxtAnniversary.Name = "TxtAnniversary";
+            this.TxtAnniversary.Size = new System.Drawing.Size(131, 20);
+            this.TxtAnniversary.TabIndex = 36;
+            this.TxtAnniversary.ValidatingType = typeof(System.DateTime);
             // 
             // CustomerDetails
             // 
@@ -1326,8 +1325,6 @@
         private System.Windows.Forms.DataGridView dataGridViewCustomer;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePickerAnivarsary;
-        private System.Windows.Forms.DateTimePicker datetimePickerBirthday;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cmbMaritalStatus;
@@ -1387,5 +1384,7 @@
         private System.Windows.Forms.Button btnprint;
         private System.Windows.Forms.Label lblSearchRecords;
         private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.MaskedTextBox TxtDOB;
+        private System.Windows.Forms.MaskedTextBox TxtAnniversary;
     }
 }

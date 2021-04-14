@@ -182,6 +182,7 @@ namespace MSSwindow
             BtnAddExtra.Visible = true;
             BindDelMode();
             BindPaymentStatus();
+            CmpDType.SelectedItem = "None";
             if (IsEditMode)
                 EditPo(Editpono, InvoiceID);
         }
@@ -864,6 +865,7 @@ namespace MSSwindow
             cmbUnit.SelectedValue = "0";
             txtbaseprice.Text = string.Empty;
             ChkTaxIncluded.Checked = false;
+            CmpDType.SelectedItem = "None";
 
         }
 
